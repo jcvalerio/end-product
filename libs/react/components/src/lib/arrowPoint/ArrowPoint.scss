@@ -1,0 +1,67 @@
+.container-arrow-point {
+  align-items: center;
+  display: flex;
+
+  &.highlighted {
+    height: 100%;
+    width: 100%;
+  }
+
+  .text-highlighted {
+    align-items: center;
+    font-size: var(--tx-5XL);
+    font-weight: 600;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  > svg {
+    font-size: inherit;
+    margin-right: var(--pm-3XS);
+
+    &.highlighted {
+      color: hsla(var(--on-surface-color-hsl), 0.7);
+      height: var(--wh-1XS);
+      width: var(--wh-1XS);
+    }
+
+    &.arrow-up {
+      transform: rotate(-90deg);
+    }
+
+    &.arrow-down {
+      transform: rotate(90deg);
+    }
+
+    &.arrow-neutral {
+      display: none;
+    }
+  }
+
+  &.positiveIsGood {
+    > svg {
+      &.arrow-up {
+        color: var(--good-on);
+      }
+
+      &.arrow-down {
+        color: var(--bad-off);
+      }
+    }
+  }
+
+  &.negativeIsGood {
+    > svg {
+      &.arrow-up {
+        color: var(--bad-off);
+      }
+
+      &.arrow-down {
+        color: var(--good-on);
+      }
+    }
+  }
+}

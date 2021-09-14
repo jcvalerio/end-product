@@ -1,0 +1,60 @@
+.clickable-chips {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+
+  .chips-container {
+    display: flex;
+    max-width: 85%;
+    overflow: hidden;
+
+    & .MuiChip-clickable {
+      &:hover {
+        cursor: initial;
+      }
+    }
+
+    & .MuiChip-root {
+      background-color: var(--table-chip-background);
+      color: var(--table-chip-color);
+      height: var(--wh-3XS);
+      margin: var(--pm-6XS);
+      min-width: var(--wh-1XS);
+      white-space: nowrap;
+
+      &.clickable {
+        background-color: hsla(var(--secondary-color-hsl), 0.15);
+        color: var(--secondary-color);
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .show-more-label {
+    align-items: center;
+    color: var(--secondary-color-variant);
+    display: flex;
+    flex-direction: column;
+    font-size: var(--tx-S);
+    justify-content: center;
+    line-height: var(--tx-S);
+    min-width: var(--wh-2XS);
+    width: var(--wh-2XS);
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .numbers-label-container {
+    text-align: center;
+    width: 100%;
+  }
+
+  .no-chips-label {
+    opacity: 0.2;
+  }
+}

@@ -1,0 +1,94 @@
+@mixin single-wide-column-media-query($max-width) {
+  @media only screen and (max-width: $max-width) {
+    .card-section.single-wide-column {
+      grid-template-columns: var(--card-width-M);
+
+      .card-widget {
+        width: var(--card-width-M);
+      }
+    }
+  }
+}
+
+.card-section {
+  align-items: flex-start;
+  column-gap: var(--pm-1XL);
+  display: grid;
+  grid-auto-flow: row;
+  grid-auto-rows: var(--wh-6XS);
+  grid-template-columns: repeat(auto-fit, var(--card-width-M));
+  width: 100%;
+
+  &.single-wide-column {
+    grid-auto-rows: auto;
+    grid-template-columns: var(--card-width-L);
+    margin-bottom: var(--pm-1XL);
+    row-gap: var(--pm-1XL);
+
+    .card-widget {
+      width: var(--card-width-L);
+    }
+  }
+
+  .card-widget {
+    background-color: var(--card-bg-color);
+    width: var(--card-width-M);
+    box-shadow: var(--card-shadow);
+    border-radius: var(--card-border-radius);
+    border: var(--card-border);
+
+    &.disabled {
+      opacity: 0.4;
+    }
+
+    .cardTitle {
+      align-items: center;
+      background: var(--card-content-bg-color-medium);
+      display: flex;
+      height: var(--wh-S);
+      width: 100%;
+      border: var(--card-header-border);
+      border-width: var(--card-header-border-width);
+
+      .title {
+        color: var(--h3-title-color);
+        font-size: var(--tx-M);
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: var(--tx-2XL);
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding-left: var(--pm-L);
+        padding-right: var(--pm-L);
+        width: 100%;
+      }
+
+      .icon {
+        color: var(--secondary-color);
+        height: var(--wh-S);
+        margin-left: auto;
+        margin-right: var(--pm-S);
+        width: var(--wh-1XS);
+      }
+    }
+
+    .content {
+      width: 100%;
+      padding: var(--pm-S) var(--pm-L);
+      background: var(--card-content-bg-color);
+      box-shadow: var(--card-content-shadow);
+    }
+  }
+}
+
+// Media queries to handle small screen single column wide layout
+// @cafe TODO we should change our whole layout and handle this in one single place
+.nav-left {
+  @include single-wide-column-media-query(1260px);
+}
+
+.nav-top {
+  @include single-wide-column-media-query(1069px);
+}

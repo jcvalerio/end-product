@@ -1,0 +1,89 @@
+@import 'placeholders';
+@import 'mixins';
+
+.app {
+  height: var(--size-pageHeight);
+  overflow: hidden;
+  width: var(--size-pageWidth);
+
+  &.infusion {
+    height: 100%;
+    width: 100%;
+  }
+
+  .generated-new {
+    @extend %fill-available-space;
+    display: flex;
+
+    > div {
+      @extend %fill-available-space;
+    }
+
+    .content-layout {
+      @extend %fill-available-space;
+    }
+
+    &.nav-top {
+      flex-direction: column;
+
+      .layout {
+        height: calc(100% - var(--preview-handled-height));
+      }
+    }
+
+    &.no-nav,
+    &.nav-left,
+    &.nav-top {
+      .main-layout {
+        height: 100%;
+      }
+    }
+
+    &.nav-left {
+      flex-direction: row;
+
+      .layout {
+        height: 100%;
+        overflow: hidden;
+        width: 100%;
+      }
+    }
+
+    .container-nav-left {
+      display: flex;
+      height: 100%;
+    }
+
+    > footer {
+      background-color: rgb(128, 128, 128);
+      border-radius: 4px 0 0 0;
+      bottom: 0;
+      color: #000;
+      display: inline-block;
+      padding: var(--size-size4);
+      position: fixed;
+      right: 0;
+    }
+  }
+
+  .layout {
+    &.nav-top {
+      .browserArea,
+      .openFilterSection,
+      .openDetailsSection {
+        overflow: hidden;
+      }
+    }
+  }
+
+  @include subhead-dynamic;
+}
+
+// TODO this !important attribute must be fixed or refactor in further sprints
+* {
+  font-family: var(--fontFamily-default) !important;
+}
+
+.custom-noti-stack-container {
+  flex-direction: column-reverse;
+}

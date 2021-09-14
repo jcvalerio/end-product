@@ -1,0 +1,30 @@
+.High-charts {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  .back-to {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: var(--pm-2XS);
+
+    &.show {
+      display: block;
+    }
+  }
+
+  .highcharts-drillup-button {
+    display: none;
+  }
+
+  .donut-shadow {
+    background: radial-gradient(var(--viz-shadow) 0%, var(--transparent) 70%);
+    bottom: 0;
+    height: var(--wh-3XS);
+    position: absolute;
+    right: 34%;
+    transform: translateX(50%);
+    width: 165px;
+  }
+}

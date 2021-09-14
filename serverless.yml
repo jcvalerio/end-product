@@ -1,0 +1,89 @@
+service: sls-${env:PROJECT_NAME}
+
+plugins:
+  - serverless-plugin-ifelse
+  - serverless-dotenv-plugin
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: ${env:ENV}
+  region: ${env:REGION}
+  stackName: ${env:PROTOTYPE_STACK_NAME}
+  apiName: ${env:API_NAME}
+  versionFunctions: false
+  endpointType: REGIONAL
+  apiGateway:
+    binaryMediaTypes:
+      - '*/*'
+
+package:
+  artifact: dist/apps/api/kapi-lambda.zip
+
+functions:
+  kleeenApi:
+    name: ${env:LAMBDA_KAPI_NAME}
+    description: Client Kleeen API
+    role: kapiLambdaRole
+    handler: main.handler
+    fileSystemConfig:
+      localMountPath: ${env:EFS_MOUNT_PATH}
+      arn: ${env:EFS_ACCESS_POINT}
+    vpc:
+      securityGroupIds:
+        - ${env:VPC_SECURITY_GROUP_ID}
+      subnetIds:
+        - ${env:VPC_SUBNET_ID}
+    events:
+      - http:
+          method: any
+          path: /{proxy+}
+          cors: true
+      - http:
+          method: options
+          path: /{proxy+}
+          cors: true
+
+    environment:
+      KAPI_AUTO_SAVE_INTERVAL: '4000'
+      KAPI_DB_PATH: ${env:LAMBDA_KAPI_DB_PATH}
+      KAPI_BASE_FOLDER: assets
+      KAPI_ROUTES_PATH: custom-routes
+      KAPI_FIND: flexible
+      KAPI_SKELETON_TYPE: in-memory
+      DEBUG: kapi:*
+      PERSIST_FAKE_DB: true
+
+custom:
+  dotenv:
+    exclude:
+      - ACCOUNT_ID
+      - BUCKET_NAME
+      - CL_BUCKET_PATH
+      - CL_DB_FILE_KEY
+      - COGNITO_USER_POOL_ID
+      - EFS_ACCESS_POINT
+      - EFS_MOUNT_PATH
+      - ENV_BUCKET
+      - HOSTED_ZONE_ID
+      - HOSTED_ZONE_NAME
+      - PRODUCT_ID
+      - PRODUCT_SUBDOMAIN
+      - PROTOTYPE_STACK_NAME
+      - UPDATE_METHODS
+      - VPC_SECURITY_GROUP_ID
+      - VPC_SUBNET_ID
+
+  currentStage: ${opt:stage, self:provider.stage}
+  serverlessIfElse:
+    - If: '"${self:custom.currentStage}" == "master"'
+      Set:
+        provider.timeout: 30
+        provider.memorySize: 1024
+      ElseSet:
+        provider.timeout: 30
+        provider.memorySize: 1024
+
+resources:
+  - ${file(apps/api/serverless/resources/kapi-role.yml)}
+  - ${file(apps/api/serverless/resources/front-end.yml)}

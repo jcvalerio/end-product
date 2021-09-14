@@ -1,0 +1,32 @@
+.search-form-container {
+  justify-content: flex-end;
+  & .MuiInputBase-root {
+    &.Mui-focused,
+    &:hover {
+      &::after,
+      &::before {
+        border-width: var(--pm-7XS);
+        border-color: var(--on-surface-color);
+      }
+    }
+    & .MuiInputAdornment-root {
+      & .MuiSvgIcon-root {
+        fill: var(--on-surface-color);
+      }
+    }
+    & .MuiInputAdornment-positionEnd {
+      &.MuiButtonBase-root {
+        color: var(--on-surface-color);
+      }
+    }
+    &::after {
+      border-bottom: var(--pm-7XS) solid var(--on-surface-color);
+    }
+    &::before {
+      border-bottom: var(--pm-7XS) solid var(--on-surface-color);
+    }
+    & .MuiInput-input {
+      color: var(--on-surface-color);
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.ks-inherit-size {
+  height: inherit;
+  width: inherit;
+
+  &.kui-icon {
+    .icon {
+      vertical-align: top;
+    }
+  }
+}

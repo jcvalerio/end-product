@@ -1,0 +1,17 @@
+@import 'placeholders';
+@import 'mixins';
+
+.nav-bar-footer {
+  .MuiMenu-list {
+    .MuiListItem-root:hover {
+      color: var(--on-left-nav-bar-button-hover);
+      background: var(--left-nav-bar-button-hover);
+    }
+  }
+
+  .MuiTooltip-popper {
+    .MuiTooltip-tooltip {
+      margin-bottom: 0px;
+    }
+  }
+}

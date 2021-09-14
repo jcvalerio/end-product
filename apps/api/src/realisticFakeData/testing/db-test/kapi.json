@@ -1,0 +1,5585 @@
+{
+  "filename": "C:\\Users\\Julio\\Documents\\trabajo\\server\\kleeen\\template\\apps\\api\\temp\\kapi.db",
+  "collections": [
+    {
+      "name": "__kapi",
+      "data": [
+        {
+          "id": "Timestamp",
+          "hashId": "a335052584faddb588c0993b88ead585bbadc4475688e67a380813d184df3701",
+          "meta": {
+            "revision": 52,
+            "created": 1616089993605,
+            "version": 0,
+            "updated": 1629148046753
+          },
+          "$loki": 76
+        },
+        {
+          "id": "Event",
+          "hashId": "71296a42924215c30758c43c5fdfc6b33bedd3ea0883532e75742cd0b36844aa",
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 2434
+        },
+        {
+          "id": "Node",
+          "hashId": "a3966afe0375883b872f20e8f9b583f4f835afdb8655b2015f072f435dce7893",
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2435
+        },
+        {
+          "id": "NodeOverallStatus",
+          "hashId": "f49e6ca1ea4d210e152fbdcfd4ce989301ad54f47059ac82113081ea08b53850",
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2436
+        },
+        {
+          "id": "NodeStatus",
+          "hashId": "1e1a3a0287d517e533d7aad89afb0d423e0111db60b5961904be1870489d3ba7",
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2437
+        },
+        {
+          "id": "SiteMap",
+          "hashId": "4fe33106be8529c9706642bd65c7594cfc38bbb8d0a52d5f68e23a2e6533d86b",
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2438
+        },
+        {
+          "id": "Sensor",
+          "hashId": "8d67f8bbe161e0c83df0afe4b9602601d768ab296f987729c4c4bada8eb1a629",
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2439
+        },
+        {
+          "id": "SensorOverallStatus",
+          "hashId": "a3a407741a15a2942e4faf0b910af5c2cbfd745fcc28d3c32bcb4368973fbfb1",
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2440
+        },
+        {
+          "id": "SensorStatus",
+          "hashId": "816bf05b2c98dc4e20e2160a343c16bbc219e88aed5d2621779ae33e05251cd3",
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2441
+        },
+        {
+          "id": "SiteStatus",
+          "hashId": "00fd6ca03f1da4bb8beca8a49f1ebc18b9c9a2c8ba49750cd2bde768fc866d44",
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2442
+        },
+        {
+          "id": "SystemHealth",
+          "hashId": "3bf460a56b68e542a2a6b6fc0729bc8b5bfc72653cc2ce0718384597df0d6969",
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2443
+        },
+        {
+          "id": "Ppm",
+          "hashId": "d3bd0e230999c56808f9dc2c755b39ad353fd084597b3aac05bf34eb34c57050",
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2444
+        },
+        {
+          "id": "EventLength",
+          "hashId": "b0e24f307239509dc1fba7326c09810c590fd0256ce8b98940ed05083634e241",
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2445
+        }
+      ],
+      "idIndex": [76, 2434, 2435, 2436, 2437, 2438, 2439, 2440, 2441, 2442, 2443, 2444, 2445],
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "__kapi",
+      "dirty": false,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": false,
+      "disableMeta": false,
+      "disableChangesApi": true,
+      "disableDeltaChangesApi": true,
+      "autoupdate": false,
+      "serializableIndices": true,
+      "disableFreeze": true,
+      "ttl": null,
+      "maxId": 2445,
+      "DynamicViews": [],
+      "events": {
+        "insert": [],
+        "update": [],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [null],
+        "warning": [null]
+      },
+      "changes": [],
+      "dirtyIds": [],
+      "isIncremental": false
+    },
+    {
+      "name": "Timestamp",
+      "data": [
+        {
+          "id": "f4ad6375-490a-41a2-8a6c-0eb8f5573ae8",
+          "displayValue": 1623781291404,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 1
+        },
+        {
+          "id": "284ec5a9-7da6-44d4-b312-02a1aad01729",
+          "displayValue": 1626015823941,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 2
+        },
+        {
+          "id": "64f73a5b-b9bc-4e96-8387-068ec393f311",
+          "displayValue": 1622990058918,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 3
+        },
+        {
+          "id": "bde5fbdf-5dad-449c-8037-0b6748803a9a",
+          "displayValue": 1621274735859,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 4
+        },
+        {
+          "id": "1b35d276-0c71-490b-8bad-3f3c1c2374b5",
+          "displayValue": 1622873310126,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 5
+        },
+        {
+          "id": "51f61a7c-a952-43f4-bb9a-b3ae40a894e0",
+          "displayValue": 1622017984140,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 6
+        },
+        {
+          "id": "30f3b849-8ea9-4d21-b4ae-a24177b8a6e9",
+          "displayValue": 1623110231039,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 7
+        },
+        {
+          "id": "01df2cc8-a17c-4caf-bc71-891f38698c32",
+          "displayValue": 1619250794603,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 8
+        },
+        {
+          "id": "0f7f8a80-22b3-4f21-a282-b07cb57847fd",
+          "displayValue": 1619274151891,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 9
+        },
+        {
+          "id": "c0371fc5-7274-45d0-93cb-410b06733fcc",
+          "displayValue": 1625847914097,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 10
+        },
+        {
+          "id": "b2e50ad8-9e4c-495d-8de1-230a6f135525",
+          "displayValue": 1626087320877,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 11
+        },
+        {
+          "id": "f2410884-91df-498e-8182-284076704776",
+          "displayValue": 1625844877016,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 12
+        },
+        {
+          "id": "f8c1ffab-a4f3-423d-9906-3ebf1e3466ad",
+          "displayValue": 1619531174715,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 13
+        },
+        {
+          "id": "39439298-a193-476e-82cf-99547fbea834",
+          "displayValue": 1618757768384,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 14
+        },
+        {
+          "id": "186e6168-afc1-450c-9550-7b1787a25fbb",
+          "displayValue": 1628733560819,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 15
+        },
+        {
+          "id": "909e5dbf-27a0-4b31-bd3f-37e0b4bb8019",
+          "displayValue": 1618751196859,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 16
+        },
+        {
+          "id": "e57767c0-51af-4ec7-b115-8efafed90811",
+          "displayValue": 1626797667722,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 17
+        },
+        {
+          "id": "79951fb2-5d35-46a5-a63e-85ead343433c",
+          "displayValue": 1624924352458,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 18
+        },
+        {
+          "id": "8a4d912f-5e3b-4ee2-b1d9-1a19de7e2a34",
+          "displayValue": 1622190261927,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 19
+        },
+        {
+          "id": "8bf27516-c0e8-494d-b932-b57a03f6464a",
+          "displayValue": 1624341091779,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 20
+        },
+        {
+          "id": "a9b7186a-78b4-441d-883e-4b6b29e8e061",
+          "displayValue": 1622576101260,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 21
+        },
+        {
+          "id": "823a6e53-3909-403b-8c03-5bf9700af8f8",
+          "displayValue": 1627715798124,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 22
+        },
+        {
+          "id": "ee185e9d-f069-45e7-a4fd-4b04bbeda38c",
+          "displayValue": 1625674223907,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 23
+        },
+        {
+          "id": "67b7ba17-e416-4b77-b366-332088423faa",
+          "displayValue": 1624855271138,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 24
+        },
+        {
+          "id": "a401d7bf-a3fb-4d05-8a18-c6eaaeb3141d",
+          "displayValue": 1620852353395,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 25
+        },
+        {
+          "id": "5e8d00f9-3e54-4ad0-b2b4-a54c84c4f6fc",
+          "displayValue": 1620529724400,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 26
+        },
+        {
+          "id": "8f8e95d2-84a1-4478-9560-2452e78e7abc",
+          "displayValue": 1628511975077,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 27
+        },
+        {
+          "id": "2e8587f5-eff9-4bc2-9b3d-969ef426d55c",
+          "displayValue": 1619145477979,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 28
+        },
+        {
+          "id": "fa86a198-0d8e-43ab-940b-fb11e62bbb96",
+          "displayValue": 1623969379880,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 29
+        },
+        {
+          "id": "bf16266d-e3fb-45c7-b1cd-af0bcb62879c",
+          "displayValue": 1620141413170,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 30
+        },
+        {
+          "id": "fa7149ca-aa50-4a20-b2f2-99e791b2887f",
+          "displayValue": 1619827213873,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 31
+        },
+        {
+          "id": "85a1886b-8ea7-46b8-a57e-590e54916d23",
+          "displayValue": 1620141474051,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 32
+        },
+        {
+          "id": "9b9cbb32-aa00-4738-bf16-365f687fa461",
+          "displayValue": 1622080930281,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 33
+        },
+        {
+          "id": "ade6c3ab-8830-4108-a2f6-e78e33041844",
+          "displayValue": 1619619472480,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 34
+        },
+        {
+          "id": "1614f6af-8895-4593-a220-9356a7931aab",
+          "displayValue": 1627538989105,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 35
+        },
+        {
+          "id": "04c528d0-d188-4c6e-a93f-aefe7d029364",
+          "displayValue": 1629041895034,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 36
+        },
+        {
+          "id": "f98bfe1a-6afc-476c-8092-e3592f56c65c",
+          "displayValue": 1618994096720,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 37
+        },
+        {
+          "id": "3b7799dd-80fd-4aaf-b475-13d0c419753f",
+          "displayValue": 1623847450778,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 38
+        },
+        {
+          "id": "1b564264-d644-4016-be2e-1103a28c52ff",
+          "displayValue": 1618618965790,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 39
+        },
+        {
+          "id": "f76b9dc4-543f-48b4-8fd5-f8a66251c4e0",
+          "displayValue": 1626558804924,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 40
+        },
+        {
+          "id": "ab1bfa59-4bdc-4c29-ad74-279cc58f2db8",
+          "displayValue": 1618740299720,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 41
+        },
+        {
+          "id": "96460317-7313-4a14-b58c-2fa518b03910",
+          "displayValue": 1621269123955,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 42
+        },
+        {
+          "id": "e548c617-bee7-4e15-adad-92bbfdee2806",
+          "displayValue": 1627775467708,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 43
+        },
+        {
+          "id": "d9d99288-db6e-4137-8e5b-f21b59044b0e",
+          "displayValue": 1623061852942,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 44
+        },
+        {
+          "id": "c8a48eb0-a926-45e7-8a51-f79ad1e0fd28",
+          "displayValue": 1622124851481,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 45
+        },
+        {
+          "id": "e64c88cd-98e5-4688-bcdd-c71e02e7d4d1",
+          "displayValue": 1622497901275,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 46
+        },
+        {
+          "id": "1a5b7267-48ef-4cda-8e45-038f1d67ce2e",
+          "displayValue": 1622237162198,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 47
+        },
+        {
+          "id": "3b4c2755-69da-48fd-955e-2b9ada2ff897",
+          "displayValue": 1620088365537,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 48
+        },
+        {
+          "id": "badbd11b-cbae-4084-97b1-3905dfbf1d36",
+          "displayValue": 1621972390715,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 49
+        },
+        {
+          "id": "74717c99-fe20-4489-96c0-c435b48d1864",
+          "displayValue": 1627227850794,
+          "meta": {
+            "revision": 0,
+            "created": 1629148046755,
+            "version": 0
+          },
+          "$loki": 50
+        }
+      ],
+      "idIndex": null,
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "Timestamp",
+      "dirty": false,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": true,
+      "disableMeta": false,
+      "disableChangesApi": true,
+      "disableDeltaChangesApi": true,
+      "autoupdate": false,
+      "serializableIndices": true,
+      "disableFreeze": true,
+      "ttl": null,
+      "maxId": 50,
+      "DynamicViews": [],
+      "events": {
+        "insert": [],
+        "update": [],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [null],
+        "warning": [null]
+      },
+      "changes": [],
+      "dirtyIds": [],
+      "isIncremental": false
+    },
+    {
+      "name": "Event",
+      "data": [
+        {
+          "id": "5f3e1746-71bd-4b4d-97c5-e0eb756286f2",
+          "displayValue": "ea6fa6a8-365c-477d-94de-ca7b81295348",
+          "eventLength": {
+            "displayValue": 111
+          },
+          "timestamp": {
+            "displayValue": 1626578539967
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 1
+        },
+        {
+          "id": "7d785c3b-32b8-40cf-905d-7b8e910ee3ca",
+          "displayValue": "f32aa1ca-3d9a-42b3-bd1f-91d5c3c243bf",
+          "eventLength": {
+            "displayValue": 480
+          },
+          "timestamp": {
+            "displayValue": 1622088193622
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 2
+        },
+        {
+          "id": "29e91c34-c976-4aab-a70e-179e2b554fc9",
+          "displayValue": "24d2910e-cdc5-4faa-9a54-f2673e53d5df",
+          "eventLength": {
+            "displayValue": 155
+          },
+          "timestamp": {
+            "displayValue": 1627264555028
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 3
+        },
+        {
+          "id": "fe758e23-4b60-43b1-ae11-8eb8d25ef498",
+          "displayValue": "5cfa7d81-d32a-457a-9e93-c282a0c1a290",
+          "eventLength": {
+            "displayValue": 359
+          },
+          "timestamp": {
+            "displayValue": 1623097670456
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 4
+        },
+        {
+          "id": "582bae0b-9c63-41bb-8354-4e1f6b974f64",
+          "displayValue": "1d84f3e5-f4ae-4e43-8228-5915e3d0915f",
+          "eventLength": {
+            "displayValue": 190
+          },
+          "timestamp": {
+            "displayValue": 1620089048964
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 5
+        },
+        {
+          "id": "7b230f6a-eab2-4a04-aadf-63966f0dceec",
+          "displayValue": "3897e707-dc22-41c3-bc03-56d4ba897d55",
+          "eventLength": {
+            "displayValue": 13
+          },
+          "timestamp": {
+            "displayValue": 1625663264470
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 6
+        },
+        {
+          "id": "321bb7f4-f0aa-45b5-b2d5-9d73d249cc20",
+          "displayValue": "d2845532-8bbb-4c44-80e2-d269fd1605f4",
+          "eventLength": {
+            "displayValue": 163
+          },
+          "timestamp": {
+            "displayValue": 1623851113460
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 7
+        },
+        {
+          "id": "dee30954-908b-4449-8799-a0a723944b6c",
+          "displayValue": "cc007268-fa8a-42b5-bfb8-8175e8cbd0ab",
+          "eventLength": {
+            "displayValue": 100
+          },
+          "timestamp": {
+            "displayValue": 1623018126144
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 8
+        },
+        {
+          "id": "6069e0bd-3c4d-44a8-9bdf-f168c40c751e",
+          "displayValue": "397c298c-4700-42b6-b59e-b52e7e0f3f93",
+          "eventLength": {
+            "displayValue": 163
+          },
+          "timestamp": {
+            "displayValue": 1622169093475
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 9
+        },
+        {
+          "id": "15b06dca-49f6-4e4c-b67b-8883ac3e963d",
+          "displayValue": "fa887035-02aa-47db-a38a-ac6081ef1fb0",
+          "eventLength": {
+            "displayValue": 445
+          },
+          "timestamp": {
+            "displayValue": 1619934415919
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 10
+        },
+        {
+          "id": "84386497-efca-4134-9388-025a395be6e9",
+          "displayValue": "ab1be7da-c63c-4712-9b59-afe63bbadef0",
+          "eventLength": {
+            "displayValue": 254
+          },
+          "timestamp": {
+            "displayValue": 1626614747531
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 11
+        },
+        {
+          "id": "e6616666-5224-41d7-86aa-9d529d927cbb",
+          "displayValue": "c6818363-742b-41f9-b1cb-027eca9eb369",
+          "eventLength": {
+            "displayValue": 431
+          },
+          "timestamp": {
+            "displayValue": 1628963583994
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 12
+        },
+        {
+          "id": "986b0513-c524-4974-814b-2ca057f6c3c7",
+          "displayValue": "9d2f007f-e8fc-4e6d-be70-8423e7b1d027",
+          "eventLength": {
+            "displayValue": 2
+          },
+          "timestamp": {
+            "displayValue": 1627819978530
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 13
+        },
+        {
+          "id": "36c77d2d-6c1e-46cc-afb9-6e01c04b3496",
+          "displayValue": "6451c0f3-aece-44c2-9214-7e454e7ed9a4",
+          "eventLength": {
+            "displayValue": 41
+          },
+          "timestamp": {
+            "displayValue": 1626531980591
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 14
+        },
+        {
+          "id": "1f82e481-88d7-49ae-8f33-5a0c843fb29b",
+          "displayValue": "a37b7861-c343-4260-b8fa-243e348a2f01",
+          "eventLength": {
+            "displayValue": 452
+          },
+          "timestamp": {
+            "displayValue": 1628880899649
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 15
+        },
+        {
+          "id": "0b4f3adb-191a-44e3-8aa1-604e8fd84318",
+          "displayValue": "250539b0-3d8e-4894-b935-29f416db1b53",
+          "eventLength": {
+            "displayValue": 190
+          },
+          "timestamp": {
+            "displayValue": 1623656746467
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 16
+        },
+        {
+          "id": "6ddc0c6f-a510-4826-b15c-7f1ab3d06a44",
+          "displayValue": "916cae5e-2687-426b-a7f8-4bdd2d9b52f4",
+          "eventLength": {
+            "displayValue": 152
+          },
+          "timestamp": {
+            "displayValue": 1625998300539
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 17
+        },
+        {
+          "id": "f0d18a47-6a2f-4b38-9092-7a00e70c0678",
+          "displayValue": "56950648-9e5d-4e73-9993-acfcd9c56fcd",
+          "eventLength": {
+            "displayValue": 302
+          },
+          "timestamp": {
+            "displayValue": 1620910589222
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 18
+        },
+        {
+          "id": "58882b46-8a5c-4fc7-9f92-ae36ed1808d7",
+          "displayValue": "d303d814-b8c6-41ec-9e2b-59c7feea5264",
+          "eventLength": {
+            "displayValue": 229
+          },
+          "timestamp": {
+            "displayValue": 1623165737143
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 19
+        },
+        {
+          "id": "f7a12539-b45f-4132-9566-51f2d7cd8458",
+          "displayValue": "9ab76624-5a59-48f2-b3c3-b8d72bdfd914",
+          "eventLength": {
+            "displayValue": 239
+          },
+          "timestamp": {
+            "displayValue": 1621857993833
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 20
+        },
+        {
+          "id": "21a27c0e-cab9-450e-8e52-5c1004ac3090",
+          "displayValue": "5a0af7b8-080b-45e9-87c1-a46ce12498bf",
+          "eventLength": {
+            "displayValue": 452
+          },
+          "timestamp": {
+            "displayValue": 1627883386945
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 21
+        },
+        {
+          "id": "ef433fee-c2e5-4aa3-9c2c-91f1af576d01",
+          "displayValue": "4c9dcc51-d643-4ee8-8278-3e61c09a140d",
+          "eventLength": {
+            "displayValue": 209
+          },
+          "timestamp": {
+            "displayValue": 1628239112555
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 22
+        },
+        {
+          "id": "cf4486b3-dd72-4f9d-84fa-bab34a5e9bc2",
+          "displayValue": "e12310b2-091e-43c9-b7b6-f65ede9e6a05",
+          "eventLength": {
+            "displayValue": 191
+          },
+          "timestamp": {
+            "displayValue": 1620686749466
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 23
+        },
+        {
+          "id": "8c7400b4-12d9-47aa-a33c-43c50a40a8c5",
+          "displayValue": "e8bb6144-1c43-435f-bb75-e8a2c9c98ca3",
+          "eventLength": {
+            "displayValue": 152
+          },
+          "timestamp": {
+            "displayValue": 1623965978743
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 24
+        },
+        {
+          "id": "fbe79f1a-79cc-4c4e-b7fd-fb78c67535b8",
+          "displayValue": "b6d3b2e8-c13b-44cd-b808-3d9976789987",
+          "eventLength": {
+            "displayValue": 486
+          },
+          "timestamp": {
+            "displayValue": 1619835199815
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 25
+        },
+        {
+          "id": "726fab91-f30e-49f9-a535-f71050a006f4",
+          "displayValue": "e2a604c6-004c-4815-964a-15e78b52848c",
+          "eventLength": {
+            "displayValue": 181
+          },
+          "timestamp": {
+            "displayValue": 1620730401709
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 26
+        },
+        {
+          "id": "0c2203ce-f4c6-494f-b89e-c41a717d04f7",
+          "displayValue": "6a7b313b-0088-49a3-a700-975d6478b0ec",
+          "eventLength": {
+            "displayValue": 422
+          },
+          "timestamp": {
+            "displayValue": 1626877552548
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 27
+        },
+        {
+          "id": "a32eb251-9880-4238-b447-7a2593381361",
+          "displayValue": "a0f45c48-95c7-4244-8f99-d7c2c43652e2",
+          "eventLength": {
+            "displayValue": 321
+          },
+          "timestamp": {
+            "displayValue": 1624612831441
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 28
+        },
+        {
+          "id": "bfaeb2f7-895a-41bb-bf3f-87b63c3d6ae5",
+          "displayValue": "a2bfa31e-4812-4734-bcad-a022d62ccf3d",
+          "eventLength": {
+            "displayValue": 283
+          },
+          "timestamp": {
+            "displayValue": 1622897240505
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 29
+        },
+        {
+          "id": "a03f7a1d-2368-47d0-9bba-ab786f730a55",
+          "displayValue": "d748d656-cc87-4443-a766-a7bee7538e64",
+          "eventLength": {
+            "displayValue": 472
+          },
+          "timestamp": {
+            "displayValue": 1624545464674
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 30
+        },
+        {
+          "id": "f80c28cd-54d4-4269-ad7c-ebfc0e341cd0",
+          "displayValue": "06bab63c-f069-4511-9cb3-6a63144523a2",
+          "eventLength": {
+            "displayValue": 266
+          },
+          "timestamp": {
+            "displayValue": 1620565291025
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 31
+        },
+        {
+          "id": "05478a59-248f-4090-a1b7-33c2b9bf2f7e",
+          "displayValue": "8f27e338-c360-41bc-b81c-fe4582034398",
+          "eventLength": {
+            "displayValue": 363
+          },
+          "timestamp": {
+            "displayValue": 1622521091009
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 32
+        },
+        {
+          "id": "a9f42047-29ea-48a8-9b58-f2205c1713a5",
+          "displayValue": "ab50daa4-5cf9-45ef-981b-abc7bd592279",
+          "eventLength": {
+            "displayValue": 375
+          },
+          "timestamp": {
+            "displayValue": 1626634124963
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 33
+        },
+        {
+          "id": "914187ac-275c-4765-a382-d0f6e565eb73",
+          "displayValue": "6238c391-e4ec-4bc8-a8ce-6f02ce5682ad",
+          "eventLength": {
+            "displayValue": 68
+          },
+          "timestamp": {
+            "displayValue": 1626323088919
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 34
+        },
+        {
+          "id": "2584eaf7-0d5b-4933-b8ad-5b94d38390e4",
+          "displayValue": "6c2a79c8-8cc7-4381-b642-a7f62c2d7acc",
+          "eventLength": {
+            "displayValue": 147
+          },
+          "timestamp": {
+            "displayValue": 1628161055403
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 35
+        },
+        {
+          "id": "56605785-ba24-414d-bc05-505a3359d080",
+          "displayValue": "75c75fea-75e6-4a55-aa8b-730974bf06b4",
+          "eventLength": {
+            "displayValue": 327
+          },
+          "timestamp": {
+            "displayValue": 1622400687460
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 36
+        },
+        {
+          "id": "3cf7e37c-240a-4c10-a7ca-d5be9ad3e9d6",
+          "displayValue": "2239308f-6cc9-4f17-9057-04919c4914bb",
+          "eventLength": {
+            "displayValue": 64
+          },
+          "timestamp": {
+            "displayValue": 1624906294694
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 37
+        },
+        {
+          "id": "41f56033-063d-48ab-90b8-ea27141fd791",
+          "displayValue": "c830bced-4cdd-4c51-b008-566d9896fa15",
+          "eventLength": {
+            "displayValue": 265
+          },
+          "timestamp": {
+            "displayValue": 1622838396296
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 38
+        },
+        {
+          "id": "3acc620e-4db5-48e6-9836-950f60d464cb",
+          "displayValue": "a01f0e55-33ea-4ae9-9808-8b5a4348398a",
+          "eventLength": {
+            "displayValue": 215
+          },
+          "timestamp": {
+            "displayValue": 1619241403318
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 39
+        },
+        {
+          "id": "fbc2a971-8065-4910-9dbd-771d939ef46b",
+          "displayValue": "78597043-944d-4ef3-9c29-4fb4a029b866",
+          "eventLength": {
+            "displayValue": 450
+          },
+          "timestamp": {
+            "displayValue": 1624827111051
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 40
+        },
+        {
+          "id": "89847921-7849-4352-954c-4e17c902da8d",
+          "displayValue": "8cd95098-e98e-4c4c-a0bb-57dc7cc13942",
+          "eventLength": {
+            "displayValue": 381
+          },
+          "timestamp": {
+            "displayValue": 1618956145840
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 41
+        },
+        {
+          "id": "c021f42d-fb41-4478-bfcc-3cd9011cb093",
+          "displayValue": "dd8c8e37-3866-46da-91ca-724470cefbee",
+          "eventLength": {
+            "displayValue": 321
+          },
+          "timestamp": {
+            "displayValue": 1624099944199
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 42
+        },
+        {
+          "id": "0ce6fd8d-32c8-4eed-844a-39aebb59296a",
+          "displayValue": "bebd839b-d32b-4930-9b00-5854cd87dd59",
+          "eventLength": {
+            "displayValue": 368
+          },
+          "timestamp": {
+            "displayValue": 1625891754266
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 43
+        },
+        {
+          "id": "6c242c70-33c1-4a02-8ec8-05f130361d59",
+          "displayValue": "717699e8-ff7e-45ac-a5d7-aa1fca192e65",
+          "eventLength": {
+            "displayValue": 82
+          },
+          "timestamp": {
+            "displayValue": 1624559793533
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 44
+        },
+        {
+          "id": "73bc7b16-c9d1-48b4-8edc-c0bd0b25daab",
+          "displayValue": "fbce4ffb-0632-4786-af75-bf8c420237bf",
+          "eventLength": {
+            "displayValue": 421
+          },
+          "timestamp": {
+            "displayValue": 1629063654996
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 45
+        },
+        {
+          "id": "0d1d1d3f-cbba-46d5-93df-609de71f537a",
+          "displayValue": "66bab6b3-2fa8-4190-80bc-7ce85297631b",
+          "eventLength": {
+            "displayValue": 135
+          },
+          "timestamp": {
+            "displayValue": 1624898713643
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 46
+        },
+        {
+          "id": "2fbf0b0f-9169-4a10-858c-63563719db1b",
+          "displayValue": "a3057377-3629-4507-9a46-5fbed1614ec5",
+          "eventLength": {
+            "displayValue": 81
+          },
+          "timestamp": {
+            "displayValue": 1625955812004
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 47
+        },
+        {
+          "id": "e1df3354-c746-4300-a810-8546b0bb6523",
+          "displayValue": "2605abbf-e857-457f-bd04-9ca590fca81e",
+          "eventLength": {
+            "displayValue": 357
+          },
+          "timestamp": {
+            "displayValue": 1628089132583
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 48
+        },
+        {
+          "id": "d350e199-b682-4ed5-b788-6a2a690be22c",
+          "displayValue": "a04715a5-e67d-48c5-849b-72396aebf9df",
+          "eventLength": {
+            "displayValue": 182
+          },
+          "timestamp": {
+            "displayValue": 1618758772463
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 49
+        },
+        {
+          "id": "f7b3b0dc-ebca-405d-8faf-931bdd4daf6d",
+          "displayValue": "c6085ea9-0c67-4004-a6d5-076d1ace7435",
+          "eventLength": {
+            "displayValue": 475
+          },
+          "timestamp": {
+            "displayValue": 1626650821466
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459874,
+            "version": 0
+          },
+          "$loki": 50
+        }
+      ],
+      "idIndex": null,
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "Event",
+      "dirty": false,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": true,
+      "disableMeta": false,
+      "disableChangesApi": true,
+      "disableDeltaChangesApi": true,
+      "autoupdate": false,
+      "serializableIndices": true,
+      "disableFreeze": true,
+      "ttl": null,
+      "maxId": 50,
+      "DynamicViews": [],
+      "events": {
+        "insert": [],
+        "update": [],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [null],
+        "warning": [null]
+      },
+      "changes": [],
+      "dirtyIds": [],
+      "isIncremental": false
+    },
+    {
+      "name": "Node",
+      "data": [
+        {
+          "id": "d9f2fd82-7445-4fb7-9edd-8400dae454f3",
+          "displayValue": "452220955-X",
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "nodeOverallStatus": {
+            "displayValue": "Bad"
+          },
+          "nodeStatus": {
+            "displayValue": "Ok"
+          },
+          "siteMap": {
+            "displayValue": "Site 1"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 1
+        },
+        {
+          "id": "a5f98524-6f2d-4e83-a368-9164ab43d393",
+          "displayValue": "124233324-X",
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "nodeOverallStatus": {
+            "displayValue": "Excellent"
+          },
+          "nodeStatus": {
+            "displayValue": "Bad"
+          },
+          "siteMap": {
+            "displayValue": "Site 2"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2
+        },
+        {
+          "id": "caac522b-2ce3-4e27-95e8-6253580ea900",
+          "displayValue": "400991223-5",
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "nodeOverallStatus": {
+            "displayValue": "Ok"
+          },
+          "nodeStatus": {
+            "displayValue": "Excellent"
+          },
+          "siteMap": {
+            "displayValue": "Site 3"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 3
+        },
+        {
+          "id": "2bf39fd1-ca63-4a6e-871a-f92c06094be3",
+          "displayValue": "616225596-4",
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "nodeOverallStatus": {
+            "displayValue": "Bad"
+          },
+          "nodeStatus": {
+            "displayValue": "Ok"
+          },
+          "siteMap": {
+            "displayValue": "Site 4"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 4
+        },
+        {
+          "id": "d09b5cf8-3ab2-44af-b9e3-8a814e48a7af",
+          "displayValue": "394359908-6",
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "nodeOverallStatus": {
+            "displayValue": "Excellent"
+          },
+          "nodeStatus": {
+            "displayValue": "Bad"
+          },
+          "siteMap": {
+            "displayValue": "Site 5"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 5
+        },
+        {
+          "id": "7c38b251-db94-4c11-b8e7-d82454807467",
+          "displayValue": "779526478-6",
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "nodeOverallStatus": {
+            "displayValue": "Ok"
+          },
+          "nodeStatus": {
+            "displayValue": "Excellent"
+          },
+          "siteMap": {
+            "displayValue": "Site 1"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 6
+        },
+        {
+          "id": "870f80a2-46a1-4866-bf06-ba2dc53b28f4",
+          "displayValue": "275677011-6",
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "nodeOverallStatus": {
+            "displayValue": "Bad"
+          },
+          "nodeStatus": {
+            "displayValue": "Ok"
+          },
+          "siteMap": {
+            "displayValue": "Site 2"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 7
+        },
+        {
+          "id": "0d748dbe-2cea-43e4-951c-72b13819cd93",
+          "displayValue": "672357182-7",
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "nodeOverallStatus": {
+            "displayValue": "Excellent"
+          },
+          "nodeStatus": {
+            "displayValue": "Bad"
+          },
+          "siteMap": {
+            "displayValue": "Site 3"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 8
+        },
+        {
+          "id": "f6dc96d7-af99-42ed-9d34-62f858fb0898",
+          "displayValue": "468597930-3",
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "nodeOverallStatus": {
+            "displayValue": "Ok"
+          },
+          "nodeStatus": {
+            "displayValue": "Excellent"
+          },
+          "siteMap": {
+            "displayValue": "Site 4"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 9
+        },
+        {
+          "id": "6d221c94-9701-44f3-b972-5310202d572d",
+          "displayValue": "190975058-1",
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "nodeOverallStatus": {
+            "displayValue": "Bad"
+          },
+          "nodeStatus": {
+            "displayValue": "Ok"
+          },
+          "siteMap": {
+            "displayValue": "Site 5"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 10
+        }
+      ],
+      "idIndex": null,
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "Node",
+      "dirty": false,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": true,
+      "disableMeta": false,
+      "disableChangesApi": true,
+      "disableDeltaChangesApi": true,
+      "autoupdate": false,
+      "serializableIndices": true,
+      "disableFreeze": true,
+      "ttl": null,
+      "maxId": 10,
+      "DynamicViews": [],
+      "events": {
+        "insert": [],
+        "update": [],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [null],
+        "warning": [null]
+      },
+      "changes": [],
+      "dirtyIds": [],
+      "isIncremental": false
+    },
+    {
+      "name": "NodeOverallStatus",
+      "data": [
+        {
+          "id": "b796830f-afb9-4990-922c-94bea1c20429",
+          "displayValue": "Excellent",
+          "node": {
+            "displayValue": "452220955-X"
+          },
+          "timestamp": {
+            "displayValue": 1622580463266
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 1
+        },
+        {
+          "id": "9a97e918-d62c-4275-804b-cd4a5320d3d5",
+          "displayValue": "Bad",
+          "node": {
+            "displayValue": "124233324-X"
+          },
+          "timestamp": {
+            "displayValue": 1629017826383
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2
+        },
+        {
+          "id": "2384cfa8-0c9e-4da5-ac83-bb9c3f0c169e",
+          "displayValue": "Ok",
+          "node": {
+            "displayValue": "400991223-5"
+          },
+          "timestamp": {
+            "displayValue": 1627917346501
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 3
+        }
+      ],
+      "idIndex": null,
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "NodeOverallStatus",
+      "dirty": false,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": true,
+      "disableMeta": false,
+      "disableChangesApi": true,
+      "disableDeltaChangesApi": true,
+      "autoupdate": false,
+      "serializableIndices": true,
+      "disableFreeze": true,
+      "ttl": null,
+      "maxId": 3,
+      "DynamicViews": [],
+      "events": {
+        "insert": [],
+        "update": [],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [null],
+        "warning": [null]
+      },
+      "changes": [],
+      "dirtyIds": [],
+      "isIncremental": false
+    },
+    {
+      "name": "NodeStatus",
+      "data": [
+        {
+          "id": "ecd1ad48-38a0-499d-99bc-43febf571a82",
+          "displayValue": "Excellent",
+          "node": {
+            "displayValue": "616225596-4"
+          },
+          "timestamp": {
+            "displayValue": 1622160474821
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 1
+        },
+        {
+          "id": "8badabcb-2e0b-4dbc-98bc-1353661da71e",
+          "displayValue": "Bad",
+          "node": {
+            "displayValue": "394359908-6"
+          },
+          "timestamp": {
+            "displayValue": 1625263836635
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2
+        },
+        {
+          "id": "6eaa3cd6-0e55-441a-acdf-58cac9ca62b5",
+          "displayValue": "Ok",
+          "node": {
+            "displayValue": "779526478-6"
+          },
+          "timestamp": {
+            "displayValue": 1626165669617
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 3
+        }
+      ],
+      "idIndex": null,
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "NodeStatus",
+      "dirty": false,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": true,
+      "disableMeta": false,
+      "disableChangesApi": true,
+      "disableDeltaChangesApi": true,
+      "autoupdate": false,
+      "serializableIndices": true,
+      "disableFreeze": true,
+      "ttl": null,
+      "maxId": 3,
+      "DynamicViews": [],
+      "events": {
+        "insert": [],
+        "update": [],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [null],
+        "warning": [null]
+      },
+      "changes": [],
+      "dirtyIds": [],
+      "isIncremental": false
+    },
+    {
+      "name": "SiteMap",
+      "data": [
+        {
+          "id": "179db22a-c290-4ad9-a9ce-2d782ba28ffb",
+          "displayValue": "Site 1",
+          "systemHealth": {
+            "displayValue": "Excellent"
+          },
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "siteStatus": {
+            "displayValue": "Bad"
+          },
+          "node": [
+            {
+              "displayValue": "275677011-6"
+            },
+            {
+              "displayValue": "672357182-7"
+            },
+            {
+              "displayValue": "468597930-3"
+            },
+            {
+              "displayValue": "190975058-1"
+            },
+            {
+              "displayValue": "452220955-X"
+            },
+            {
+              "displayValue": "124233324-X"
+            },
+            {
+              "displayValue": "400991223-5"
+            },
+            {
+              "displayValue": "616225596-4"
+            },
+            {
+              "displayValue": "394359908-6"
+            },
+            {
+              "displayValue": "779526478-6"
+            },
+            {
+              "displayValue": "275677011-6"
+            },
+            {
+              "displayValue": "672357182-7"
+            },
+            {
+              "displayValue": "468597930-3"
+            },
+            {
+              "displayValue": "190975058-1"
+            },
+            {
+              "displayValue": "452220955-X"
+            },
+            {
+              "displayValue": "124233324-X"
+            },
+            {
+              "displayValue": "400991223-5"
+            },
+            {
+              "displayValue": "616225596-4"
+            },
+            {
+              "displayValue": "394359908-6"
+            },
+            {
+              "displayValue": "779526478-6"
+            }
+          ],
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 1
+        },
+        {
+          "id": "0a33ac62-a392-4978-b766-eea7bfa59ee6",
+          "displayValue": "Site 2",
+          "systemHealth": {
+            "displayValue": "Ok"
+          },
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "siteStatus": {
+            "displayValue": "Excellent"
+          },
+          "node": [
+            {
+              "displayValue": "275677011-6"
+            },
+            {
+              "displayValue": "672357182-7"
+            },
+            {
+              "displayValue": "468597930-3"
+            },
+            {
+              "displayValue": "190975058-1"
+            },
+            {
+              "displayValue": "452220955-X"
+            },
+            {
+              "displayValue": "124233324-X"
+            },
+            {
+              "displayValue": "400991223-5"
+            },
+            {
+              "displayValue": "616225596-4"
+            },
+            {
+              "displayValue": "394359908-6"
+            },
+            {
+              "displayValue": "779526478-6"
+            },
+            {
+              "displayValue": "275677011-6"
+            },
+            {
+              "displayValue": "672357182-7"
+            },
+            {
+              "displayValue": "468597930-3"
+            },
+            {
+              "displayValue": "190975058-1"
+            },
+            {
+              "displayValue": "452220955-X"
+            },
+            {
+              "displayValue": "124233324-X"
+            },
+            {
+              "displayValue": "400991223-5"
+            },
+            {
+              "displayValue": "616225596-4"
+            },
+            {
+              "displayValue": "394359908-6"
+            },
+            {
+              "displayValue": "779526478-6"
+            }
+          ],
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2
+        },
+        {
+          "id": "741d684e-44d3-488d-b17e-0dc30256222e",
+          "displayValue": "Site 3",
+          "systemHealth": {
+            "displayValue": "Bad"
+          },
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "siteStatus": {
+            "displayValue": "Ok"
+          },
+          "node": [
+            {
+              "displayValue": "275677011-6"
+            },
+            {
+              "displayValue": "672357182-7"
+            },
+            {
+              "displayValue": "468597930-3"
+            },
+            {
+              "displayValue": "190975058-1"
+            },
+            {
+              "displayValue": "452220955-X"
+            },
+            {
+              "displayValue": "124233324-X"
+            },
+            {
+              "displayValue": "400991223-5"
+            },
+            {
+              "displayValue": "616225596-4"
+            },
+            {
+              "displayValue": "394359908-6"
+            },
+            {
+              "displayValue": "779526478-6"
+            },
+            {
+              "displayValue": "275677011-6"
+            },
+            {
+              "displayValue": "672357182-7"
+            },
+            {
+              "displayValue": "468597930-3"
+            },
+            {
+              "displayValue": "190975058-1"
+            },
+            {
+              "displayValue": "452220955-X"
+            },
+            {
+              "displayValue": "124233324-X"
+            },
+            {
+              "displayValue": "400991223-5"
+            },
+            {
+              "displayValue": "616225596-4"
+            },
+            {
+              "displayValue": "394359908-6"
+            },
+            {
+              "displayValue": "779526478-6"
+            }
+          ],
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 3
+        },
+        {
+          "id": "4667183c-5d5f-4e9e-a4bc-562896a55450",
+          "displayValue": "Site 4",
+          "systemHealth": {
+            "displayValue": "Excellent"
+          },
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "siteStatus": {
+            "displayValue": "Bad"
+          },
+          "node": [
+            {
+              "displayValue": "275677011-6"
+            },
+            {
+              "displayValue": "672357182-7"
+            },
+            {
+              "displayValue": "468597930-3"
+            },
+            {
+              "displayValue": "190975058-1"
+            },
+            {
+              "displayValue": "452220955-X"
+            },
+            {
+              "displayValue": "124233324-X"
+            },
+            {
+              "displayValue": "400991223-5"
+            },
+            {
+              "displayValue": "616225596-4"
+            },
+            {
+              "displayValue": "394359908-6"
+            },
+            {
+              "displayValue": "779526478-6"
+            },
+            {
+              "displayValue": "275677011-6"
+            },
+            {
+              "displayValue": "672357182-7"
+            },
+            {
+              "displayValue": "468597930-3"
+            },
+            {
+              "displayValue": "190975058-1"
+            },
+            {
+              "displayValue": "452220955-X"
+            },
+            {
+              "displayValue": "124233324-X"
+            },
+            {
+              "displayValue": "400991223-5"
+            },
+            {
+              "displayValue": "616225596-4"
+            },
+            {
+              "displayValue": "394359908-6"
+            },
+            {
+              "displayValue": "779526478-6"
+            }
+          ],
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 4
+        },
+        {
+          "id": "0e9c54a8-601e-478b-a534-0bcd15eba523",
+          "displayValue": "Site 5",
+          "systemHealth": {
+            "displayValue": "Ok"
+          },
+          "sensor": [
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            },
+            {
+              "displayValue": "A03"
+            },
+            {
+              "displayValue": "A5279"
+            },
+            {
+              "displayValue": "B1001"
+            },
+            {
+              "displayValue": "B35"
+            },
+            {
+              "displayValue": "B40"
+            },
+            {
+              "displayValue": "B9719"
+            },
+            {
+              "displayValue": "C4351"
+            },
+            {
+              "displayValue": "C641"
+            },
+            {
+              "displayValue": "C6990"
+            },
+            {
+              "displayValue": "C8172"
+            }
+          ],
+          "siteStatus": {
+            "displayValue": "Excellent"
+          },
+          "node": [
+            {
+              "displayValue": "275677011-6"
+            },
+            {
+              "displayValue": "672357182-7"
+            },
+            {
+              "displayValue": "468597930-3"
+            },
+            {
+              "displayValue": "190975058-1"
+            },
+            {
+              "displayValue": "452220955-X"
+            },
+            {
+              "displayValue": "124233324-X"
+            },
+            {
+              "displayValue": "400991223-5"
+            },
+            {
+              "displayValue": "616225596-4"
+            },
+            {
+              "displayValue": "394359908-6"
+            },
+            {
+              "displayValue": "779526478-6"
+            },
+            {
+              "displayValue": "275677011-6"
+            },
+            {
+              "displayValue": "672357182-7"
+            },
+            {
+              "displayValue": "468597930-3"
+            },
+            {
+              "displayValue": "190975058-1"
+            },
+            {
+              "displayValue": "452220955-X"
+            },
+            {
+              "displayValue": "124233324-X"
+            },
+            {
+              "displayValue": "400991223-5"
+            },
+            {
+              "displayValue": "616225596-4"
+            },
+            {
+              "displayValue": "394359908-6"
+            },
+            {
+              "displayValue": "779526478-6"
+            }
+          ],
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 5
+        }
+      ],
+      "idIndex": null,
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "SiteMap",
+      "dirty": false,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": true,
+      "disableMeta": false,
+      "disableChangesApi": true,
+      "disableDeltaChangesApi": true,
+      "autoupdate": false,
+      "serializableIndices": true,
+      "disableFreeze": true,
+      "ttl": null,
+      "maxId": 5,
+      "DynamicViews": [],
+      "events": {
+        "insert": [],
+        "update": [],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [null],
+        "warning": [null]
+      },
+      "changes": [],
+      "dirtyIds": [],
+      "isIncremental": false
+    },
+    {
+      "name": "Sensor",
+      "data": [
+        {
+          "id": "6dbdd9cf-31f7-4638-a239-627febc9f929",
+          "displayValue": "A03",
+          "ppm": {
+            "displayValue": 909
+          },
+          "node": {
+            "displayValue": "275677011-6"
+          },
+          "sensorOverallStatus": {
+            "displayValue": "Bad"
+          },
+          "sensorStatus": {
+            "displayValue": "Ok"
+          },
+          "siteMap": {
+            "displayValue": "Site 1"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 1
+        },
+        {
+          "id": "ae48f811-88a9-4f6c-96bd-82b27624afe4",
+          "displayValue": "A5279",
+          "ppm": {
+            "displayValue": 49
+          },
+          "node": {
+            "displayValue": "672357182-7"
+          },
+          "sensorOverallStatus": {
+            "displayValue": "Excellent"
+          },
+          "sensorStatus": {
+            "displayValue": "Bad"
+          },
+          "siteMap": {
+            "displayValue": "Site 2"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2
+        },
+        {
+          "id": "34ce0f41-e7c4-4287-9f46-427eafdd631b",
+          "displayValue": "B1001",
+          "ppm": {
+            "displayValue": 135
+          },
+          "node": {
+            "displayValue": "468597930-3"
+          },
+          "sensorOverallStatus": {
+            "displayValue": "Ok"
+          },
+          "sensorStatus": {
+            "displayValue": "Excellent"
+          },
+          "siteMap": {
+            "displayValue": "Site 3"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 3
+        },
+        {
+          "id": "705a31ef-b58d-4c71-861a-735ebbe167b7",
+          "displayValue": "B35",
+          "ppm": {
+            "displayValue": -174
+          },
+          "node": {
+            "displayValue": "190975058-1"
+          },
+          "sensorOverallStatus": {
+            "displayValue": "Bad"
+          },
+          "sensorStatus": {
+            "displayValue": "Ok"
+          },
+          "siteMap": {
+            "displayValue": "Site 4"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 4
+        },
+        {
+          "id": "99bae183-a341-4945-b509-0a03eacb3cce",
+          "displayValue": "B40",
+          "ppm": {
+            "displayValue": 792
+          },
+          "node": {
+            "displayValue": "452220955-X"
+          },
+          "sensorOverallStatus": {
+            "displayValue": "Excellent"
+          },
+          "sensorStatus": {
+            "displayValue": "Bad"
+          },
+          "siteMap": {
+            "displayValue": "Site 5"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 5
+        },
+        {
+          "id": "b1805391-e04a-48fe-b861-7f77464aa2f0",
+          "displayValue": "B9719",
+          "ppm": {
+            "displayValue": 929
+          },
+          "node": {
+            "displayValue": "124233324-X"
+          },
+          "sensorOverallStatus": {
+            "displayValue": "Ok"
+          },
+          "sensorStatus": {
+            "displayValue": "Excellent"
+          },
+          "siteMap": {
+            "displayValue": "Site 1"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 6
+        },
+        {
+          "id": "a3424cc1-9464-4ba1-bbe7-cd92e93e06c7",
+          "displayValue": "C4351",
+          "ppm": {
+            "displayValue": -402
+          },
+          "node": {
+            "displayValue": "400991223-5"
+          },
+          "sensorOverallStatus": {
+            "displayValue": "Bad"
+          },
+          "sensorStatus": {
+            "displayValue": "Ok"
+          },
+          "siteMap": {
+            "displayValue": "Site 2"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 7
+        },
+        {
+          "id": "f5069297-0908-4e38-a1cc-091394a5e9dd",
+          "displayValue": "C641",
+          "ppm": {
+            "displayValue": -368
+          },
+          "node": {
+            "displayValue": "616225596-4"
+          },
+          "sensorOverallStatus": {
+            "displayValue": "Excellent"
+          },
+          "sensorStatus": {
+            "displayValue": "Bad"
+          },
+          "siteMap": {
+            "displayValue": "Site 3"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 8
+        },
+        {
+          "id": "d333660f-8604-48e7-86aa-53ce31b6c52e",
+          "displayValue": "C6990",
+          "ppm": {
+            "displayValue": -652
+          },
+          "node": {
+            "displayValue": "394359908-6"
+          },
+          "sensorOverallStatus": {
+            "displayValue": "Ok"
+          },
+          "sensorStatus": {
+            "displayValue": "Excellent"
+          },
+          "siteMap": {
+            "displayValue": "Site 4"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 9
+        },
+        {
+          "id": "a1d29e25-e43b-438f-b143-6995befe1185",
+          "displayValue": "C8172",
+          "ppm": {
+            "displayValue": -106
+          },
+          "node": {
+            "displayValue": "779526478-6"
+          },
+          "sensorOverallStatus": {
+            "displayValue": "Bad"
+          },
+          "sensorStatus": {
+            "displayValue": "Ok"
+          },
+          "siteMap": {
+            "displayValue": "Site 5"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 10
+        }
+      ],
+      "idIndex": null,
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "Sensor",
+      "dirty": false,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": true,
+      "disableMeta": false,
+      "disableChangesApi": true,
+      "disableDeltaChangesApi": true,
+      "autoupdate": false,
+      "serializableIndices": true,
+      "disableFreeze": true,
+      "ttl": null,
+      "maxId": 10,
+      "DynamicViews": [],
+      "events": {
+        "insert": [],
+        "update": [],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [null],
+        "warning": [null]
+      },
+      "changes": [],
+      "dirtyIds": [],
+      "isIncremental": false
+    },
+    {
+      "name": "SensorOverallStatus",
+      "data": [
+        {
+          "id": "4527ad1e-bcd9-49a4-8afc-2188de42cc91",
+          "displayValue": "Excellent",
+          "sensor": {
+            "displayValue": "A03"
+          },
+          "timestamp": {
+            "displayValue": 1627220380102
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 1
+        },
+        {
+          "id": "6776ee8b-0a9e-43e2-a0e0-c7c5cc2e63d0",
+          "displayValue": "Bad",
+          "sensor": {
+            "displayValue": "A5279"
+          },
+          "timestamp": {
+            "displayValue": 1629062107935
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2
+        },
+        {
+          "id": "cc49c0c2-9651-478f-86c6-572c5849f657",
+          "displayValue": "Ok",
+          "sensor": {
+            "displayValue": "B1001"
+          },
+          "timestamp": {
+            "displayValue": 1625402216046
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 3
+        }
+      ],
+      "idIndex": null,
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "SensorOverallStatus",
+      "dirty": false,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": true,
+      "disableMeta": false,
+      "disableChangesApi": true,
+      "disableDeltaChangesApi": true,
+      "autoupdate": false,
+      "serializableIndices": true,
+      "disableFreeze": true,
+      "ttl": null,
+      "maxId": 3,
+      "DynamicViews": [],
+      "events": {
+        "insert": [],
+        "update": [],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [null],
+        "warning": [null]
+      },
+      "changes": [],
+      "dirtyIds": [],
+      "isIncremental": false
+    },
+    {
+      "name": "SensorStatus",
+      "data": [
+        {
+          "id": "dc8862ef-5fa4-4a7f-9dfe-b8cec5466597",
+          "displayValue": "Excellent",
+          "sensor": {
+            "displayValue": "B35"
+          },
+          "timestamp": {
+            "displayValue": 1625900732073
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 1
+        },
+        {
+          "id": "f1770f87-7349-40b0-94ba-6329bb3c9199",
+          "displayValue": "Bad",
+          "sensor": {
+            "displayValue": "B40"
+          },
+          "timestamp": {
+            "displayValue": 1624957314227
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2
+        },
+        {
+          "id": "84ef7c12-069e-4301-b5ad-6e3ed83df2e3",
+          "displayValue": "Ok",
+          "sensor": {
+            "displayValue": "B9719"
+          },
+          "timestamp": {
+            "displayValue": 1626792661916
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 3
+        }
+      ],
+      "idIndex": null,
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "SensorStatus",
+      "dirty": false,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": true,
+      "disableMeta": false,
+      "disableChangesApi": true,
+      "disableDeltaChangesApi": true,
+      "autoupdate": false,
+      "serializableIndices": true,
+      "disableFreeze": true,
+      "ttl": null,
+      "maxId": 3,
+      "DynamicViews": [],
+      "events": {
+        "insert": [],
+        "update": [],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [null],
+        "warning": [null]
+      },
+      "changes": [],
+      "dirtyIds": [],
+      "isIncremental": false
+    },
+    {
+      "name": "SiteStatus",
+      "data": [
+        {
+          "id": "4dacffc8-128a-4309-91cd-a5c35cc7dc20",
+          "displayValue": "Excellent",
+          "siteMap": {
+            "displayValue": "Site 1"
+          },
+          "timestamp": {
+            "displayValue": 1623789895378
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 1
+        },
+        {
+          "id": "072de3bf-1e61-4493-a82a-5e5fd42e3687",
+          "displayValue": "Bad",
+          "siteMap": {
+            "displayValue": "Site 2"
+          },
+          "timestamp": {
+            "displayValue": 1626865921355
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2
+        },
+        {
+          "id": "cb62bf55-4510-4fbc-95d2-8dea0342d427",
+          "displayValue": "Ok",
+          "siteMap": {
+            "displayValue": "Site 3"
+          },
+          "timestamp": {
+            "displayValue": 1628487864142
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 3
+        }
+      ],
+      "idIndex": null,
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "SiteStatus",
+      "dirty": false,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": true,
+      "disableMeta": false,
+      "disableChangesApi": true,
+      "disableDeltaChangesApi": true,
+      "autoupdate": false,
+      "serializableIndices": true,
+      "disableFreeze": true,
+      "ttl": null,
+      "maxId": 3,
+      "DynamicViews": [],
+      "events": {
+        "insert": [],
+        "update": [],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [null],
+        "warning": [null]
+      },
+      "changes": [],
+      "dirtyIds": [],
+      "isIncremental": false
+    },
+    {
+      "name": "SystemHealth",
+      "data": [
+        {
+          "id": "3672a1e9-09f5-44ad-bfb2-18a77739af0b",
+          "displayValue": "Excellent",
+          "siteMap": [
+            {
+              "displayValue": "Site 4"
+            },
+            {
+              "displayValue": "Site 5"
+            },
+            {
+              "displayValue": "Site 1"
+            },
+            {
+              "displayValue": "Site 2"
+            },
+            {
+              "displayValue": "Site 3"
+            },
+            {
+              "displayValue": "Site 4"
+            },
+            {
+              "displayValue": "Site 5"
+            },
+            {
+              "displayValue": "Site 1"
+            },
+            {
+              "displayValue": "Site 2"
+            },
+            {
+              "displayValue": "Site 3"
+            },
+            {
+              "displayValue": "Site 4"
+            },
+            {
+              "displayValue": "Site 5"
+            },
+            {
+              "displayValue": "Site 1"
+            },
+            {
+              "displayValue": "Site 2"
+            },
+            {
+              "displayValue": "Site 3"
+            },
+            {
+              "displayValue": "Site 4"
+            },
+            {
+              "displayValue": "Site 5"
+            },
+            {
+              "displayValue": "Site 1"
+            },
+            {
+              "displayValue": "Site 2"
+            },
+            {
+              "displayValue": "Site 3"
+            }
+          ],
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 1
+        },
+        {
+          "id": "151eb1b4-288b-4942-9b5e-f9a5e3c8202a",
+          "displayValue": "Bad",
+          "siteMap": [
+            {
+              "displayValue": "Site 4"
+            },
+            {
+              "displayValue": "Site 5"
+            },
+            {
+              "displayValue": "Site 1"
+            },
+            {
+              "displayValue": "Site 2"
+            },
+            {
+              "displayValue": "Site 3"
+            },
+            {
+              "displayValue": "Site 4"
+            },
+            {
+              "displayValue": "Site 5"
+            },
+            {
+              "displayValue": "Site 1"
+            },
+            {
+              "displayValue": "Site 2"
+            },
+            {
+              "displayValue": "Site 3"
+            },
+            {
+              "displayValue": "Site 4"
+            },
+            {
+              "displayValue": "Site 5"
+            },
+            {
+              "displayValue": "Site 1"
+            },
+            {
+              "displayValue": "Site 2"
+            },
+            {
+              "displayValue": "Site 3"
+            },
+            {
+              "displayValue": "Site 4"
+            },
+            {
+              "displayValue": "Site 5"
+            },
+            {
+              "displayValue": "Site 1"
+            },
+            {
+              "displayValue": "Site 2"
+            },
+            {
+              "displayValue": "Site 3"
+            }
+          ],
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2
+        },
+        {
+          "id": "9fd88b5a-0860-4d8a-83a2-edd741e6605b",
+          "displayValue": "Ok",
+          "siteMap": [
+            {
+              "displayValue": "Site 4"
+            },
+            {
+              "displayValue": "Site 5"
+            },
+            {
+              "displayValue": "Site 1"
+            },
+            {
+              "displayValue": "Site 2"
+            },
+            {
+              "displayValue": "Site 3"
+            },
+            {
+              "displayValue": "Site 4"
+            },
+            {
+              "displayValue": "Site 5"
+            },
+            {
+              "displayValue": "Site 1"
+            },
+            {
+              "displayValue": "Site 2"
+            },
+            {
+              "displayValue": "Site 3"
+            },
+            {
+              "displayValue": "Site 4"
+            },
+            {
+              "displayValue": "Site 5"
+            },
+            {
+              "displayValue": "Site 1"
+            },
+            {
+              "displayValue": "Site 2"
+            },
+            {
+              "displayValue": "Site 3"
+            },
+            {
+              "displayValue": "Site 4"
+            },
+            {
+              "displayValue": "Site 5"
+            },
+            {
+              "displayValue": "Site 1"
+            },
+            {
+              "displayValue": "Site 2"
+            },
+            {
+              "displayValue": "Site 3"
+            }
+          ],
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 3
+        }
+      ],
+      "idIndex": null,
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "SystemHealth",
+      "dirty": false,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": true,
+      "disableMeta": false,
+      "disableChangesApi": true,
+      "disableDeltaChangesApi": true,
+      "autoupdate": false,
+      "serializableIndices": true,
+      "disableFreeze": true,
+      "ttl": null,
+      "maxId": 3,
+      "DynamicViews": [],
+      "events": {
+        "insert": [],
+        "update": [],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [null],
+        "warning": [null]
+      },
+      "changes": [],
+      "dirtyIds": [],
+      "isIncremental": false
+    },
+    {
+      "name": "Ppm",
+      "data": [
+        {
+          "id": "1bcc39b8-8c3f-4d8a-b6dd-ebd4a30db69e",
+          "displayValue": -512,
+          "sensor": {
+            "displayValue": "C4351"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 1
+        },
+        {
+          "id": "b4872dbc-902d-4904-9e7b-4d070ae8e81c",
+          "displayValue": -68,
+          "sensor": {
+            "displayValue": "C641"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2
+        },
+        {
+          "id": "757b7c9f-4383-4766-9188-a98f531bbf34",
+          "displayValue": -814,
+          "sensor": {
+            "displayValue": "C6990"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 3
+        },
+        {
+          "id": "5bd4d6ad-00e5-495e-ac4f-bfbff88a5dfb",
+          "displayValue": -54,
+          "sensor": {
+            "displayValue": "C8172"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 4
+        },
+        {
+          "id": "2d05aa9f-1cae-418b-99e3-eb8dd3db6058",
+          "displayValue": 803,
+          "sensor": {
+            "displayValue": "A03"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 5
+        },
+        {
+          "id": "0d98cc89-6ef6-4692-ae1e-1ba5f3d9dfeb",
+          "displayValue": 785,
+          "sensor": {
+            "displayValue": "A5279"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 6
+        },
+        {
+          "id": "edd90ca6-1e58-4a0a-9d6e-bda0f49b711c",
+          "displayValue": -849,
+          "sensor": {
+            "displayValue": "B1001"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 7
+        },
+        {
+          "id": "95df1193-ee76-4740-83ac-12dd1ea0e191",
+          "displayValue": -972,
+          "sensor": {
+            "displayValue": "B35"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 8
+        },
+        {
+          "id": "57ce6c50-f717-4443-b1b9-03ac7da1891d",
+          "displayValue": -605,
+          "sensor": {
+            "displayValue": "B40"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 9
+        },
+        {
+          "id": "10a70724-fb32-4c2c-ba8b-fa247df0bf98",
+          "displayValue": -197,
+          "sensor": {
+            "displayValue": "B9719"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 10
+        },
+        {
+          "id": "4411c71a-4273-4160-8875-565ac8027d87",
+          "displayValue": 574,
+          "sensor": {
+            "displayValue": "C4351"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 11
+        },
+        {
+          "id": "db10ec95-9d3f-4882-a1be-311633586996",
+          "displayValue": -446,
+          "sensor": {
+            "displayValue": "C641"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 12
+        },
+        {
+          "id": "3f190943-cdab-46db-98be-e413d253c401",
+          "displayValue": 888,
+          "sensor": {
+            "displayValue": "C6990"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 13
+        },
+        {
+          "id": "fc9fcacc-ec9e-4ba1-9f6f-0646b1e4c9c7",
+          "displayValue": -606,
+          "sensor": {
+            "displayValue": "C8172"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 14
+        },
+        {
+          "id": "7aa56ea2-8642-4b55-84a2-b7e851a26bf2",
+          "displayValue": -236,
+          "sensor": {
+            "displayValue": "A03"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 15
+        },
+        {
+          "id": "af546e21-3bc1-466f-8da9-8e9011088150",
+          "displayValue": -260,
+          "sensor": {
+            "displayValue": "A5279"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 16
+        },
+        {
+          "id": "a55ef0f7-ef45-4403-9232-6b754639844c",
+          "displayValue": 761,
+          "sensor": {
+            "displayValue": "B1001"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 17
+        },
+        {
+          "id": "2fd4a2f9-b777-4128-9d87-52aaaed198da",
+          "displayValue": 170,
+          "sensor": {
+            "displayValue": "B35"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 18
+        },
+        {
+          "id": "e2c9efe3-4599-4523-a14b-53cb3c4e5137",
+          "displayValue": 139,
+          "sensor": {
+            "displayValue": "B40"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 19
+        },
+        {
+          "id": "99356908-b614-4320-958a-c8af188e4a2a",
+          "displayValue": 758,
+          "sensor": {
+            "displayValue": "B9719"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 20
+        },
+        {
+          "id": "ccdc0716-8115-41f4-8af1-ddb3b49b7dd0",
+          "displayValue": -479,
+          "sensor": {
+            "displayValue": "C4351"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 21
+        },
+        {
+          "id": "1d2084d3-978d-4741-9624-41390d389af1",
+          "displayValue": 48,
+          "sensor": {
+            "displayValue": "C641"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 22
+        },
+        {
+          "id": "da3a25c3-806a-48ee-b883-7bed1fa00764",
+          "displayValue": -670,
+          "sensor": {
+            "displayValue": "C6990"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 23
+        },
+        {
+          "id": "5f640b26-5dd8-413c-bd43-3899e483496f",
+          "displayValue": 565,
+          "sensor": {
+            "displayValue": "C8172"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 24
+        },
+        {
+          "id": "c90a3c3e-536d-4d91-a495-87c1bbbf5430",
+          "displayValue": 527,
+          "sensor": {
+            "displayValue": "A03"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 25
+        },
+        {
+          "id": "5d96f032-4147-473f-a409-a259df76cc63",
+          "displayValue": 635,
+          "sensor": {
+            "displayValue": "A5279"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 26
+        },
+        {
+          "id": "ed4b201c-96b6-439c-8110-d93ce68f4a8f",
+          "displayValue": -188,
+          "sensor": {
+            "displayValue": "B1001"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 27
+        },
+        {
+          "id": "82835419-17b0-43d9-b83f-0321e304bde9",
+          "displayValue": -264,
+          "sensor": {
+            "displayValue": "B35"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 28
+        },
+        {
+          "id": "fd22d9c5-9151-4d41-873b-cc535c979215",
+          "displayValue": 459,
+          "sensor": {
+            "displayValue": "B40"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 29
+        },
+        {
+          "id": "aa9ed6c6-dd95-4aeb-8984-8cc28106926e",
+          "displayValue": 911,
+          "sensor": {
+            "displayValue": "B9719"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 30
+        },
+        {
+          "id": "1cd256e6-f13b-4cee-9d88-5a5625e168b6",
+          "displayValue": 278,
+          "sensor": {
+            "displayValue": "C4351"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 31
+        },
+        {
+          "id": "8abbdcf6-95c5-4985-9d26-e6e54789c750",
+          "displayValue": -724,
+          "sensor": {
+            "displayValue": "C641"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 32
+        },
+        {
+          "id": "35546fca-78dd-45c8-8780-11a97f117618",
+          "displayValue": -133,
+          "sensor": {
+            "displayValue": "C6990"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 33
+        },
+        {
+          "id": "b0d73df2-73f3-4c5e-8cae-bcc65f39c4f4",
+          "displayValue": 737,
+          "sensor": {
+            "displayValue": "C8172"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 34
+        },
+        {
+          "id": "3f79a0cc-6ba6-4ea0-9612-47edf27629c5",
+          "displayValue": 100,
+          "sensor": {
+            "displayValue": "A03"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 35
+        },
+        {
+          "id": "f3fd4945-cdbb-465d-94ca-b298184828b6",
+          "displayValue": -941,
+          "sensor": {
+            "displayValue": "A5279"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 36
+        },
+        {
+          "id": "de838467-43af-4b1f-9b9f-c97bc0fd0f85",
+          "displayValue": 218,
+          "sensor": {
+            "displayValue": "B1001"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 37
+        },
+        {
+          "id": "3dee454e-8345-4418-8646-54d64bb41991",
+          "displayValue": -164,
+          "sensor": {
+            "displayValue": "B35"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 38
+        },
+        {
+          "id": "d736ce8d-90a0-4ce3-ba9d-08a6ea1ef96e",
+          "displayValue": -747,
+          "sensor": {
+            "displayValue": "B40"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 39
+        },
+        {
+          "id": "21f22a0f-fbf9-424b-815e-8a66b3386616",
+          "displayValue": 900,
+          "sensor": {
+            "displayValue": "B9719"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 40
+        },
+        {
+          "id": "7d0eb0ad-856c-4ddc-8cdc-e938da439d63",
+          "displayValue": -526,
+          "sensor": {
+            "displayValue": "C4351"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 41
+        },
+        {
+          "id": "ef12b39d-fba9-41de-b643-536dd1d2e7dc",
+          "displayValue": -431,
+          "sensor": {
+            "displayValue": "C641"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 42
+        },
+        {
+          "id": "6a962ff6-5517-4df4-b863-17e29d2264f1",
+          "displayValue": -139,
+          "sensor": {
+            "displayValue": "C6990"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 43
+        },
+        {
+          "id": "99d18c3c-6074-4d5a-9ed5-b3527e798d36",
+          "displayValue": -29,
+          "sensor": {
+            "displayValue": "C8172"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 44
+        },
+        {
+          "id": "055bb018-0836-4b8e-a72b-6566a609f069",
+          "displayValue": -405,
+          "sensor": {
+            "displayValue": "A03"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 45
+        },
+        {
+          "id": "9d1cf6ff-30fa-44c1-b52e-ddef89c25496",
+          "displayValue": -321,
+          "sensor": {
+            "displayValue": "A5279"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 46
+        },
+        {
+          "id": "2cc17c64-bee0-441f-baea-d2984f4926ee",
+          "displayValue": -350,
+          "sensor": {
+            "displayValue": "B1001"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 47
+        },
+        {
+          "id": "b8a49dc6-67ac-476c-9579-59bc73cce2e5",
+          "displayValue": 453,
+          "sensor": {
+            "displayValue": "B35"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 48
+        },
+        {
+          "id": "b26383f5-c9a9-418d-9b49-e4e8f7a202d3",
+          "displayValue": 499,
+          "sensor": {
+            "displayValue": "B40"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 49
+        },
+        {
+          "id": "f66a19e7-299c-4a3a-9820-72b8eddc36fe",
+          "displayValue": -978,
+          "sensor": {
+            "displayValue": "B9719"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 50
+        }
+      ],
+      "idIndex": null,
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "Ppm",
+      "dirty": false,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": true,
+      "disableMeta": false,
+      "disableChangesApi": true,
+      "disableDeltaChangesApi": true,
+      "autoupdate": false,
+      "serializableIndices": true,
+      "disableFreeze": true,
+      "ttl": null,
+      "maxId": 50,
+      "DynamicViews": [],
+      "events": {
+        "insert": [],
+        "update": [],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [null],
+        "warning": [null]
+      },
+      "changes": [],
+      "dirtyIds": [],
+      "isIncremental": false
+    },
+    {
+      "name": "EventLength",
+      "data": [
+        {
+          "id": "d37e908c-e86a-4db9-a8f3-aeb9487914e2",
+          "displayValue": 74,
+          "event": {
+            "displayValue": "087f404f-341d-497f-9d4f-3d9e4ea3cf2f"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 1
+        },
+        {
+          "id": "7d16c8e4-3e1d-43ac-9add-2c74ab067fe8",
+          "displayValue": 198,
+          "event": {
+            "displayValue": "ed13225b-f7b7-4c50-89aa-cf1219e4c7a5"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 2
+        },
+        {
+          "id": "27e3fd91-1b0d-48d2-a280-3647b2aeab74",
+          "displayValue": 197,
+          "event": {
+            "displayValue": "0344bae1-28f5-4580-8804-a5fd840edc5d"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 3
+        },
+        {
+          "id": "be10442b-513a-4863-813a-08d848381f4c",
+          "displayValue": 370,
+          "event": {
+            "displayValue": "663e20d1-aa60-446e-9326-e793fc38bff8"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 4
+        },
+        {
+          "id": "71f42f4d-8a1b-46d2-8e48-3503dd900c74",
+          "displayValue": 488,
+          "event": {
+            "displayValue": "4ff01c5c-3217-40c4-a55d-852cb13c9c1e"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 5
+        },
+        {
+          "id": "fc36d05c-8c32-47a6-874b-8eb46d4e39a2",
+          "displayValue": 411,
+          "event": {
+            "displayValue": "79ad1a88-c508-4ed7-91ef-f8d69cf6aecb"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 6
+        },
+        {
+          "id": "bc5ce408-05a7-43a8-9da4-27bf21500eb2",
+          "displayValue": 336,
+          "event": {
+            "displayValue": "aa6fff7e-2ad7-4764-95d3-906500223be4"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 7
+        },
+        {
+          "id": "a5e4dc01-0f91-416d-b3c3-618f217b9d0d",
+          "displayValue": 388,
+          "event": {
+            "displayValue": "d5b5cc45-bbf3-41aa-af5d-3fcba09ad839"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 8
+        },
+        {
+          "id": "335d74f1-9cb3-4f0f-a358-da3a6f2919aa",
+          "displayValue": 257,
+          "event": {
+            "displayValue": "e70916af-d2a6-462e-a03a-cd1532dd2f7e"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 9
+        },
+        {
+          "id": "075e5cff-c852-42be-a386-bd760108752c",
+          "displayValue": 435,
+          "event": {
+            "displayValue": "1b0991df-05ee-49c6-8957-37222b7fa09d"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 10
+        },
+        {
+          "id": "18b0ab87-535e-4e58-8911-04b74996049c",
+          "displayValue": 21,
+          "event": {
+            "displayValue": "c993e8f1-b986-466b-91f8-0cf499979496"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 11
+        },
+        {
+          "id": "d5416651-b165-4625-aaec-44b6b4972279",
+          "displayValue": 131,
+          "event": {
+            "displayValue": "3c9cb941-3d78-4179-8b15-9325f40f849e"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 12
+        },
+        {
+          "id": "ee7e8fd8-fc7a-4376-a195-7b2c746ba9c7",
+          "displayValue": 413,
+          "event": {
+            "displayValue": "696bae28-05f2-45fc-83b6-dcfd002df294"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 13
+        },
+        {
+          "id": "561c2f0d-b7da-4169-b6fa-691158b7b7ba",
+          "displayValue": 159,
+          "event": {
+            "displayValue": "13954f80-5abb-443c-884a-cf582bd06ac5"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 14
+        },
+        {
+          "id": "72f2e852-e7a1-4346-91e5-59dd4a3a0ef7",
+          "displayValue": 59,
+          "event": {
+            "displayValue": "70e21f54-3398-4a8b-802b-59bc8b4d53ef"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 15
+        },
+        {
+          "id": "27ed8c7a-aba4-40c2-9dac-162d38aad20d",
+          "displayValue": 381,
+          "event": {
+            "displayValue": "df2802b5-8606-4b02-9ffb-00c54f9e46dc"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 16
+        },
+        {
+          "id": "7b22b5f7-4eb3-4a3f-8b87-d0949461b8c4",
+          "displayValue": 474,
+          "event": {
+            "displayValue": "0d7faada-f3ff-44fc-b62c-0304bc64cd92"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 17
+        },
+        {
+          "id": "24c77ab3-5c20-44fa-826c-f138b166aa39",
+          "displayValue": 298,
+          "event": {
+            "displayValue": "ae7a8bf6-0145-43d6-adc3-686d7bd7a46c"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 18
+        },
+        {
+          "id": "40f73bbc-10b7-474c-b7a4-df32f096ccd0",
+          "displayValue": 260,
+          "event": {
+            "displayValue": "cd233fed-12a9-4335-a66d-ecca4457c789"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 19
+        },
+        {
+          "id": "1ad9a0f5-b994-412c-b8f2-f131399b0c66",
+          "displayValue": 416,
+          "event": {
+            "displayValue": "3a0f86b6-b456-48f3-83e2-beb5af832055"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 20
+        },
+        {
+          "id": "f44463de-4384-44e3-b4cc-3f4aa97adbc1",
+          "displayValue": 60,
+          "event": {
+            "displayValue": "560c5fca-a029-4fbd-88e4-1504bdf79e60"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 21
+        },
+        {
+          "id": "b3d6b91c-5170-44aa-90e2-7e0d902625eb",
+          "displayValue": 334,
+          "event": {
+            "displayValue": "e2b27710-9053-4d55-ada6-0e0d8f3fa779"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 22
+        },
+        {
+          "id": "ba825bca-df7e-4d86-b699-3b78b62f62d7",
+          "displayValue": 113,
+          "event": {
+            "displayValue": "a77b94c6-8cca-421d-a677-fb138c4cdded"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 23
+        },
+        {
+          "id": "672ce7f2-79e2-4cf1-b82d-5f8f17e53a2a",
+          "displayValue": 360,
+          "event": {
+            "displayValue": "842a5b2e-d97f-458c-8d0a-adeee88e66c2"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 24
+        },
+        {
+          "id": "805c608b-63ab-46b4-896a-66d3d3d3f211",
+          "displayValue": 464,
+          "event": {
+            "displayValue": "4692a716-88fc-464a-8b57-7f6ebdc7e644"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 25
+        },
+        {
+          "id": "b2918280-f385-4dae-8252-8517875a8c13",
+          "displayValue": 420,
+          "event": {
+            "displayValue": "dd363c08-742d-484f-b64f-709b04eed131"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 26
+        },
+        {
+          "id": "299f056f-2c57-4789-b8ce-77d41086afae",
+          "displayValue": 455,
+          "event": {
+            "displayValue": "3365e150-3c81-49c8-ab4b-03634150aad7"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 27
+        },
+        {
+          "id": "78ea26ba-76aa-4490-93c3-cafb8c8be3d1",
+          "displayValue": 288,
+          "event": {
+            "displayValue": "151371d0-08d8-4507-88f8-9c942a735255"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 28
+        },
+        {
+          "id": "347eea2d-520e-49d8-98ed-5ce37be046d4",
+          "displayValue": 26,
+          "event": {
+            "displayValue": "828add02-7fe6-43cb-8b87-8227773150e1"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 29
+        },
+        {
+          "id": "97ec0dd6-2a22-472a-9ef6-f444692f95fd",
+          "displayValue": 444,
+          "event": {
+            "displayValue": "102b6b9a-e21f-4801-be44-1aa9e003397b"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 30
+        },
+        {
+          "id": "649a8208-a1f1-460f-9bcd-270bf5a85765",
+          "displayValue": 189,
+          "event": {
+            "displayValue": "aa22c91b-d983-43c2-ab8e-b18179785d3b"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 31
+        },
+        {
+          "id": "30e8df98-4ba3-43e4-9e30-91443a8c2756",
+          "displayValue": 467,
+          "event": {
+            "displayValue": "d8b22da3-cd96-4441-b026-bd7733656c33"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 32
+        },
+        {
+          "id": "ce94ed98-a30e-46a6-a330-a112408c3562",
+          "displayValue": 27,
+          "event": {
+            "displayValue": "c4e95420-3faf-47cf-94ea-f08b3720438b"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 33
+        },
+        {
+          "id": "ca846020-e002-42d4-bdad-4a8922c5cc26",
+          "displayValue": 141,
+          "event": {
+            "displayValue": "383640c3-60a2-4779-9aeb-d97c34e8fde8"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 34
+        },
+        {
+          "id": "a3c10b45-1486-4b50-a3b9-5c0e8d74b261",
+          "displayValue": 410,
+          "event": {
+            "displayValue": "b5b6bedd-fe6e-44c6-826a-50fb9b629a9c"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 35
+        },
+        {
+          "id": "ee1749ee-681d-443a-9d4f-4cbfa6d29f26",
+          "displayValue": 209,
+          "event": {
+            "displayValue": "9880933b-909f-4114-b884-090c6361fba7"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 36
+        },
+        {
+          "id": "95ba9f20-8e0f-449e-9000-180604736217",
+          "displayValue": 27,
+          "event": {
+            "displayValue": "883d803e-658e-4035-904d-c1db6b9b959b"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 37
+        },
+        {
+          "id": "a04a769a-df3d-412b-8032-9f16aa174bd3",
+          "displayValue": 233,
+          "event": {
+            "displayValue": "1c0de53c-3932-44d4-a601-771a24e02d68"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 38
+        },
+        {
+          "id": "a75972df-516d-489b-9f57-0c9c78a61698",
+          "displayValue": 418,
+          "event": {
+            "displayValue": "a006f015-9f8f-4c68-9994-b9dc3b0de92d"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 39
+        },
+        {
+          "id": "6ec9a70f-dad8-4eb6-933b-308d19098fff",
+          "displayValue": 95,
+          "event": {
+            "displayValue": "65d4dda2-c077-4b3d-8a99-480dede395f3"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 40
+        },
+        {
+          "id": "e8360abd-1eb4-42ad-ab58-fb4a6307d7ca",
+          "displayValue": 201,
+          "event": {
+            "displayValue": "b2ba4abc-fa7a-4a7b-b615-bfb51fa3cbb9"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 41
+        },
+        {
+          "id": "661baf69-3f2a-469c-a0a1-409f3ca3b862",
+          "displayValue": 147,
+          "event": {
+            "displayValue": "a19aaffa-ad1d-4bdc-835c-3b64038c8248"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 42
+        },
+        {
+          "id": "b6d7957f-d31d-4f5b-9640-66ac062687d4",
+          "displayValue": 418,
+          "event": {
+            "displayValue": "e8c4fec8-a2a0-4e4f-a0d7-54ee038c3f80"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 43
+        },
+        {
+          "id": "746e979e-ea6f-4c19-b189-8381ae1b10e2",
+          "displayValue": 211,
+          "event": {
+            "displayValue": "dd75618b-fd0b-4fde-8cdf-34c8c095d9bd"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 44
+        },
+        {
+          "id": "54fe4c88-ebc6-4235-8f50-7f217d7634d7",
+          "displayValue": 495,
+          "event": {
+            "displayValue": "90d37977-b8df-4f9e-bb4c-15b5428bbdd9"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 45
+        },
+        {
+          "id": "9f5a80c5-9aa1-4631-9890-3095abc7792d",
+          "displayValue": 155,
+          "event": {
+            "displayValue": "95e14c7f-5b48-4028-b918-72a982a4a292"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 46
+        },
+        {
+          "id": "64147a2f-b70d-400a-a0aa-b853b45e7f1f",
+          "displayValue": 222,
+          "event": {
+            "displayValue": "e58b0d9e-2054-4afc-9f0b-42746cab93be"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 47
+        },
+        {
+          "id": "8c0a40ed-da43-4a42-b96f-4f7d3eea3a66",
+          "displayValue": 317,
+          "event": {
+            "displayValue": "3c0ad93e-98d2-493e-8d92-852ec54cdfe7"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 48
+        },
+        {
+          "id": "1194287e-2aa9-466e-98ee-e7ece4e2c33f",
+          "displayValue": 176,
+          "event": {
+            "displayValue": "efa9cedd-09f9-4c42-be66-72de48b2a9c5"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 49
+        },
+        {
+          "id": "f5728522-9bc9-4f27-b755-24df73c8b8a0",
+          "displayValue": 416,
+          "event": {
+            "displayValue": "68d0eb67-6663-4e15-adc6-400cd4914fba"
+          },
+          "meta": {
+            "revision": 0,
+            "created": 1629150459879,
+            "version": 0
+          },
+          "$loki": 50
+        }
+      ],
+      "idIndex": null,
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "EventLength",
+      "dirty": false,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": true,
+      "disableMeta": false,
+      "disableChangesApi": true,
+      "disableDeltaChangesApi": true,
+      "autoupdate": false,
+      "serializableIndices": true,
+      "disableFreeze": true,
+      "ttl": null,
+      "maxId": 50,
+      "DynamicViews": [],
+      "events": {
+        "insert": [],
+        "update": [],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [null],
+        "warning": [null]
+      },
+      "changes": [],
+      "dirtyIds": [],
+      "isIncremental": false
+    }
+  ],
+  "databaseVersion": 1.5,
+  "engineVersion": 1.5,
+  "autosave": true,
+  "autosaveInterval": 4000,
+  "autosaveHandle": null,
+  "throttledSaves": true,
+  "options": {
+    "adapter": null,
+    "autoload": true,
+    "autosave": true,
+    "autosaveInterval": 4000,
+    "serializationMethod": "normal",
+    "destructureDelimiter": "$<\n",
+    "recursiveWait": true,
+    "recursiveWaitLimit": false,
+    "recursiveWaitLimitDuration": 2000,
+    "started": 1629150459820
+  },
+  "persistenceMethod": "adapter",
+  "persistenceAdapter": null,
+  "verbose": false,
+  "events": {
+    "init": [null],
+    "loaded": [],
+    "flushChanges": [],
+    "close": [],
+    "changes": [],
+    "warning": []
+  },
+  "ENV": "NODEJS",
+  "isIncremental": false
+}

@@ -1,0 +1,12 @@
+.read-only-text {
+  color: var(--on-surface-color);
+  line-height: 1.5;
+  font-weight: 200;
+  height: 100%;
+  overflow: auto;
+
+  &.fullscreen {
+    padding: var(--pm-M);
+    font-size: var(--tx-1XL);
+  }
+}

@@ -1,0 +1,132 @@
+@import 'sizes';
+
+/*
+ * Variables
+ */
+
+// TODO: our sizes should one day be generated from a lambda similar to palette manager.
+:root {
+  /* Sizes */
+  --size-size0: 0rem;
+  --size-size1: 0.09rem;
+  --size-size2: 0.146rem;
+  --size-size3: 0.191rem;
+  --size-size4: 0.236rem;
+  --size-size5: 0.309rem;
+  --size-size6: 0.382rem;
+  --size-size7: 0.5rem;
+  --size-size8: 0.618rem;
+  --size-size9: 0.809rem;
+  --size-size10: 1rem;
+  --size-size11: 1.309rem;
+  --size-size12: 1.618rem;
+  --size-size13: 2.118rem;
+  --size-size14: 2.618rem;
+  --size-size15: 3.427rem;
+  --size-size16: 4.236rem;
+  --size-size17: 5.545rem;
+  --size-size18: 6.854rem;
+  --size-size19: 8.971rem;
+  --size-size20: 11.089rem;
+  --size-size21: 14.515rem;
+  --size-size22: 17.942rem;
+  --size-size23: 23.485rem;
+  --size-size24: 29.03rem;
+  --size-size25: 37.999rem;
+
+  /* Text Sizes */
+  --size-text2XS: var(--size-size7);
+  --size-textXS: var(--size-size8);
+  --size-textS: var(--size-size9);
+  --size-textM: var(--size-size10);
+  --size-textL: var(--size-size11);
+  --size-textXL: var(--size-size12);
+  --size-text2XL: var(--size-size13);
+  --size-text3XL: var(--size-size14);
+  --size-text4XL: var(--size-size15);
+
+  /* Full Sizes */
+  --size-pageWidth: 100vw;
+  --size-pageHeight: 100vh;
+
+  // Padding/Margin
+  --pm-0: #{$pm-0};
+  --pm-7XS: #{$pm-7XS};
+  --pm-6XS: #{$pm-6XS};
+  --pm-5XS: #{$pm-5XS};
+  --pm-4XS: #{$pm-4XS};
+  --pm-3XS: #{$pm-3XS};
+  --pm-2XS: #{$pm-2XS};
+  --pm-1XS: #{$pm-1XS};
+  --pm-S: #{$pm-S};
+  --pm-M: #{$pm-M};
+  --pm-L: #{$pm-L};
+  --pm-1XL: #{$pm-1XL};
+  --pm-2XL: #{$pm-2XL};
+  --pm-3XL: #{$pm-3XL};
+  --pm-4XL: #{$pm-4XL};
+  --pm-5XL: #{$pm-5XL};
+  --pm-6XL: #{$pm-6XL};
+  --pm-7XL: #{$pm-7XL};
+  --pm-8XL: #{$pm-8XL};
+
+  // Width/Height
+  --wh-0: #{$wh-0};
+  --wh-9XS: #{$wh-9XS};
+  --wh-8XS: #{$wh-8XS};
+  --wh-7XS: #{$wh-7XS};
+  --wh-6XS: #{$wh-6XS};
+  --wh-5XS: #{$wh-5XS};
+  --wh-4XS: #{$wh-4XS};
+  --wh-3XS: #{$wh-3XS};
+  --wh-2XS: #{$wh-2XS};
+  --wh-1XS: #{$wh-1XS};
+  --wh-S: #{$wh-S};
+  --wh-M: #{$wh-M};
+  --wh-L: #{$wh-L};
+  --wh-1XL: #{$wh-1XL};
+  --wh-2XL: #{$wh-2XL};
+  --wh-3XL: #{$wh-3XL};
+  --wh-4XL: #{$wh-4XL};
+  --wh-5XL: #{$wh-5XL};
+  --wh-6XL: #{$wh-6XL};
+  --wh-7XL: #{$wh-7XL};
+  --wh-8XL: #{$wh-8XL};
+  --wh-9XL: #{$wh-9XL};
+  --wh-10XL: #{$wh-10XL};
+
+  // Text sizes
+  --tx-0: #{$tx-0};
+  --tx-7XS: #{$tx-7XS};
+  --tx-6XS: #{$tx-6XS};
+  --tx-5XS: #{$tx-5XS};
+  --tx-4XS: #{$tx-4XS};
+  --tx-3XS: #{$tx-3XS};
+  --tx-2XS: #{$tx-2XS};
+  --tx-1XS: #{$tx-1XS};
+  --tx-S: #{$tx-S};
+  --tx-M: #{$tx-M};
+  --tx-L: #{$tx-L};
+  --tx-1XL: #{$tx-1XL};
+  --tx-2XL: #{$tx-2XL};
+  --tx-3XL: #{$tx-3XL};
+  --tx-4XL: #{$tx-4XL};
+  --tx-5XL: #{$tx-5XL};
+  --tx-6XL: #{$tx-6XL};
+  --tx-7XL: #{$tx-7XL};
+
+  //vizualization
+  --card-viz-height-S: var(--wh-4XL);
+  --card-viz-height-M: var(--wh-5XL);
+  --card-viz-height-L: var(--wh-6XL);
+  --card-viz-height-XL: var(--wh-7XL);
+
+  --card-width-M: calc(var(--wh-8XL) + var(--pm-L) + var(--pm-L));
+  --card-width-L: calc(2 * var(--card-width-M));
+
+  //Navigation bar
+  --left-nav-bar-width: var(--wh-6XL);
+
+  //Preview Panel
+  --preview-handled-height: var(--wh-M);
+}

@@ -1,0 +1,26 @@
+.ks-svg-icon {
+  &.extra-small {
+    width: var(--tx-S);
+    height: var(--tx-S);
+  }
+
+  &.small {
+    width: var(--tx-M);
+    height: var(--tx-M);
+  }
+
+  &.medium {
+    width: var(--tx-L);
+    height: var(--tx-L);
+  }
+
+  &.large {
+    width: var(--tx-1XL);
+    height: var(--tx-1XL);
+  }
+
+  &.extra-large {
+    width: var(--tx-2XL);
+    height: var(--tx-2XL);
+  }
+}

@@ -1,0 +1,79 @@
+.dataview-control-section {
+  display: flex;
+  align-items: center;
+  height: var(--wh-M);
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: var(--card-border-radius);
+  border: var(--card-border);
+
+  .MuiPaper-root {
+    background: var(--surface-color);
+    color: var(--on-surface-color);
+  }
+
+  h1 {
+    font-size: var(--tx-1XL);
+    font-weight: bold;
+    margin-top: var(--pm-0);
+    margin-bottom: var(--pm-0);
+  }
+
+  h2 {
+    font-size: var(--tx-L);
+    margin-top: var(--pm-M);
+    margin-bottom: var(--pm-2XS);
+  }
+
+  .results {
+    font-size: var(--tx-M);
+  }
+
+  .options {
+    justify-content: center;
+    display: flex;
+  }
+
+  .main-container,
+  .actions {
+    overflow: hidden;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    & > * {
+      margin-left: 10px;
+    }
+
+    .MuiGrid-container {
+      width: auto;
+    }
+  }
+
+  .typography-ellipsis {
+    flex-wrap: initial;
+
+    .d-flex {
+      .with-ellipsis {
+        max-width: fit-content;
+      }
+    }
+  }
+
+  .action-section {
+    button {
+      margin-left: var(--pm-1XL);
+    }
+
+    .btn-actions {
+      height: var(--wh-1XS);
+      margin-top: var(--pm-4XS);
+      padding: var(--pm-1XS) var(--pm-6XS);
+      width: var(--wh-1XS);
+    }
+  }
+}

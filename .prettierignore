@@ -1,0 +1,11 @@
+# Add files here to ignore them from prettier formatting
+
+# Compiled output
+/dist
+/coverage
+
+# Nx
+workspace.json
+
+# Semantic Release
+CHANGELOG.md

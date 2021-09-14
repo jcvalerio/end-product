@@ -1,0 +1,143 @@
+.modern-dark {
+  //Color variables
+  --application-background: radial-gradient(circle at top right, var(--GR1-dark-hsla), var(--GR2-dark-hsla));
+
+  --on-application-background: var(--modernOnSurfaceAlt-dark-hsla);
+
+  --primary-color: var(--A1-hsla);
+
+  --primary-color-variant: var(--A1A-dark-hsla);
+
+  --on-primary-color-variant: var(--onA1A-dark-hsla);
+
+  --secondary-color: var(--A2-dark-hsla);
+
+  --secondary-color-hsl: var(--A2-dark-hsl);
+
+  --on-secondary-color: var(--onA2-dark-hsla);
+
+  --secondary-color-variant: var(--A2A-dark-hsla);
+
+  --on-secondary-color-variant: var(--onA2A-dark-hsla);
+
+  --alt-light-color: var(--grey_dark_0x);
+
+  --alt-mid-color: var(--grey_mid_0x);
+
+  --alt-dark-color: var(--grey_light_3x);
+
+  --on-primary-color: var(--onA1-dark-hsla);
+
+  --on-surface-color: var(--modernOnSurfaceAlt-dark-hsla);
+
+  --on-surface-color-hsl: var(--modernOnSurfaceAlt-dark-hsl);
+
+  --row-even: var(--modernRowEven-dark-hsla);
+
+  --on-row-even: var(--modernOnRowEven-dark-hsla);
+
+  --row-odd: var(--modernRowOdd-dark-hsla);
+
+  --on-row-odd: var(--modernOnRowOdd-dark-hsla);
+
+  --surface-color: hsla(var(--modernSurface-dark-hsl), 0.8);
+
+  --surface-color-medium: hsla(var(--modernSurface-dark-hsl), 0.4);
+
+  --transparent: transparent;
+
+  //Shadow variables
+  --shadow-button: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+
+  --shadow-button-hover: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+
+  --shadow-grid-section: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+  // Elements variables
+  --nav-top-border-bottom-width: var(--wh-0);
+  --nav-top-bg-color: var(--neutral-black-hsla);
+  --nav-top-border-bottom-color: none;
+  --nav-top-shadow: var(--shadow-elevation-mid-key);
+  --nav-left-bg-color: var(--nav-top-bg-color);
+  --on-nav-top-bg-color: var(--neutral-white-hsla);
+  --top-nav-bar-button-hover: var(--primary-color-variant);
+  --left-nav-bar-button-hover: var(--primary-color-variant);
+  --on-top-nav-bar-button-hover: var(--on-primary-color-variant);
+  --on-left-nav-bar-button-hover: var(--on-primary-color-variant);
+  --nav-bar-button-selected: var(--primary-color);
+  --on-nav-bar-button-selected: var(--on-primary-color);
+  --page-intro-bg-color: hsla(var(--modernSurface-dark-hsl), 0.4);
+  --card-bg-color: var(--transparent);
+  --card-shadow: var(--shadow-elevation-mid-ambient);
+  --card-content-bg-color: var(--surface-color);
+  --card-content-bg-color-medium: var(--surface-color-medium);
+  --card-header-border: none;
+  --card-header-border-width: none;
+  --page-intro-shadow: none;
+  --card-content-shadow: none;
+  --card-border-radius: none;
+  --h3-title-color: var(--on-surface-color);
+  --input-error-color: var(--flatAlert-dark-hsla);
+  --menu-bg-color: hsla(var(--modernSurface-dark-hsl), 0.94);
+  --table-cell-border-right: var(--pm-7XS) solid var(--neutral-grey-9-hsla);
+  --table-header: var(--neutral-black-hsla);
+  --table-header-text: var(--neutral-white-hsla);
+  --table-chip-background: hsla(var(--flatOnSurface-dark-hsl), 0.2);
+  --table-chip-color: hsla(var(--flatOnSurface-dark-hsl));
+  --table-chip-clickable-background: var(hsla(--A2-dark-hsl), 0.2);
+  --table-chip-clickable-color: var(--A2-dark-hsla);
+  --page-intro-text-color: var(--on-surface-color);
+  --page-intro-text-color-hsl: var(--on-surface-color-hsl);
+  --summary-slot-bg-color: hsla(var(--modernSurface-dark-hsl), 0.2);
+  --surface-color-opacity: hsla(var(--modernSurface-dark-hsl), 0.5);
+  --refresh-control-section-shadow: var(--card-content-shadow);
+  --outlined-input: var(--on-surface-color);
+  --outlined-input-hover: var(--on-surface-color);
+  --outlined-input-focus: var(--on-surface-color);
+  --notification-bg-color: var(--card-content-bg-color);
+  --notification-shadow-color: var(--card-content-shadow);
+  --notification-error-color: var(--modernAlert-dark-hsla);
+  --tooltip-background: var(--modernSurface-dark-hsla);
+  --visualization-plot-row-background: hsla(var(--neutral-grey-5-hsl), 0.2);
+  --left-nav-bar-header-border-bottom: solid 1px var(--GR2-dark-hsla);
+  --left-nav-bar-header-color: var(--on-primary-color);
+  --left-nav-bar-active-item-bg: var(--GR2-dark-hsla);
+  --on-left-nav-bar-active-item-color: var(--on-application-background);
+  --left-nav-bar-shadow: none;
+  --left-nav-bar-active-item-border-left: var(--wh-7XS);
+  --left-nav-border-radius: var(--card-border-radius);
+  --category-top-filter-bg: var(--GR2-dark-hsla);
+  --on-category-top-filter-bg: var(--on-application-background);
+  --simple-list-header-background: var(--table-header);
+  --simple-list-header-color: var(--neutral-grey-6-hsla);
+  --sub-header-background: var(--surface-color);
+  --sub-header-margin: 0 auto;
+  --cart-item-bg: var(--row-odd);
+  --on-cart-item-bg: var(--on-row-odd);
+
+  --viz1: var(--viz1-dark-hsl);
+  --viz2: var(--viz2-dark-hsl);
+  --viz3: var(--viz3-dark-hsl);
+  --viz4: var(--viz4-dark-hsl);
+  --viz5: var(--viz5-dark-hsl);
+  --viz6: var(--viz6-dark-hsl);
+  --viz7: var(--viz7-dark-hsl);
+  --viz8: var(--viz8-dark-hsl);
+  --viz9: var(--viz9-dark-hsl);
+  --viz10: var(--viz10-dark-hsl);
+  --vizOther: var(--vizOther-dark-hsl);
+  --viz-shadow: var(--neutral-grey-1-hsla);
+
+  --severity1: var(--sev1-dark-hsl);
+  --severity2: var(--sev2-dark-hsl);
+  --severity3: var(--sev3-dark-hsl);
+  --severity4: var(--sev4-dark-hsl);
+  --severity5: var(--sev5-dark-hsl);
+  --bad-off: var(--sevOff-dark-hsla);
+  --good-on: var(--sevOn-dark-hsla);
+  --good-on-opacity-0: hsla(var(--sevOn-dark-hsl), 0);
+  --bad-off-opacity-0: hsla(var(--sevOff-dark-hsl), 0);
+}

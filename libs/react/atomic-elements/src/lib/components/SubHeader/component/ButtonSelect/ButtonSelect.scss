@@ -1,0 +1,31 @@
+.element-button-select {
+  .container_ {
+    padding-right: var(--pm-4XL);
+    h3 {
+      font-size: var(--tx-M);
+      color: var(--secondary-color);
+    }
+    p {
+      font-size: var(--tx-1XS);
+    }
+  }
+
+  .select-action-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+  }
+
+  .icon-outlined {
+    float: left;
+  }
+
+  .element-select-arrow {
+    position: absolute;
+    color: var(--secondary-color);
+    right: var(--wh-0);
+    top: var(--pm-6XS);
+  }
+}

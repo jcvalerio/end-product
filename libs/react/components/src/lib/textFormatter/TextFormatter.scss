@@ -1,0 +1,8 @@
+.text-formatter-root {
+  display: flex;
+  align-items: center;
+
+  .text-formatter-display-media {
+    margin-right: var(--pm-S);
+  }
+}

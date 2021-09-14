@@ -1,0 +1,46 @@
+.container-header {
+  .MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiAutocomplete-inputRoot {
+    padding: var(--pm-1XS);
+    padding-top: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+    border: none;
+    &::before {
+      border: none;
+    }
+    &::after{
+      border: none;
+    }
+    input {
+      padding-bottom: 0px;
+      top: auto;
+      position: relative;
+      color: var(--on-surface-color);
+      margin-top: var(--pm-1XS);
+    }
+  }
+
+  .MuiAutocomplete-tag, .MuiChip-root.MuiChip-sizeSmall {
+    border-radius: var(--pm-2XS);
+    margin: var(--pm-4XS) var(--pm-4XS) var(--pm-5XS) var(--pm-5XS);
+    background-color: var(--secondary-color);
+    color: var(--on-nav-top-bg-color);
+    max-width: var(--wh-4XL);
+    svg {
+      color: var(--on-nav-top-bg-color);
+      height: var(--wh-5XS);
+      width: var(--wh-5XS);
+    };
+  }
+
+  .MuiChip-deleteIconSmall{
+    width: 11px;
+    height: 11px;
+    margin-left: -10px;
+    margin-right: -1px;
+    svg {
+      height: var(--wh-5XS);
+      width: var(--wh-5XS);
+    }
+  }
+}

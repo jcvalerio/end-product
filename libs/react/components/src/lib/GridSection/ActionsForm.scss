@@ -1,0 +1,18 @@
+.actions-form-container {
+  padding-left: 0;
+  padding-right: 0;
+  min-height: unset;
+  display: flex;
+  justify-content: flex-end;
+  &.has-single-element {
+    display: block;
+    text-align: right;
+    button {
+      display: inline-block;
+    }
+  }
+  button {
+    color: var(--on-surface-color);
+    padding: 0;
+  }
+}

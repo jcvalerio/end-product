@@ -1,0 +1,65 @@
+.refresh-control {
+  h1 {
+    font-size: var(--tx-1XL);
+    font-weight: bold;
+    margin-top: var(--pm-0);
+    margin-bottom: var(--pm-0);
+  }
+
+  h2 {
+    margin-top: var(--pm-M);
+    margin-bottom: var(--pm-2XS);
+  }
+
+  .main-container {
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    .linear-progress-bar-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      .MuiSvgIcon-root {
+        color: var(--secondary-color);
+        &:hover {
+          color: var(--secondary-color-variant);
+        }
+      }
+    }
+  }
+  .actions-container {
+    position: relative;
+    display: flex;
+    align-items: center !important;
+  }
+
+  .select-action-container {
+    width: var(--wh-5XL);
+    padding-left: var(--pm-1XL);
+    padding-right: var(--pm-1XL);
+    margin-top: var(--pm-6XS);
+    position: relative;
+
+    .select-action {
+      height: var(--wh-S);
+    }
+
+    .select-action-label {
+      font-size: var(--tx-M);
+      left: auto;
+      position: absolute;
+    }
+
+    .action-tip {
+      font-size: var(--tx-1XS);
+      margin-bottom: var(--pm-3XS);
+      color: var(--on-surface-color);
+      position: inherit;
+    }
+
+    .action-button {
+      height: var(--wh-1XS);
+    }
+  }
+}

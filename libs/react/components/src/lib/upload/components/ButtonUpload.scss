@@ -1,0 +1,37 @@
+.button-upload-container {
+  display: inline-block;
+  width: inherit;
+  &__input-file {
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+  &__upload-button {
+    &--with-style {
+      background-color: var(--secondary-color);
+      color: var(--on-primary-color);
+      &:hover {
+        background: var(--secondary-color-variant);
+      }
+    }
+    &.Mui-disabled {
+      color: var(--on-primary-color);
+    }
+    .MuiButton-label {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: var(--wh-3XL);
+      white-space: nowrap;
+      display: block;
+      text-align: left;
+    }
+  }
+}
+
+.upload-container {
+  .MuiBadge-root {
+    width: inherit;
+  }
+}

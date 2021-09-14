@@ -1,0 +1,37 @@
+.chip-input {
+  .MuiChip-root {
+    transition: border-color var(--speed-medium);
+  }
+  &[class*=' severity-chips'] {
+    .MuiChip-root:first-child {
+      border: var(--pm-6XS) solid var(--sev5-light-hsla);
+    }
+
+    .MuiChip-root:nth-last-child(2) {
+      border: var(--pm-6XS) solid var(--sev1-light-hsla);
+    }
+  }
+
+  &.severity-chips-3 {
+    .MuiChip-root:nth-child(2) {
+      border: var(--pm-6XS) solid var(--sev3-light-hsla);
+    }
+  }
+
+  &.severity-chips-4,
+  &.severity-chips-5 {
+    .MuiChip-root:nth-child(2) {
+      border: var(--pm-6XS) solid var(--sev4-light-hsla);
+    }
+
+    .MuiChip-root:nth-child(3) {
+      border: var(--pm-6XS) solid var(--sev3-light-hsla);
+    }
+  }
+
+  &.severity-chips-5 {
+    .MuiChip-root:nth-child(4) {
+      border: var(--pm-6XS) solid var(--sev2-light-hsla);
+    }
+  }
+}

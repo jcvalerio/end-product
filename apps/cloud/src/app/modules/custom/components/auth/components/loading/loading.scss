@@ -1,0 +1,5 @@
+@import '../auth.styles';
+
+.loading {
+  @extend %authenticator;
+}

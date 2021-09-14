@@ -1,0 +1,48 @@
+.element-sub-header {
+  background-color: var(--sub-header-background);
+  border-top: var(--wh-9XS) solid var(--application-background);
+  display: block;
+  height: var(--wh-1XS);
+  justify-content: end;
+  padding-top: var(--pm-0);
+  padding-left: var(--pm-0);
+
+  > div.button-tooltip {
+    display: inline-table;
+  }
+
+  > button,
+  > div.button-tooltip > button {
+    margin-right: var(--pm-3XS);
+    margin-left: var(--pm-0);
+    padding: var(--pm-3XS) var(--pm-1XS) var(--pm-M);
+    color: var(--on-surface-color);
+    height: var(--wh-S);
+    border-radius: var(--pm-0);
+    box-shadow: 0 0;
+
+    &:not(:hover) {
+      background: transparent;
+    }
+
+    &.element-button-active {
+      color: var(--on-secondary-color-variant);
+      background: var(--secondary-color);
+    }
+
+    &:hover,
+    &.element-button-active {
+      padding: var(--pm-S) var(--pm-1XS);
+      .avatar,
+      h3,
+      p,
+      .element-select-arrow {
+        color: var(--on-secondary-color);
+      }
+    }
+  }
+}
+
+.app .element-sub-header.dataview {
+  margin: var(--sub-header-margin);
+}

@@ -1,0 +1,12 @@
+.kui-grid {
+  display: grid;
+  width: 100%;
+
+  &.masonry {
+    grid-auto-flow: dense;
+  }
+
+  &.grid {
+    grid-auto-flow: row;
+  }
+}

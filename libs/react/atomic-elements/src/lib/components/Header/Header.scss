@@ -1,0 +1,17 @@
+.container-nav-left {
+  .main-header {
+    box-shadow: var(--main-header-shadow);
+  }
+
+  .button-container-filter-actions {
+    box-shadow: var(--main-header-shadow);
+  }
+
+  .dataview {
+    .refresh-control-header {
+      > div {
+        padding: var(--pm-1XS);
+      }
+    }
+  }
+}

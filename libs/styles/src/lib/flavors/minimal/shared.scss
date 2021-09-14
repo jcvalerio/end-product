@@ -1,0 +1,16 @@
+/*
+ * Minimal Flavor - Shared
+ */
+
+.layout nav a:hover {
+  text-decoration: underline;
+}
+
+.text-input {
+  color: var(--foreground_principal_no_background_static_idle-color);
+
+  input {
+    padding: var(--size-size5);
+    width: 100%;
+  }
+}

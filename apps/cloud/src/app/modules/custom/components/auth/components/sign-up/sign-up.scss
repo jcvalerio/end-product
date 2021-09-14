@@ -1,0 +1,19 @@
+@import '../auth.styles';
+
+.sign-up {
+  @extend %authenticator;
+
+  .create-account,
+  .confirm {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .create-account,
+  .resend-code {
+    .link {
+      margin-left: var(--pm-2XS);
+    }
+  }
+}

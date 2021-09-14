@@ -1,0 +1,152 @@
+.glass-dark {
+  //Color variables
+  --application-background: radial-gradient(
+      circle,
+      hsla(var(--flatBackground-dark-hsl), 0.6),
+      hsla(var(--flatBackground-dark-hsl), 0.6)
+    ),
+    radial-gradient(circle at top left, hsla(var(--viz1), 1), transparent),
+    radial-gradient(circle at top right, hsla(var(--viz3), 1), transparent),
+    radial-gradient(circle at bottom right, hsla(var(--viz5), 1), transparent),
+    radial-gradient(circle at bottom left, hsla(var(--viz7), 1), transparent),
+    radial-gradient(circle, hsla(var(--flatBackground-dark-hsl), 1), hsla(var(--flatBackground-dark-hsl), 1));
+
+  --on-application-background: var(--flatOnSurface-dark-hsla);
+
+  --primary-color: var(--A1-hsla);
+
+  --primary-color-variant: var(--A1A-dark-hsla);
+
+  --on-primary-color-variant: var(--onA1A-dark-hsla);
+
+  --secondary-color: var(--A2-dark-hsla);
+
+  --secondary-color-hsl: var(--A2-dark-hsl);
+
+  --on-secondary-color: var(--onA2-dark-hsla);
+
+  --secondary-color-variant: var(--A2A-dark-hsla);
+
+  --on-secondary-color-variant: var(--onA2A-dark-hsla);
+
+  --alt-light-color: var(--grey_dark_0x);
+
+  --alt-mid-color: var(--grey_mid_0x);
+
+  --alt-dark-color: var(--grey_light_3x);
+
+  --on-primary-color: var(--onA1-dark-hsla);
+
+  --on-surface-color: var(--flatOnSurface-dark-hsla);
+
+  --on-surface-color-hsl: var(--flatOnSurface-dark-hsl);
+
+  --surface-color: hsla(var(--flatSurface-dark-hsl), 0.4);
+
+  --row-even: hsla(var(--flatRowEven-dark-hsl), 0.3);
+
+  --on-row-even: var(--flatOnRowEven-dark-hsla);
+
+  --row-odd: hsla(var(--flatRowOdd-dark-hsl), 0.3);
+
+  --on-row-odd: var(--flatOnRowOdd-dark-hsla);
+
+  --transparent: transparent;
+
+  //Shadow variables
+  --shadow-button: none;
+
+  --shadow-button-hover: none;
+
+  --shadow-grid-section: none;
+
+  // Elements variables
+  --nav-left-bg-color: var(--primary-color);
+  --nav-top-border-bottom-width: var(--pm-6XS);
+  --nav-top-bg-color: hsla(var(--flatSurface-dark-hsl), 0.3);
+  --nav-top-border-bottom-color: var(--flatBackground-dark-hsla);
+  --nav-top-shadow: none;
+  --nav-top-decoration-background: none;
+  --nav-top-decoration-border: var(--pm-7XS) solid var(--primary-color);
+  --on-nav-top-bg-color: var(--flatMainNavColorContentTextColor-dark-hsla);
+  --top-nav-bar-button-hover: none;
+  --left-nav-bar-button-hover: var(--secondary-color-variant);
+  --on-top-nav-bar-button-hover: var(--on-nav-top-bg-color);
+  --on-left-nav-bar-button-hover: var(--on-secondary-color-variant);
+  --nav-bar-button-hover: none;
+  --on-nav-bar-button-hover: var(--on-nav-top-bg-color);
+  --nav-bar-button-selected: none;
+  --on-nav-bar-button-selected: var(--on-nav-top-bg-color);
+  --page-intro-bg-color: var(--surface-color);
+  --card-bg-color: var(--surface-color);
+  --card-shadow: none;
+  --card-content-bg-color: none;
+  --card-content-bg-color-medium: none;
+  --card-header-border: solid var(--flatHorizontalLineOnCards-dark-hsla);
+  --card-header-border-width: 0 0 var(--pm-7XS) 0;
+  --card-border-radius: var(--pm-S);
+  --card-border: var(--pm-7XS) solid var(--flatMainNavColor-dark-hsla);
+  --card-content-shadow: none;
+  --page-intro-shadow: none;
+  --h3-title-color: var(--on-surface-color);
+  --input-error-color: var(--flatAlert-dark-hsla);
+  --menu-bg-color: hsla(var(--flatSurface-dark-hsl), 0.6);
+  --page-intro-text-color: var(--on-surface-color);
+  --page-intro-text-color-hsl: var(--on-surface-color-hsl);
+  --summary-slot-bg-color: var(--application-background);
+  --surface-color-opacity: hsla(var(--flatSurface-dark-hsl), 0.5);
+  --table-cell-border-right: var(--pm-7XS) solid var(--neutral-grey-9-hsla);
+  --table-header: hsla(var(--flatMainNavColor-dark-hsl), 0.1);
+  --table-header-text: var(--flatMainNavColorContentTextColor-dark-hsla);
+  --table-chip-background: hsla(var(--flatOnSurface-dark-hsl), 0.2);
+  --table-chip-color: hsla(var(--flatOnSurface-dark-hsl));
+  --table-chip-clickable-background: var(hsla(--A2-dark-hsl), 0.2);
+  --table-chip-clickable-color: var(--A2-dark-hsla);
+  --refresh-control-section-shadow: var(--page-intro-shadow);
+  --outlined-input: var(--on-surface-color);
+  --outlined-input-hover: var(--on-surface-color);
+  --outlined-input-focus: var(--on-surface-color);
+  --notification-bg-color: var(--card-bg-color);
+  --notification-shadow-color: var(--shadow-elevation-mid-key);
+  --notification-error-color: var(--flatAlert-dark-hsla);
+  --tooltip-background: var(--flatSurface-dark-hsla);
+  --visualization-plot-row-background: hsla(var(--neutral-grey-5-hsl), 0.2);
+  --left-nav-bar-header-border-bottom: none;
+  --left-nav-bar-header-color: var(--on-primary-color);
+  --left-nav-bar-active-item-bg: hsla(var(--flatSurface-dark-hsl), 0.4);
+  --on-left-nav-bar-active-item-color: var(--on-application-background);
+  --left-nav-bar-shadow: none;
+  --left-nav-bar-active-item-border-left: var(--wh-7XS);
+  --left-nav-border-radius: var(--card-border-radius);
+  --category-top-filter-bg: var(--application-background);
+  --on-category-top-filter-bg: var(--on-application-background);
+  --simple-list-header-background: var(--table-header);
+  --simple-list-header-color: var(--neutral-grey-7-hsla);
+  --sub-header-background: var(--surface-color);
+  --sub-header-margin: 0 auto;
+  --cart-item-bg: var(--row-odd);
+  --on-cart-item-bg: var(--on-row-odd);
+
+  --viz1: var(--viz1-dark-hsl);
+  --viz2: var(--viz2-dark-hsl);
+  --viz3: var(--viz3-dark-hsl);
+  --viz4: var(--viz4-dark-hsl);
+  --viz5: var(--viz5-dark-hsl);
+  --viz6: var(--viz6-dark-hsl);
+  --viz7: var(--viz7-dark-hsl);
+  --viz8: var(--viz8-dark-hsl);
+  --viz9: var(--viz9-dark-hsl);
+  --viz10: var(--viz10-dark-hsl);
+  --vizOther: var(--vizOther-dark-hsl);
+  --viz-shadow: var(--neutral-grey-1-hsla);
+
+  --severity1: var(--sev1-dark-hsl);
+  --severity2: var(--sev2-dark-hsl);
+  --severity3: var(--sev3-dark-hsl);
+  --severity4: var(--sev4-dark-hsl);
+  --severity5: var(--sev5-dark-hsl);
+  --bad-off: var(--sevOff-dark-hsla);
+  --good-on: var(--sevOn-dark-hsla);
+  --good-on-opacity-0: hsla(var(--sevOn-dark-hsl), 0);
+  --bad-off-opacity-0: hsla(var(--sevOff-dark-hsl), 0);
+}

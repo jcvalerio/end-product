@@ -1,0 +1,28 @@
+@import 'sizes';
+
+// Z Indexes
+$max-z-index: 1000;
+
+$card-breaks: 1070px 1576px 2048px 2621px;
+
+$data-view-sub-header: '.dataview, .dataview-control-section ';
+
+/**
+  Variables associated with where the navigation bar is located and 
+  also its different distributions within the different views
+*/
+$positions: (
+  'nav-top': (
+    browserArea: $wh-0,
+    openFilterSection: $wh-5XL,
+    openDetailsSection: $wh-7XL,
+  ),
+  'nav-left': (
+    browserArea: $wh-4XL + $wh-5XS,
+    openFilterSection: 2 * $wh-5XL,
+    openDetailsSection: $wh-5XL - $pm-L,
+  ),
+  'no-nav': (
+    browserArea: $wh-0,
+  ),
+);

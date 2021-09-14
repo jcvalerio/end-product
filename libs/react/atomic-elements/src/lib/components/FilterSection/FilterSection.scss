@@ -1,0 +1,140 @@
+.filter-section {
+  border-radius: var(--card-border-radius);
+  border: var(--card-border);
+  display: flex;
+  height: 100%;
+  width: var(--wh-5XL);
+
+  .filter-container {
+    padding: var(--pm-S) var(--pm-L);
+    .grid-date-filter-container {
+      width: calc(100% + 32px);
+      margin-left: -16px;
+    }
+  }
+
+  .button-widget {
+    border-radius: var(--pm-1XS);
+    margin-top: var(--pm-2XS);
+    min-height: var(--wh-1XS);
+    min-width: var(--wh-L);
+    padding: var(--pm-3XS) var(--pm-1XS) var(--pm-3XS) var(--pm-1XS);
+  }
+
+  .L2TitleSection {
+    font-size: var(--tx-2XL);
+    font-weight: bold;
+    line-height: var(--tx-3XL);
+    padding-top: var(--pm-1XS);
+  }
+
+  .L3TitleSection {
+    font-size: var(--tx-1XL);
+    line-height: var(--tx-S);
+    height: var(--wh-3XS);
+    margin-bottom: var(--pm-S);
+    padding-bottom: var(--pm-0);
+    padding-top: var(--pm-5XS);
+  }
+
+  .filterArea {
+    margin-bottom: var(--pm-3XL);
+    margin-left: var(--pm-M);
+  }
+
+  .MuiCollapse-entered,
+  .MuiCollapse-container {
+    max-width: calc(var(--wh-5XL) - var(--wh-M));
+  }
+
+  .filterOption,
+  .MuiFormControlLabel-label {
+    font-size: var(--tx-M);
+    line-height: var(--tx-1XL);
+    width: 100%;
+    max-width: inherit;
+
+    > span {
+      padding: var(--pm-0) var(--pm-3XS);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    svg {
+      height: var(--wh-5XS);
+      width: var(--wh-5XS);
+    }
+  }
+
+  .Full-bleed-divider {
+    margin-bottom: var(--pm-L);
+    margin-top: var(--pm-L);
+  }
+
+  .show-more,
+  .show-less {
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--tx-M);
+    font-style: oblique;
+    line-height: var(--tx-1XL);
+    padding-left: var(--pm-L);
+  }
+
+  .MuiAutocomplete-root {
+    margin-top: var(--pm-L);
+  }
+
+  .categories-container {
+    max-height: calc(100% - var(--wh-3XL) - var(--pm-2XS));
+    overflow: hidden;
+
+    &:hover {
+      overflow: overlay;
+    }
+  }
+
+  .filters-section {
+    border-left: var(--pm-7XS) solid var(--alt-mid-color);
+  }
+
+  .category-section {
+    display: flex;
+    align-items: center;
+    transition: opacity var(--speed-fastest) ease-in-out;
+    max-width: calc(var(--wh-4XL) + var(--wh-6XS));
+    overflow: hidden;
+    justify-content: space-between;
+    white-space: nowrap;
+
+    p {
+      overflow: hidden;
+      font-weight: normal;
+      font-size: var(--tx-1XL);
+      margin: var(--pm-S) 0;
+      text-overflow: ellipsis;
+    }
+
+    &:hover {
+      .deleted-container {
+        cursor: pointer;
+        opacity: 1;
+        & .MuiButtonBase-root {
+          color: var(--secondary-color);
+          width: calc(var(--wh-1XS) - var(--pm-4XS));
+          height: calc(var(--wh-1XS) - var(--pm-4XS));
+        }
+      }
+    }
+
+    .deleted-container {
+      opacity: 0;
+      transition: opacity var(--speed-fastest) ease-in-out;
+      & .MuiButtonBase-root {
+        width: calc(var(--wh-1XS) - var(--pm-4XS));
+        height: calc(var(--wh-1XS) - var(--pm-4XS));
+      }
+    }
+  }
+}

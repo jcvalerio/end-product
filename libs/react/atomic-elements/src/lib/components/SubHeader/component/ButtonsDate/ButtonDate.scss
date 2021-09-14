@@ -1,0 +1,65 @@
+.element-button-date {
+  .date-picker-interval-container {
+    button.MuiButtonBase-root {
+      padding: var(--pm-S) var(--pm-1XS);
+      margin-top: var(--pm-0);
+      background: transparent;
+      color: var(--secondary-color);
+
+      .MuiGrid-container {
+        height: var(--wh-1XS);
+      
+        .calendar-icon-container {
+          max-width: inherit;
+          position: absolute;
+          svg {
+            height: var(--wh-1XS);
+            width: var(--wh-1XS);  
+          }
+        }
+
+        .dates-container {
+          width: calc(var(--wh-4XL) - var(--wh-5XS)); 
+          flex-basis: auto;
+          text-align: left;
+          margin-left: var(--pm-4XL);
+          padding-right: var(--wh-4XS);
+
+          .placeholder, span{
+            color: var(--secondary-color);
+            text-align: left;
+          }  
+
+          div {
+            width: 100%;
+          }
+          
+          > div > div, .date-from {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+          }
+        }
+
+        .arrow-container {
+          position: absolute;
+          right: var(--wh-6XS);
+        }
+      }
+    }
+  }
+
+  &:hover, &.element-button-active{
+    .date-picker-interval-container button.MuiButtonBase-root {
+      .placeholder, span, .calendar-icon-container svg, .MuiGrid-root {
+        color: var(--on-secondary-color) !important;
+      }
+    }
+  }
+}
+
+.tooltip-date-range-picker.nav-top-button-date{
+  .MuiTooltip-tooltipPlacementBottom{
+    margin: 0;
+  }
+}

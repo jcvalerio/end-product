@@ -1,0 +1,58 @@
+.button-container-summary-actions {
+  .container-header {
+    width: calc(100% - var(--wh-S));
+    display: inline-block;
+  }
+
+  .button-container-actions-header {
+    float: right;
+    height: 100%;
+
+    button {
+      border-top-right-radius: calc(var(--card-border-radius) - var(--pm-6XS));
+      border-bottom-right-radius: 0px;
+
+      .icon-actions {
+        margin-top: -7px;
+        position: absolute;
+      }
+
+      .name-actions {
+        padding-top: var(--wh-2XS);
+      }
+
+      &:last-child {
+        border-left: 1px solid var(--secondary-color);
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: calc(var(--card-border-radius) - var(--pm-6XS));
+      }
+    }
+  }
+
+  .attributes-editor {
+    display: flex;
+    width: 100%;
+    .attributes-editor-header {
+      flex: 1;
+      display: grid;
+      p {
+        display: flex;
+        justify-content: center;
+        font-size: var(--tx-M);
+        &:first-child {
+          align-items: flex-end;
+          font-weight: 600;
+          font-size: var(--tx-2XL);
+        }
+      }
+    }
+    .attributes-editor-body {
+      flex: 3;
+      display: grid;
+      grid-auto-rows: auto;
+      grid-template-columns: repeat(auto-fit, calc(var(--wh-3XL) + var(--wh-4XS)));
+      grid-gap: var(--pm-M);
+      padding: var(--pm-L);
+    }
+  }
+}
