@@ -1,0 +1,51 @@
+@import 'variables';
+
+@mixin calc-transform($key) {
+  width: calc(#{$key} * var(--card-width-M) + #{$key - 1} * (var(--pm-1XL)));
+
+  > div:not(.container-header) .MuiTypography-root {
+    display: if($key == 1, none, block);
+  }
+}
+
+@mixin subhead-dynamic {
+  .dataview {
+    transition: width 250ms ease-in-out;
+    margin: 0 auto;
+  }
+
+  #{$data-view-sub-header} {
+    div[class*='max-card-'] {
+      .MuiButton-label {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+  }
+  @each $positionHeader, $options in $positions {
+    @each $option, $size in $options {
+      .#{$positionHeader} .subhead-dynamic .#{$option} {
+        @for $index from 1 through (length($card-breaks) + 1) {
+          div[class*='max-card-'] {
+            @media only screen and (min-width: if( $index == 1 , 0px, nth($card-breaks, $index - 1) + $size )) {
+              #{$data-view-sub-header} {
+                @include calc-transform($index);
+              }
+
+              @if $index > 1 {
+                @for $keyEx from 1 through $index - 1 {
+                  &.max-card-#{$keyEx} {
+                    #{$data-view-sub-header} {
+                      @include calc-transform($keyEx);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

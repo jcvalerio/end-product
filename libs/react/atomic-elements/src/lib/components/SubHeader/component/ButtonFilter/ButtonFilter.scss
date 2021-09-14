@@ -1,0 +1,42 @@
+.element-button-filter {
+  .container_ {
+    padding-right: var(--tx-2XL);
+
+    h3{
+      font-size: var(--tx-S);
+      color: var(--secondary-color);
+    }
+  }
+}
+
+.button-container-filter-actions{
+  min-height: var(--wh-L);
+  height: 100%;
+
+  .container-header {
+    width: calc(100% - var(--wh-2XL));
+  }
+
+  .button-container-actions-header{
+    &, button {
+      height: 100%;
+    }
+
+    button {
+      .icon-actions{
+        margin-top: calc(var(--wh-7XS) * -1);
+        position: absolute;
+        width: var(--wh-5XS);
+      }
+
+      .name-actions{
+        padding-top: var(--pm-2XL);
+      }
+
+      &:first-child{
+        background: transparent;
+        color: var(--secondary-color);
+      }
+    }
+  }
+}

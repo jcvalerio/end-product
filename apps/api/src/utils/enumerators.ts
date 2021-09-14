@@ -1,0 +1,48 @@
+export enum Transformation {
+  AlphabeticalBucket = 'alphabeticalBucket',
+  AlphaTier = 'alphaTier',
+  Average = 'average',
+  Bucket = 'bucket',
+  CountTotal = 'countTotal',
+  Change = 'change',
+  ChangePercent = 'changePercent',
+  ChangeCount = 'changeCount',
+  CountUnique = 'countUnique',
+  CustomAggregation = 'customAggregation',
+  CustomCount = 'customCount',
+  CustomTrend = 'customTrend',
+  Latest = 'latest',
+  Max = 'max',
+  MaxSparkline = 'maxSparkline',
+  MedianMiddl = 'medianMiddl',
+  Min = 'min',
+  ModeFrequent = 'modeFrequent',
+  NoAggregation = 'noAggregation',
+  Occurrence = 'occurrence',
+  Oldest = 'oldest',
+  SelfMulti = 'selfMulti',
+  SelfSingle = 'selfSingle',
+  Sum = 'sum',
+  Tier = 'tier',
+  TrendCountHighLowSparkline = 'trendCountHighLowSparkline',
+  TrendCountSparkline = 'trendCountSparkline',
+  TrendCountVsStartSparkline = 'trendCountVsStartSparkline',
+  TrendCountVsEndSparkline = 'trendCountVsEndSparkline',
+  TrendHighLowSparkline = 'trendHighLowSparkline',
+  TrendSparkline = 'trendSparkline',
+  TrendVsStartSparkline = 'trendVsStartSparkline',
+  TrendVsEndSparkline = 'trendVsEndSparkline',
+  Unique = 'unique',
+}
+
+export const transformationsWithCrossLinking = [
+  Transformation.SelfSingle,
+  Transformation.SelfMulti,
+  Transformation.Max,
+  Transformation.Min,
+];
+
+export enum Cardinality {
+  Multi = 'MULTI',
+  Single = 'SINGLE',
+}

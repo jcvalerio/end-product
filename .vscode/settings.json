@@ -1,0 +1,32 @@
+{
+  "cSpell.userWords": [
+    "camelcase",
+    "clickaway",
+    "crosslink",
+    "crosslinks",
+    "crosslinking",
+    "deletable",
+    "devtools",
+    "dylo",
+    "highcharts",
+    "hookable",
+    "kapi",
+    "kleeen",
+    "notistack",
+    "testid",
+    "theming",
+    "uuid"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tabSize": 2,
+  "eslint.options": {
+    "parserOptions": {
+      "project": ["${workspaceFolder}/tsconfig-base.json"]
+    }
+  },
+  "eslint.run": "onSave",
+  "files.eol": "\n",
+  "sort-imports.on-save": true
+}

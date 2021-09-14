@@ -1,0 +1,38 @@
+.snack-bar {
+  .select-action-form {
+    width: var(--wh-5XL);
+    padding-left: var(--pm-1XL);
+    padding-right: var(--pm-1XL);
+    margin-top: var(--pm-S);
+    position: relative;
+
+    .select-action {
+      height: var(--wh-S);
+    }
+
+    .select-action-label {
+      font-size: var(--tx-M);
+      left: auto;
+      position: absolute;
+    }
+
+    .action-tip {
+      font-size: var(--tx-1XS);
+      margin-bottom: var(--pm-3XS);
+    }
+
+    .action-button {
+      height: var(--wh-1XS);
+    }
+  }
+
+  .snackbar-text {
+    font-size: var(--tx-M);
+    margin-left: var(--pm-3XS);
+  }
+
+  .multi-button {
+    height: var(--wh-1XS);
+    margin-left: var(--pm-S);
+  }
+}

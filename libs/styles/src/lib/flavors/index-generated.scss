@@ -1,0 +1,342 @@
+.background_elevation_0_static {
+  background-color: var(--background_elevation_0_static_idle-background-color);
+}
+.background_elevation_1A_clickable {
+  background-color: var(--background_elevation_1A_clickable_idle-background-color);
+  border-top: var(--background_elevation_1A_clickable_idle-border-top);
+  border-right: var(--background_elevation_1A_clickable_idle-border-right);
+  border-bottom: var(--background_elevation_1A_clickable_idle-border-bottom);
+  border-left: var(--background_elevation_1A_clickable_idle-border-left);
+  color: var(--background_elevation_1A_clickable_idle-color);
+  &:hover {
+    background-color: var(--background_elevation_1A_clickable_on_hover-background-color);
+    border-top: var(--background_elevation_1A_clickable_on_hover-border-top);
+    border-right: var(--background_elevation_1A_clickable_on_hover-border-right);
+    border-bottom: var(--background_elevation_1A_clickable_on_hover-border-bottom);
+    border-left: var(--background_elevation_1A_clickable_on_hover-border-left);
+    color: var(--background_elevation_1A_clickable_on_hover-color);
+  }
+}
+.background_elevation_1A_static {
+  background-color: var(--background_elevation_1A_static_idle-background-color);
+  border-top: var(--background_elevation_1A_static_idle-border-top);
+  border-right: var(--background_elevation_1A_static_idle-border-right);
+  border-bottom: var(--background_elevation_1A_static_idle-border-bottom);
+  border-left: var(--background_elevation_1A_static_idle-border-left);
+}
+.background_elevation_1B_clickable {
+  &:hover {
+    background-color: var(--background_elevation_1B_clickable_on_hover-background-color);
+    border-top: var(--background_elevation_1B_clickable_on_hover-border-top);
+    border-right: var(--background_elevation_1B_clickable_on_hover-border-right);
+    border-bottom: var(--background_elevation_1B_clickable_on_hover-border-bottom);
+    border-left: var(--background_elevation_1B_clickable_on_hover-border-left);
+    border-radius: var(--background_elevation_1B_clickable_on_hover-border-radius);
+    box-shadow: var(--background_elevation_1B_clickable_on_hover-box-shadow);
+  }
+}
+.background_elevation_1B_static {
+  background-color: var(--background_elevation_1B_static_idle-background-color);
+  border-top: var(--background_elevation_1B_static_idle-border-top);
+  border-right: var(--background_elevation_1B_static_idle-border-right);
+  border-bottom: var(--background_elevation_1B_static_idle-border-bottom);
+  border-left: var(--background_elevation_1B_static_idle-border-left);
+  border-radius: var(--background_elevation_1B_static_idle-border-radius);
+  box-shadow: var(--background_elevation_1B_static_idle-box-shadow);
+}
+.background_elevation_1C_static {
+  background-color: var(--background_elevation_1C_static_idle-background-color);
+}
+.background_elevation_1D_static {
+  background-color: var(--background_elevation_1D_static_idle-background-color);
+}
+.background_elevation_1F_static {
+  background-color: var(--background_elevation_1F_static_idle-background-color);
+  border-top: var(--background_elevation_1F_static_idle-border-top);
+  border-right: var(--background_elevation_1F_static_idle-border-right);
+  border-bottom: var(--background_elevation_1F_static_idle-border-bottom);
+  border-left: var(--background_elevation_1F_static_idle-border-left);
+}
+.background_elevation_2A_static {
+  background-color: var(--background_elevation_2A_static_idle-background-color);
+  border-radius: var(--background_elevation_2A_static_idle-border-radius);
+  box-shadow: var(--background_elevation_2A_static_idle-box-shadow);
+}
+.background_elevation_2B_static {
+  background-color: var(--background_elevation_2B_static_idle-background-color);
+  border-radius: var(--background_elevation_2B_static_idle-border-radius);
+  box-shadow: var(--background_elevation_2B_static_idle-box-shadow);
+}
+.background_elevation_2C_static {
+  background-color: var(--background_elevation_2C_static_idle-background-color);
+  border-radius: var(--background_elevation_2C_static_idle-border-radius);
+}
+.background_elevation_3A_static {
+  background-color: var(--background_elevation_3A_static_idle-background-color);
+  box-shadow: var(--background_elevation_3A_static_idle-box-shadow);
+}
+.background_elevation_4A_static {
+  background-color: var(--background_elevation_4A_static_idle-background-color);
+}
+.background_elevation_4B_static {
+  background-color: var(--background_elevation_4B_static_idle-background-color);
+}
+.background_elevation_5A_static {
+  background-color: var(--background_elevation_5A_static_idle-background-color);
+  border-radius: var(--background_elevation_5A_static_idle-border-radius);
+  box-shadow: var(--background_elevation_5A_static_idle-box-shadow);
+}
+.background_elevation_8A_static {
+  background-color: var(--background_elevation_8A_static_idle-background-color);
+  box-shadow: var(--background_elevation_8A_static_idle-box-shadow);
+}
+.background_table_row_odd_clickable {
+  background-color: var(--background_table_row_odd_clickable_idle-background-color);
+  border-top: var(--background_table_row_odd_clickable_idle-border-top);
+  border-right: var(--background_table_row_odd_clickable_idle-border-right);
+  border-bottom: var(--background_table_row_odd_clickable_idle-border-bottom);
+  border-left: var(--background_table_row_odd_clickable_idle-border-left);
+}
+.foreground_accent_clickable {
+  background-color: var(--foreground_accent_clickable_idle-background-color);
+  color: var(--foreground_accent_clickable_idle-color);
+}
+.foreground_accent_on_background_elevation_3A_clickable {
+  background-color: var(--foreground_accent_on_background_elevation_3A_clickable_idle-background-color);
+  color: var(--foreground_accent_on_background_elevation_3A_clickable_idle-color);
+}
+.foreground_accent_on_background_elevation_3A_static {
+  background-color: var(--foreground_accent_on_background_elevation_3A_static_idle-background-color);
+  color: var(--foreground_accent_on_background_elevation_3A_static_idle-color);
+}
+.foreground_binary_off_clickable {
+  background-color: var(--foreground_binary_off_clickable_idle-background-color);
+  color: var(--foreground_binary_off_clickable_idle-color);
+}
+.foreground_binary_on_clickable {
+  background-color: var(--foreground_binary_on_clickable_idle-background-color);
+  color: var(--foreground_binary_on_clickable_idle-color);
+}
+.foreground_deemphasized_static {
+  background-color: var(--foreground_deemphasized_static_idle-background-color);
+  color: var(--foreground_deemphasized_static_idle-color);
+}
+.foreground_divider_static {
+  background-color: var(--foreground_divider_static_idle-background-color);
+  border-top: var(--foreground_divider_static_idle-border-top);
+  border-right: var(--foreground_divider_static_idle-border-right);
+  border-bottom: var(--foreground_divider_static_idle-border-bottom);
+  border-left: var(--foreground_divider_static_idle-border-left);
+}
+.foreground_page_header_1A_static {
+  background-color: var(--foreground_page_header_1A_static_idle-background-color);
+  border-top: var(--foreground_page_header_1A_static_idle-border-top);
+  border-right: var(--foreground_page_header_1A_static_idle-border-right);
+  border-bottom: var(--foreground_page_header_1A_static_idle-border-bottom);
+  border-left: var(--foreground_page_header_1A_static_idle-border-left);
+}
+.foreground_passive_static {
+  background-color: var(--foreground_passive_static_idle-background-color);
+  color: var(--foreground_passive_static_idle-color);
+}
+.foreground_principal_no_background_clickable {
+  background-color: var(--foreground_principal_no_background_clickable_idle-background-color);
+  color: var(--foreground_principal_no_background_clickable_idle-color);
+  &:hover {
+    background-color: var(--foreground_principal_no_background_clickable_on_hover-background-color);
+    color: var(--foreground_principal_no_background_clickable_on_hover-color);
+  }
+}
+.foreground_principal_no_background_hoverable {
+  background-color: var(--foreground_principal_no_background_hoverable_idle-background-color);
+  color: var(--foreground_principal_no_background_hoverable_idle-color);
+}
+.foreground_principal_no_background_static {
+  background-color: var(--foreground_principal_no_background_static_idle-background-color);
+  color: var(--foreground_principal_no_background_static_idle-color);
+}
+.foreground_principal_non_interactive {
+  background-color: var(--foreground_principal_non_interactive_idle-background-color);
+  border-top: var(--foreground_principal_non_interactive_idle-border-top);
+  border-right: var(--foreground_principal_non_interactive_idle-border-right);
+  border-bottom: var(--foreground_principal_non_interactive_idle-border-bottom);
+  border-left: var(--foreground_principal_non_interactive_idle-border-left);
+}
+.foreground_principal_on_background_elevation_8A_clickable {
+  background-color: var(--foreground_principal_on_background_elevation_8A_clickable_idle-background-color);
+  color: var(--foreground_principal_on_background_elevation_8A_clickable_idle-color);
+}
+.foreground_principal_on_background_elevation_8A_static {
+  background-color: var(--foreground_principal_on_background_elevation_8A_static_idle-background-color);
+  color: var(--foreground_principal_on_background_elevation_8A_static_idle-color);
+}
+.foreground_principle_on_background_elevation_2B_clickable {
+  background-color: var(--foreground_principle_on_background_elevation_2B_clickable_idle-background-color);
+  border-radius: var(--foreground_principle_on_background_elevation_2B_clickable_idle-border-radius);
+  color: var(--foreground_principle_on_background_elevation_2B_clickable_idle-color);
+  &:hover {
+    background-color: var(
+      --foreground_principle_on_background_elevation_2B_clickable_on_hover-background-color
+    );
+    border-radius: var(--foreground_principle_on_background_elevation_2B_clickable_on_hover-border-radius);
+    color: var(--foreground_principle_on_background_elevation_2B_clickable_on_hover-color);
+  }
+}
+.foreground_principle_on_background_elevation_3A_clickable {
+  background-color: var(--foreground_principle_on_background_elevation_3A_clickable_idle-background-color);
+  color: var(--foreground_principle_on_background_elevation_3A_clickable_idle-color);
+  &:hover {
+    background-color: var(
+      --foreground_principle_on_background_elevation_3A_clickable_on_hover-background-color
+    );
+    color: var(--foreground_principle_on_background_elevation_3A_clickable_on_hover-color);
+  }
+}
+.foreground_principle_with_background_ia_clickable {
+  background-color: var(--foreground_principle_with_background_ia_clickable_idle-background-color);
+  border-radius: var(--foreground_principle_with_background_ia_clickable_idle-border-radius);
+  color: var(--foreground_principle_with_background_ia_clickable_idle-color);
+  &:hover {
+    background-color: var(--foreground_principle_with_background_ia_clickable_on_hover-background-color);
+    border-radius: var(--foreground_principle_with_background_ia_clickable_on_hover-border-radius);
+    color: var(--foreground_principle_with_background_ia_clickable_on_hover-color);
+  }
+}
+.foreground_principle_with_background_ia_hoverable {
+  background-color: var(--foreground_principle_with_background_ia_hoverable_idle-background-color);
+  border-radius: var(--foreground_principle_with_background_ia_hoverable_idle-border-radius);
+  color: var(--foreground_principle_with_background_ia_hoverable_idle-color);
+}
+.foreground_principle_with_background_ib_clickable {
+  background-color: var(--foreground_principle_with_background_ib_clickable_idle-background-color);
+  color: var(--foreground_principle_with_background_ib_clickable_idle-color);
+  &:hover {
+    background-color: var(--foreground_principle_with_background_ib_clickable_on_hover-background-color);
+    color: var(--foreground_principle_with_background_ib_clickable_on_hover-color);
+  }
+}
+.foreground_principle_with_background_ii_clickable {
+  background-color: var(--foreground_principle_with_background_ii_clickable_idle-background-color);
+  border-top: var(--foreground_principle_with_background_ii_clickable_idle-border-top);
+  border-right: var(--foreground_principle_with_background_ii_clickable_idle-border-right);
+  border-bottom: var(--foreground_principle_with_background_ii_clickable_idle-border-bottom);
+  border-left: var(--foreground_principle_with_background_ii_clickable_idle-border-left);
+  border-radius: var(--foreground_principle_with_background_ii_clickable_idle-border-radius);
+  color: var(--foreground_principle_with_background_ii_clickable_idle-color);
+  &:hover {
+    background-color: var(--foreground_principle_with_background_ii_clickable_on_hover-background-color);
+    border-top: var(--foreground_principle_with_background_ii_clickable_on_hover-border-top);
+    border-right: var(--foreground_principle_with_background_ii_clickable_on_hover-border-right);
+    border-bottom: var(--foreground_principle_with_background_ii_clickable_on_hover-border-bottom);
+    border-left: var(--foreground_principle_with_background_ii_clickable_on_hover-border-left);
+    border-radius: var(--foreground_principle_with_background_ii_clickable_on_hover-border-radius);
+    color: var(--foreground_principle_with_background_ii_clickable_on_hover-color);
+  }
+}
+.foreground_principle_with_background_iiia_clickable {
+  background-color: var(--foreground_principle_with_background_iiia_clickable_idle-background-color);
+  border-top: var(--foreground_principle_with_background_iiia_clickable_idle-border-top);
+  border-right: var(--foreground_principle_with_background_iiia_clickable_idle-border-right);
+  border-bottom: var(--foreground_principle_with_background_iiia_clickable_idle-border-bottom);
+  border-left: var(--foreground_principle_with_background_iiia_clickable_idle-border-left);
+  border-radius: var(--foreground_principle_with_background_iiia_clickable_idle-border-radius);
+  color: var(--foreground_principle_with_background_iiia_clickable_idle-color);
+  &:hover {
+    background-color: var(--foreground_principle_with_background_iiia_clickable_on_hover-background-color);
+    border-top: var(--foreground_principle_with_background_iiia_clickable_on_hover-border-top);
+    border-right: var(--foreground_principle_with_background_iiia_clickable_on_hover-border-right);
+    border-bottom: var(--foreground_principle_with_background_iiia_clickable_on_hover-border-bottom);
+    border-left: var(--foreground_principle_with_background_iiia_clickable_on_hover-border-left);
+    border-radius: var(--foreground_principle_with_background_iiia_clickable_on_hover-border-radius);
+    color: var(--foreground_principle_with_background_iiia_clickable_on_hover-color);
+  }
+}
+.foreground_severity_high_clickable {
+  background-color: var(--foreground_severity_high_clickable_idle-background-color);
+  color: var(--foreground_severity_high_clickable_idle-color);
+}
+.foreground_severity_low_clickable {
+  background-color: var(--foreground_severity_low_clickable_idle-background-color);
+  color: var(--foreground_severity_low_clickable_idle-color);
+}
+.foreground_severity_medium_clickable {
+  background-color: var(--foreground_severity_medium_clickable_idle-background-color);
+  color: var(--foreground_severity_medium_clickable_idle-color);
+}
+.foreground_severity_no_data_hoverable {
+  background-color: var(--foreground_severity_no_data_hoverable_idle-background-color);
+  color: var(--foreground_severity_no_data_hoverable_idle-color);
+}
+.foreground_severity_ok_clickable {
+  background-color: var(--foreground_severity_ok_clickable_idle-background-color);
+  color: var(--foreground_severity_ok_clickable_idle-color);
+}
+.foreground_visualization_01_clickable {
+  color: var(--foreground_visualization_01_clickable_idle-color);
+}
+.foreground_visualization_01_hoverable {
+  color: var(--foreground_visualization_01_hoverable_idle-color);
+}
+.foreground_visualization_02_clickable {
+  color: var(--foreground_visualization_02_clickable_idle-color);
+}
+.foreground_visualization_02_hoverable {
+  color: var(--foreground_visualization_02_hoverable_idle-color);
+}
+.foreground_visualization_03_clickable {
+  color: var(--foreground_visualization_03_clickable_idle-color);
+}
+.foreground_visualization_03_hoverable {
+  color: var(--foreground_visualization_03_hoverable_idle-color);
+}
+.foreground_visualization_04_clickable {
+  color: var(--foreground_visualization_04_clickable_idle-color);
+}
+.foreground_visualization_04_hoverable {
+  color: var(--foreground_visualization_04_hoverable_idle-color);
+}
+.foreground_visualization_05_clickable {
+  color: var(--foreground_visualization_05_clickable_idle-color);
+}
+.foreground_visualization_05_hoverable {
+  color: var(--foreground_visualization_05_hoverable_idle-color);
+}
+.foreground_visualization_06_clickable {
+  color: var(--foreground_visualization_06_clickable_idle-color);
+}
+.foreground_visualization_06_hoverable {
+  color: var(--foreground_visualization_06_hoverable_idle-color);
+}
+.foreground_visualization_07_clickable {
+  color: var(--foreground_visualization_07_clickable_idle-color);
+}
+.foreground_visualization_07_hoverable {
+  color: var(--foreground_visualization_07_hoverable_idle-color);
+}
+.foreground_visualization_08_clickable {
+  color: var(--foreground_visualization_08_clickable_idle-color);
+}
+.foreground_visualization_08_hoverable {
+  color: var(--foreground_visualization_08_hoverable_idle-color);
+}
+.foreground_visualization_09_clickable {
+  color: var(--foreground_visualization_09_clickable_idle-color);
+}
+.foreground_visualization_09_hoverable {
+  color: var(--foreground_visualization_09_hoverable_idle-color);
+}
+.foreground_visualization_10_clickable {
+  color: var(--foreground_visualization_10_clickable_idle-color);
+}
+.foreground_visualization_10_hoverable {
+  color: var(--foreground_visualization_10_hoverable_idle-color);
+}
+.foreground_visualization_axes_static {
+  color: var(--foreground_visualization_axes_static_idle-color);
+}
+.foreground_visualization_increment_lines_static {
+  color: var(--foreground_visualization_increment_lines_static_idle-color);
+}
+.foreground_visualization_increment_ticks_static {
+  color: var(--foreground_visualization_increment_ticks_static_idle-color);
+}

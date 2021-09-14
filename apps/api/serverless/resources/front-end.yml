@@ -1,0 +1,93 @@
+Resources:
+  FrontPageWebsiteBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: ${env:BUCKET_NAME}
+  FrontPageWebsiteBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref FrontPageWebsiteBucket
+      PolicyDocument:
+        Statement:
+          - Effect: Allow
+            Action:
+              - s3:GetObject
+            Resource: 
+              Fn::Join:
+                - /
+                - - Fn::GetAtt:
+                      - FrontPageWebsiteBucket
+                      - Arn
+                  - '*'
+            Principal:
+              CanonicalUser: 
+                Fn::GetAtt: 
+                  - FrontPageWebsiteOriginAccessIdentity
+                  - S3CanonicalUserId
+  FrontPageWebsiteOriginAccessIdentity:
+    Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
+    Properties:
+      CloudFrontOriginAccessIdentityConfig:
+        Comment: Origin Access Identity to Access Website Bucket
+  FrontPageCloudFront:
+    Type: AWS::CloudFront::Distribution
+    DependsOn:
+      - FrontPageWebsiteBucket
+    Properties:
+      DistributionConfig: 
+        Origins:
+          - DomainName: 
+              Fn::GetAtt: 
+                - FrontPageWebsiteBucket
+                - DomainName
+            Id: S3Origin
+            S3OriginConfig:
+              OriginAccessIdentity: 
+                Fn::Join: 
+                  - /
+                  - - origin-access-identity
+                    - cloudfront
+                    - !Ref FrontPageWebsiteOriginAccessIdentity
+        CustomErrorResponses:
+          - ErrorCachingMinTTL: 0
+            ErrorCode: 403
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+        DefaultCacheBehavior:
+          AllowedMethods:
+            - GET
+            - HEAD
+          Compress: true
+          ForwardedValues:
+            QueryString: true
+            Cookies:
+              Forward: none
+          TargetOriginId: S3Origin
+          ViewerProtocolPolicy: redirect-to-https
+        Comment: End-Product hosted application
+        DefaultRootObject: index.html
+        Enabled: true
+        HttpVersion: http2
+        PriceClass: PriceClass_All
+        ViewerCertificate:
+          AcmCertificateArn: ${env:CERTIFICATE_MANAGER_ARN}
+          MinimumProtocolVersion: TLSv1.1_2016
+          SslSupportMethod: sni-only
+        Aliases:
+          - ${env:PRODUCT_SUBDOMAIN}.${env:HOSTED_ZONE_NAME}
+  FrontPageDNSName:
+    Type: AWS::Route53::RecordSetGroup
+    Properties:
+      HostedZoneName: ${env:HOSTED_ZONE_NAME}.
+      RecordSets:
+        - Name: ${env:PRODUCT_SUBDOMAIN}.${env:HOSTED_ZONE_NAME}
+          Type: A
+          AliasTarget:
+            HostedZoneId: ${env:HOSTED_ZONE_ID} #cloudfront hostedzone id
+            DNSName: 
+              Fn::GetAtt:
+                - FrontPageCloudFront
+                - DomainName
+Outputs:
+  FrontPageCloudFrontDistributionId:
+    Value: !Ref FrontPageCloudFront

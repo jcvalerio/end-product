@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Timestamp",
+    "formatType": "timestamp",
+    "initialQuantity": 50,
+    "properties": {
+      "displayValue": {
+        "format": {},
+        "formatType": "timestamp",
+        "name": "displayValue",
+        "params": [],
+        "statisticalType": "Data - Numeric - Temporal",
+        "type": "timestamp"
+      }
+    }
+  },
+  {
+    "name": "Company",
+    "description": "",
+    "formatType": "company_name",
+    "initialQuantity": 50,
+    "properties": {
+      "displayValue": {
+        "description": "",
+        "format": {},
+        "formatType": "company_name",
+        "name": "displayValue",
+        "params": [],
+        "statisticalType": "Data - Categorical - free form",
+        "type": "company_name"
+      },
+      "expense": {
+        "description": "",
+        "format": {
+          "max": 100,
+          "min": 1,
+          "prefix": "$",
+          "suffix": "k"
+        },
+        "formatType": "USD",
+        "name": "expense",
+        "params": [
+          1,
+          100
+        ],
+        "statisticalType": "Data - Numeric - NTG - Discrete",
+        "type": "Expense"
+      }
+    }
+  },
+  {
+    "name": "Expense",
+    "description": "",
+    "formatType": "USD",
+    "initialQuantity": 50,
+    "properties": {
+      "displayValue": {
+        "description": "",
+        "format": {
+          "max": 100,
+          "min": 1,
+          "prefix": "$",
+          "suffix": "k"
+        },
+        "formatType": "USD",
+        "name": "displayValue",
+        "params": [
+          1,
+          100
+        ],
+        "statisticalType": "Data - Numeric - NTG - Discrete",
+        "type": "integer"
+      },
+      "company": {
+        "description": "",
+        "format": {},
+        "formatType": "company_name",
+        "name": "company",
+        "params": [],
+        "statisticalType": "Data - Categorical - free form",
+        "type": "Company"
+      }
+    }
+  }
+]

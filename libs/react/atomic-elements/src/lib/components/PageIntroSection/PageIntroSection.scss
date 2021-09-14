@@ -1,0 +1,30 @@
+.page-intro {
+  display: flex;
+  align-items: center;
+  height: var(--wh-2XL);
+  border-radius: var(--card-border-radius);
+  border: var(--card-border);
+
+  h1 {
+    font-size: var(--tx-3XL);
+    font-weight: bold;
+    margin-top: var(--pm-0);
+    margin-bottom: var(--pm-0);
+  }
+
+  h2 {
+    font-size: var(--tx-L);
+    margin-top: var(--pm-M);
+    margin-bottom: var(--pm-2XS);
+  }
+
+  button {
+    margin-left: var(--pm-L);
+    margin-right: var(--pm-L);
+  }
+
+  .main-container {
+    box-sizing: border-box;
+    position: relative;
+  }
+}

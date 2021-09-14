@@ -1,0 +1,11 @@
+.input-element-section {
+  .input-lu-error {
+    color: var(--input-error-color);
+    margin-top: var(--pm-5XS);
+    & li {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}

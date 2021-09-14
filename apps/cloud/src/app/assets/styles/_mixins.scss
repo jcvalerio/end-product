@@ -1,0 +1,61 @@
+@import 'colors';
+
+// Mixins
+@mixin transitions($time: 200ms) {
+  transition: all $time ease-in-out;
+}
+
+@mixin scale($size: 1.2) {
+  transform: scale($size);
+}
+
+@mixin animate($time: 0.7s) {
+  -webkit-animation: focusIn $time cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: focusIn $time cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@mixin boxShadow() {
+  box-shadow: 0 7px 14px 0 rgb(65 69 88 / 10%), 0 3px 6px 0 rgb(0 0 0 / calc(7%)) !important;
+}
+
+@mixin borderRadius() {
+  border-radius: 5px !important;
+}
+
+@mixin gradient($from, $to) {
+  background-color: $from !important;
+  background-image: linear-gradient(115deg, $from 0%, $to 85%) !important;
+}
+
+@mixin getColor($color) {
+  @if (lightness($color) < 45%) {
+    color: $shade-800 !important;
+  } @else {
+    color: $shade-200 !important;
+  }
+}
+
+@-webkit-keyframes focusIn {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes focusIn {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}

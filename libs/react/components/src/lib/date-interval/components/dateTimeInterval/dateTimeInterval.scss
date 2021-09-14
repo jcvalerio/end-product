@@ -1,0 +1,48 @@
+.date-interval-detail {
+  $backgroundColor: var(--secondary-color);
+  $colorText: var(--on-secondary-color);
+  $boxShadow: var(--shadow-button);
+  padding: var(--pm-S);
+  height: calc(var(--wh-1XL) - var(--wh-6XS));
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+
+  @mixin palette {
+    color: $colorText;
+    background-color: $backgroundColor;
+    box-shadow: $boxShadow;
+  }
+
+  div[class*='MuiPickersToolbar-toolbar'] {
+    background-color: $backgroundColor;
+    span[class*='MuiButton-label'] {
+      h4,
+      h6 {
+        color: $colorText;
+      }
+    }
+  }
+
+  div[class*='MuiPickersClock-clock'] {
+    div[class*='MuiPickersClock-pin'],
+    div[class*='MuiPickersClockPointer-pointer'] {
+      &,
+      div[class*='MuiPickersClockPointer-noPoint'] {
+        @include palette;
+      }
+      div[class*='MuiPickersClockPointer-noPoint'] {
+        border-color: $backgroundColor;
+      }
+    }
+  }
+
+  div[role='presentation'] {
+    button[class*='MuiPickersDay-daySelected'] {
+      @include palette;
+      background-color: var(--secondary-color);
+      color: var(--on-secondary-color);
+    }
+  }
+}

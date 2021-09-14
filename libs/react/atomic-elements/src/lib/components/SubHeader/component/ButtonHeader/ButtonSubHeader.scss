@@ -1,0 +1,46 @@
+button.element-button-generic {
+  .avatar {
+    position: absolute;
+    left: var(--pm-3XS);
+    padding-top: var(--pm-4XS);
+    color: var(--secondary-color);
+
+    .kui-icon {
+      height: var(--wh-3XS);
+      width: var(--wh-3XS);
+    }
+  }
+  .container_ {
+    margin-left: var(--pm-4XL);
+    text-align: left;
+    font-size: var(--pm-S);
+    color: var(--on-surface-color);
+    * {
+      padding: var(--pm-0);
+      margin: var(--pm-0);
+      font-weight: normal;
+    }
+    p {
+      margin-bottom: calc(var(--tx-4XS) * -1);
+    }
+    .simple-title {
+      padding: var(--pm-1XS) var(--pm-0);
+    }
+  }
+  span.MuiBadge-badge {
+    top: var(--pm-S);
+    right: var(--pm-S);
+  }
+  .element-button-generic-header {
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  &.has-view-switch {
+    .avatar {
+      padding-top: var(--pm-5XS);
+    }
+  }
+}

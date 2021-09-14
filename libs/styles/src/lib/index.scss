@@ -1,0 +1,19 @@
+@import 'reset';
+@import 'variables-css';
+@import 'sizes-css';
+@import 'palette';
+@import 'static-palette';
+
+@import 'flavors/index';
+@import 'flavors_v2/index';
+
+/* Minimal Flavor */
+@import 'flavors/minimal/light';
+@import 'flavors/minimal/dark';
+
+/* Material Flavor */
+@import 'flavors/material/light';
+@import 'flavors/material/dark';
+
+// Font Family
+@import 'fonts';

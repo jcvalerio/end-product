@@ -1,0 +1,23 @@
+.iconFilter {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: var(--pm-5XS);
+  width: var(--wh-2XS);
+  height: var(--wh-2XS);
+  background-color: var(--secondary-color);
+  border-radius: var(--wh-4XS);
+  color: var(--on-secondary-color);
+
+  &:hover {
+    background-color: var(--secondary-color-variant);
+    color: var(--on-secondary-color-variant);
+    cursor: pointer;
+  }
+}
+
+.iconWrapper {
+  width: var(--wh-4XS);
+  height: var(--wh-4XS);
+}

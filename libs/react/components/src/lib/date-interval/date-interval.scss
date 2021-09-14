@@ -1,0 +1,174 @@
+$backgroundColor: var(--surface-color);
+$colorText: var(--on-secondary-color);
+$sizeText: var(--size-size9);
+$sizeTextFocus: var(--size-size10);
+
+.calender-modal,
+.is-calender {
+  background-color: $backgroundColor !important;
+  width: 100% !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.custom-input {
+  text-align: right;
+  color: var(--on-secondary-color) !important;
+  height: 46px !important;
+  line-height: 46px !important;
+  &::placeholder {
+    color: var(--on-secondary-color) !important;
+  }
+}
+.todayBtn {
+  border: 1px solid var(--secondary-color) !important;
+  color: var(--on-surface-color);
+}
+.yearWrapper::after,
+.yearWrapper::before {
+  background-image: none !important;
+}
+.monthList_month,
+.yearList_year {
+  color: var(--on-surface-color) !important;
+}
+.is-selected-month,
+.is-selectedYearRef {
+  color: var(--secondary-color) !important;
+}
+.time--title {
+  color: var(--on-surface-color) !important;
+}
+.time--input {
+  color: var(--on-surface-color) !important;
+  background-color: transparent !important;
+}
+
+.time-fieldset--inc {
+  background-color: transparent !important;
+  background-image: none !important;
+  border-left: 12px solid transparent !important;
+  border-right: 12px solid transparent !important;
+  border-bottom: 12px solid var(--secondary-color) !important;
+  opacity: 1 !important;
+  &:hover {
+    border-bottom: 12px solid var(--secondary-color-variant) !important;
+  }
+}
+.time-fieldset--dec {
+  background-color: transparent !important;
+  background-image: none !important;
+  border-left: 12px solid transparent !important;
+  border-right: 12px solid transparent !important;
+  border-top: 12px solid var(--secondary-color) !important;
+  opacity: 1 !important;
+  &:hover {
+    border-top: 12px solid var(--secondary-color-variant) !important;
+  }
+}
+.custom-days {
+  color: var(--secondary-color-variant) !important;
+  .daysList-day {
+    color: var(--on-surface-color) !important;
+  }
+  .is-disabled {
+    background-color: hsla(var(--on-surface-color-hsl), 0.3) !important;
+    color: var(--on-surface-color) !important;
+  }
+  .is-today {
+    box-shadow: inset 0 0 0 2px var(--secondary-color-hsl) !important;
+  }
+  .is-selected-day-from,
+  .is-selected-day-to {
+    background-color: var(--primary-color) !important;
+    color: var(--on-primary-color) !important;
+    box-shadow: none !important;
+  }
+  .is-selected-day-range {
+    color: var(--on-primary-color-variant) !important;
+    background-color: var(--primary-color-variant) !important;
+  }
+}
+.custom-header {
+  background-color: $backgroundColor !important;
+  border-radius: 0 !important;
+  padding: var(--pm-1XS) var(--pm-S) !important;
+  .header-date {
+    border: none !important;
+    padding: 0 !important;
+    background-color: transparent !important;
+    color: var(--on-surface-color) !important;
+  }
+  .header--btn {
+    background-color: transparent !important;
+    color: var(--on-surface-color) !important;
+  }
+}
+
+.date-interval-options {
+  background-color: var(--secondary-color);
+  box-shadow: var(--page-intro-shadow);
+  border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
+  .MuiTabs-indicator {
+    background-color: $colorText;
+  }
+
+  .full-width-button {
+    width: 100%;
+    min-height: var(--wh-M);
+
+    &.active-button {
+      background-color: var(--grey_light_3x);
+
+      .label-date.label-date-active {
+        font-weight: 800;
+      }
+    }
+
+    .MuiButton-label {
+      display: block;
+
+      .label-date {
+        font-size: $sizeText;
+        color: var(--on-secondary-color) !important;
+        &.label-date-active {
+          font-size: $sizeTextFocus;
+        }
+      }
+    }
+  }
+}
+.form-component {
+  width: 66%;
+  display: initial;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: var(--pm-3XS);
+  text-align: center;
+  .label-title {
+    font-size: $sizeText;
+    color: var(--on-secondary-color) !important;
+  }
+}
+
+.date-interval-detail {
+  padding-bottom: var(--pm-S);
+
+  .MuiPickersBasePicker-container {
+    margin: 0 auto;
+  }
+}
+
+.date-interval-step {
+  background-color: $backgroundColor;
+  width: 100%;
+  text-align: center;
+  padding-bottom: var(--pm-1XS);
+  border-radius: 0 0 var(--card-border-radius) var(--card-border-radius);
+
+  button {
+    color: var(--on-secondary-color);
+    box-shadow: none;
+    margin: 0 var(--pm-5XS);
+  }
+}

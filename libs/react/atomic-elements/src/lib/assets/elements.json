@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Field - Date - Single",
+    "maxChoices": null,
+    "elementType": "Field",
+    "implemented": true
+  },
+  {
+    "name": "Field - Date Time - Single",
+    "maxChoices": null,
+    "elementType": "Field",
+    "implemented": true,
+    "userInputSingle": [
+      "New + Existing | Data - Numeric - Temporal"
+    ],
+    "userInputSingleType": [
+      "New + Existing"
+    ]
+  },
+  {
+    "name": "Field - Text - Auto-Complete (if API provides values or URL)",
+    "maxChoices": null,
+    "elementType": "Field",
+    "implemented": true,
+    "userInputSingle": [
+      "New + Existing | Data - Categorical"
+    ],
+    "userInputSingleType": [
+      "New + Existing"
+    ]
+  },
+  {
+    "name": "Group - Check",
+    "maxChoices": 4,
+    "elementType": "Group",
+    "implemented": true,
+    "userInputMulti": [
+      "Selection Only | Data"
+    ],
+    "userInputMultiType": [
+      "Selection Only"
+    ]
+  },
+  {
+    "name": "Group - Radio",
+    "maxChoices": 4,
+    "elementType": "Group",
+    "implemented": true,
+    "userInputSingle": [
+      "Selection Only | Data"
+    ],
+    "userInputSingleType": [
+      "Selection Only"
+    ]
+  },
+  {
+    "name": "Select - Date - Single",
+    "maxChoices": null,
+    "elementType": "Select",
+    "implemented": true
+  },
+  {
+    "name": "Select - Text",
+    "maxChoices": null,
+    "elementType": "Select",
+    "implemented": true,
+    "userInputSingle": [
+      "Selection Only | Data - Categorical"
+    ],
+    "userInputSingleType": [
+      "Selection Only"
+    ]
+  },
+  {
+    "name": "Token Field - Text",
+    "maxChoices": null,
+    "elementType": "Field",
+    "implemented": true,
+    "userInputMulti": [
+      "New + Existing | Data - Categorical"
+    ],
+    "userInputMultiType": [
+      "New + Existing"
+    ]
+  },
+  {
+    "name": "Token Select - Text",
+    "maxChoices": null,
+    "elementType": "Select",
+    "implemented": true,
+    "userInputMulti": [
+      "Selection Only | Data - Categorical"
+    ],
+    "userInputMultiType": [
+      "Selection Only"
+    ]
+  },
+  {
+    "name": "Upload - File",
+    "maxChoices": null,
+    "elementType": "Upload",
+    "implemented": true
+  },
+  {
+    "name": "Upload - Image",
+    "maxChoices": null,
+    "elementType": "Upload",
+    "implemented": true,
+    "userInputSingle": [
+      "New + Existing | Data - Image"
+    ],
+    "userInputSingleType": [
+      "New + Existing"
+    ]
+  }
+]

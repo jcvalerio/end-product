@@ -1,0 +1,622 @@
+:root {
+  --A1-hsl: 210, 81%, 23%;
+  --A1-hsla: hsla(var(--A1-hsl), 1);
+
+  --A1A-light-hsl: 210, 82%, 34%;
+  --A1A-light-hsla: hsla(var(--A1A-light-hsl), 1);
+
+  --A1A-dark-hsl: 210, 82%, 34%;
+  --A1A-dark-hsla: hsla(var(--A1A-dark-hsl), 1);
+
+  --A2-light-hsl: 168, 64%, 34%;
+  --A2-light-hsla: hsla(var(--A2-light-hsl), 1);
+
+  --A2-dark-hsl: 168, 66%, 39%;
+  --A2-dark-hsla: hsla(var(--A2-dark-hsl), 1);
+
+  --A2A-light-hsl: 155, 96%, 19%;
+  --A2A-light-hsla: hsla(var(--A2A-light-hsl), 1);
+
+  --A2A-dark-hsl: 181, 65%, 52%;
+  --A2A-dark-hsla: hsla(var(--A2A-dark-hsl), 1);
+
+  --GR1-light-hsl: 136, 36%, 52%;
+  --GR1-light-hsla: hsla(var(--GR1-light-hsl), 1);
+
+  --GR1-dark-hsl: 157, 45%, 54%;
+  --GR1-dark-hsla: hsla(var(--GR1-dark-hsl), 1);
+
+  --GR2-light-hsl: 178, 100%, 12%;
+  --GR2-light-hsla: hsla(var(--GR2-light-hsl), 1);
+
+  --GR2-dark-hsl: 180, 73%, 14%;
+  --GR2-dark-hsla: hsla(var(--GR2-dark-hsl), 1);
+
+  --flatAlert-light-hsl: 12, 100%, 50%;
+  --flatAlert-light-hsla: hsla(var(--flatAlert-light-hsl), 1);
+
+  --flatAlert-dark-hsl: 12, 100%, 50%;
+  --flatAlert-dark-hsla: hsla(var(--flatAlert-dark-hsl), 1);
+
+  --flatAlertContentTextColor-light-hsl: 0, 0%, 6%;
+  --flatAlertContentTextColor-light-hsla: hsla(
+    var(--flatAlertContentTextColor-light-hsl),
+    1
+  );
+
+  --flatAlertContentTextColor-dark-hsl: 0, 0%, 6%;
+  --flatAlertContentTextColor-dark-hsla: hsla(
+    var(--flatAlertContentTextColor-dark-hsl),
+    1
+  );
+
+  --flatBackground-light-hsl: 216, 17%, 94%;
+  --flatBackground-light-hsla: hsla(var(--flatBackground-light-hsl), 1);
+
+  --flatBackground-dark-hsl: 223, 23%, 12%;
+  --flatBackground-dark-hsla: hsla(var(--flatBackground-dark-hsl), 1);
+
+  --flatBackgroundContentTextColor-light-hsl: 0, 0%, 6%;
+  --flatBackgroundContentTextColor-light-hsla: hsla(
+    var(--flatBackgroundContentTextColor-light-hsl),
+    1
+  );
+
+  --flatBackgroundContentTextColor-dark-hsl: 0, 0%, 94%;
+  --flatBackgroundContentTextColor-dark-hsla: hsla(
+    var(--flatBackgroundContentTextColor-dark-hsl),
+    1
+  );
+
+  --flatHorizontalLineOnCards-light-hsl: 0, 0%, 87%;
+  --flatHorizontalLineOnCards-light-hsla: hsla(
+    var(--flatHorizontalLineOnCards-light-hsl),
+    1
+  );
+
+  --flatHorizontalLineOnCards-dark-hsl: 224, 23%, 16%;
+  --flatHorizontalLineOnCards-dark-hsla: hsla(
+    var(--flatHorizontalLineOnCards-dark-hsl),
+    1
+  );
+
+  --flatHorizontalLineOnCardsContentTextColor-light-hsl: 0, 0%, 6%;
+  --flatHorizontalLineOnCardsContentTextColor-light-hsla: hsla(
+    var(--flatHorizontalLineOnCardsContentTextColor-light-hsl),
+    1
+  );
+
+  --flatHorizontalLineOnCardsContentTextColor-dark-hsl: 0, 0%, 94%;
+  --flatHorizontalLineOnCardsContentTextColor-dark-hsla: hsla(
+    var(--flatHorizontalLineOnCardsContentTextColor-dark-hsl),
+    1
+  );
+
+  --flatMainNavColor-light-hsl: 0, 0%, 100%;
+  --flatMainNavColor-light-hsla: hsla(var(--flatMainNavColor-light-hsl), 1);
+
+  --flatMainNavColor-dark-hsl: 224, 24%, 32%;
+  --flatMainNavColor-dark-hsla: hsla(var(--flatMainNavColor-dark-hsl), 1);
+
+  --flatMainNavColorContentTextColor-light-hsl: 0, 0%, 6%;
+  --flatMainNavColorContentTextColor-light-hsla: hsla(
+    var(--flatMainNavColorContentTextColor-light-hsl),
+    1
+  );
+
+  --flatMainNavColorContentTextColor-dark-hsl: 0, 0%, 94%;
+  --flatMainNavColorContentTextColor-dark-hsla: hsla(
+    var(--flatMainNavColorContentTextColor-dark-hsl),
+    1
+  );
+
+  --flatMonoVizColorOther-light-hsl: 213, 5%, 45%;
+  --flatMonoVizColorOther-light-hsla: hsla(
+    var(--flatMonoVizColorOther-light-hsl),
+    1
+  );
+
+  --flatMonoVizColorOther-dark-hsl: 224, 31%, 56%;
+  --flatMonoVizColorOther-dark-hsla: hsla(
+    var(--flatMonoVizColorOther-dark-hsl),
+    1
+  );
+
+  --flatOnAlert-light-hsl: 0, 0%, 6%;
+  --flatOnAlert-light-hsla: hsla(var(--flatOnAlert-light-hsl), 1);
+
+  --flatOnAlert-dark-hsl: 0, 0%, 6%;
+  --flatOnAlert-dark-hsla: hsla(var(--flatOnAlert-dark-hsl), 1);
+
+  --flatOnBackground-light-hsl: 0, 0%, 6%;
+  --flatOnBackground-light-hsla: hsla(var(--flatOnBackground-light-hsl), 1);
+
+  --flatOnBackground-dark-hsl: 0, 0%, 94%;
+  --flatOnBackground-dark-hsla: hsla(var(--flatOnBackground-dark-hsl), 1);
+
+  --flatOnMonoVizColorOther-light-hsl: 0, 0%, 94%;
+  --flatOnMonoVizColorOther-light-hsla: hsla(
+    var(--flatOnMonoVizColorOther-light-hsl),
+    1
+  );
+
+  --flatOnMonoVizColorOther-dark-hsl: 0, 0%, 6%;
+  --flatOnMonoVizColorOther-dark-hsla: hsla(
+    var(--flatOnMonoVizColorOther-dark-hsl),
+    1
+  );
+
+  --flatOnRowEven-light-hsl: 0, 0%, 6%;
+  --flatOnRowEven-light-hsla: hsla(var(--flatOnRowEven-light-hsl), 1);
+
+  --flatOnRowEven-dark-hsl: 0, 0%, 94%;
+  --flatOnRowEven-dark-hsla: hsla(var(--flatOnRowEven-dark-hsl), 1);
+
+  --flatOnRowOdd-light-hsl: 0, 0%, 6%;
+  --flatOnRowOdd-light-hsla: hsla(var(--flatOnRowOdd-light-hsl), 1);
+
+  --flatOnRowOdd-dark-hsl: 0, 0%, 94%;
+  --flatOnRowOdd-dark-hsla: hsla(var(--flatOnRowOdd-dark-hsl), 1);
+
+  --flatOnSurface-light-hsl: 0, 0%, 6%;
+  --flatOnSurface-light-hsla: hsla(var(--flatOnSurface-light-hsl), 1);
+
+  --flatOnSurface-dark-hsl: 0, 0%, 94%;
+  --flatOnSurface-dark-hsla: hsla(var(--flatOnSurface-dark-hsl), 1);
+
+  --flatOnSurfaceAlt-light-hsl: 0, 0%, 81%;
+  --flatOnSurfaceAlt-light-hsla: hsla(var(--flatOnSurfaceAlt-light-hsl), 1);
+
+  --flatOnSurfaceAlt-dark-hsl: 0, 0%, 81%;
+  --flatOnSurfaceAlt-dark-hsla: hsla(var(--flatOnSurfaceAlt-dark-hsl), 1);
+
+  --flatRowEven-light-hsl: 0, 7%, 97%;
+  --flatRowEven-light-hsla: hsla(var(--flatRowEven-light-hsl), 1);
+
+  --flatRowEven-dark-hsl: 224, 24%, 24%;
+  --flatRowEven-dark-hsla: hsla(var(--flatRowEven-dark-hsl), 1);
+
+  --flatRowOdd-light-hsl: 0, 0%, 100%;
+  --flatRowOdd-light-hsla: hsla(var(--flatRowOdd-light-hsl), 1);
+
+  --flatRowOdd-dark-hsl: 224, 24%, 19%;
+  --flatRowOdd-dark-hsla: hsla(var(--flatRowOdd-dark-hsl), 1);
+
+  --flatSurface-light-hsl: 0, 0%, 100%;
+  --flatSurface-light-hsla: hsla(var(--flatSurface-light-hsl), 1);
+
+  --flatSurface-dark-hsl: 224, 24%, 24%;
+  --flatSurface-dark-hsla: hsla(var(--flatSurface-dark-hsl), 1);
+
+  --materialAlert-light-hsl: 0, 76%, 50%;
+  --materialAlert-light-hsla: hsla(var(--materialAlert-light-hsl), 1);
+
+  --materialAlert-dark-hsl: 0, 76%, 50%;
+  --materialAlert-dark-hsla: hsla(var(--materialAlert-dark-hsl), 1);
+
+  --materialBackground-light-hsl: 0, 0%, 90%;
+  --materialBackground-light-hsla: hsla(var(--materialBackground-light-hsl), 1);
+
+  --materialBackground-dark-hsl: 212, 17%, 15%;
+  --materialBackground-dark-hsla: hsla(var(--materialBackground-dark-hsl), 1);
+
+  --materialOnAlert-light-hsl: 0, 0%, 94%;
+  --materialOnAlert-light-hsla: hsla(var(--materialOnAlert-light-hsl), 1);
+
+  --materialOnAlert-dark-hsl: 0, 0%, 94%;
+  --materialOnAlert-dark-hsla: hsla(var(--materialOnAlert-dark-hsl), 1);
+
+  --materialOnBackground-light-hsl: 0, 0%, 6%;
+  --materialOnBackground-light-hsla: hsla(
+    var(--materialOnBackground-light-hsl),
+    1
+  );
+
+  --materialOnBackground-dark-hsl: 0, 0%, 94%;
+  --materialOnBackground-dark-hsla: hsla(
+    var(--materialOnBackground-dark-hsl),
+    1
+  );
+
+  --materialOnMonoVizColorOther-light-hsl: 0, 0%, 94%;
+  --materialOnMonoVizColorOther-light-hsla: hsla(
+    var(--materialOnMonoVizColorOther-light-hsl),
+    1
+  );
+
+  --materialOnMonoVizColorOther-dark-hsl: 0, 0%, 6%;
+  --materialOnMonoVizColorOther-dark-hsla: hsla(
+    var(--materialOnMonoVizColorOther-dark-hsl),
+    1
+  );
+
+  --materialOnRowEven-light-hsl: 0, 0%, 6%;
+  --materialOnRowEven-light-hsla: hsla(var(--materialOnRowEven-light-hsl), 1);
+
+  --materialOnRowEven-dark-hsl: 0, 0%, 94%;
+  --materialOnRowEven-dark-hsla: hsla(var(--materialOnRowEven-dark-hsl), 1);
+
+  --materialOnRowOdd-light-hsl: 0, 0%, 6%;
+  --materialOnRowOdd-light-hsla: hsla(var(--materialOnRowOdd-light-hsl), 1);
+
+  --materialOnRowOdd-dark-hsl: 0, 0%, 94%;
+  --materialOnRowOdd-dark-hsla: hsla(var(--materialOnRowOdd-dark-hsl), 1);
+
+  --materialOnSurface-light-hsl: 0, 0%, 6%;
+  --materialOnSurface-light-hsla: hsla(var(--materialOnSurface-light-hsl), 1);
+
+  --materialOnSurface-dark-hsl: 0, 0%, 94%;
+  --materialOnSurface-dark-hsla: hsla(var(--materialOnSurface-dark-hsl), 1);
+
+  --materialOnSurfaceAlt-light-hsl: 213, 5%, 45%;
+  --materialOnSurfaceAlt-light-hsla: hsla(
+    var(--materialOnSurfaceAlt-light-hsl),
+    1
+  );
+
+  --materialOnSurfaceAlt-dark-hsl: 0, 0%, 81%;
+  --materialOnSurfaceAlt-dark-hsla: hsla(
+    var(--materialOnSurfaceAlt-dark-hsl),
+    1
+  );
+
+  --materialRowEven-light-hsl: 0, 0%, 97%;
+  --materialRowEven-light-hsla: hsla(var(--materialRowEven-light-hsl), 1);
+
+  --materialRowEven-dark-hsl: 218, 16%, 30%;
+  --materialRowEven-dark-hsla: hsla(var(--materialRowEven-dark-hsl), 1);
+
+  --materialRowOdd-light-hsl: 0, 0%, 100%;
+  --materialRowOdd-light-hsla: hsla(var(--materialRowOdd-light-hsl), 1);
+
+  --materialRowOdd-dark-hsl: 217, 15%, 24%;
+  --materialRowOdd-dark-hsla: hsla(var(--materialRowOdd-dark-hsl), 1);
+
+  --materialSurface-light-hsl: 0, 0%, 100%;
+  --materialSurface-light-hsla: hsla(var(--materialSurface-light-hsl), 1);
+
+  --materialSurface-dark-hsl: 217, 15%, 24%;
+  --materialSurface-dark-hsla: hsla(var(--materialSurface-dark-hsl), 1);
+
+  --modernAlert-light-hsl: 0, 76%, 50%;
+  --modernAlert-light-hsla: hsla(var(--modernAlert-light-hsl), 1);
+
+  --modernAlert-dark-hsl: 0, 76%, 50%;
+  --modernAlert-dark-hsla: hsla(var(--modernAlert-dark-hsl), 1);
+
+  --modernBackground-light-hsl: 0, 0%, 90%;
+  --modernBackground-light-hsla: hsla(var(--modernBackground-light-hsl), 1);
+
+  --modernBackground-dark-hsl: 212, 17%, 15%;
+  --modernBackground-dark-hsla: hsla(var(--modernBackground-dark-hsl), 1);
+
+  --modernMainNavColor-light-hsl: 0, 0%, 0%;
+  --modernMainNavColor-light-hsla: hsla(var(--modernMainNavColor-light-hsl), 1);
+
+  --modernMainNavColor-dark-hsl: 0, 0%, 0%;
+  --modernMainNavColor-dark-hsla: hsla(var(--modernMainNavColor-dark-hsl), 1);
+
+  --modernOnAlert-light-hsl: 0, 0%, 94%;
+  --modernOnAlert-light-hsla: hsla(var(--modernOnAlert-light-hsl), 1);
+
+  --modernOnAlert-dark-hsl: 0, 0%, 94%;
+  --modernOnAlert-dark-hsla: hsla(var(--modernOnAlert-dark-hsl), 1);
+
+  --modernOnBackground-light-hsl: 0, 0%, 6%;
+  --modernOnBackground-light-hsla: hsla(var(--modernOnBackground-light-hsl), 1);
+
+  --modernOnBackground-dark-hsl: 0, 0%, 94%;
+  --modernOnBackground-dark-hsla: hsla(var(--modernOnBackground-dark-hsl), 1);
+
+  --modernOnMainNavColor-light-hsl: 0, 0%, 94%;
+  --modernOnMainNavColor-light-hsla: hsla(
+    var(--modernOnMainNavColor-light-hsl),
+    1
+  );
+
+  --modernOnMainNavColor-dark-hsl: 0, 0%, 94%;
+  --modernOnMainNavColor-dark-hsla: hsla(
+    var(--modernOnMainNavColor-dark-hsl),
+    1
+  );
+
+  --modernOnMonoVizColorOther-light-hsl: 0, 0%, 94%;
+  --modernOnMonoVizColorOther-light-hsla: hsla(
+    var(--modernOnMonoVizColorOther-light-hsl),
+    1
+  );
+
+  --modernOnMonoVizColorOther-dark-hsl: 0, 0%, 6%;
+  --modernOnMonoVizColorOther-dark-hsla: hsla(
+    var(--modernOnMonoVizColorOther-dark-hsl),
+    1
+  );
+
+  --modernOnRowEven-light-hsl: 0, 0%, 6%;
+  --modernOnRowEven-light-hsla: hsla(var(--modernOnRowEven-light-hsl), 1);
+
+  --modernOnRowEven-dark-hsl: 0, 0%, 94%;
+  --modernOnRowEven-dark-hsla: hsla(var(--modernOnRowEven-dark-hsl), 1);
+
+  --modernOnRowOdd-light-hsl: 0, 0%, 6%;
+  --modernOnRowOdd-light-hsla: hsla(var(--modernOnRowOdd-light-hsl), 1);
+
+  --modernOnRowOdd-dark-hsl: 0, 0%, 94%;
+  --modernOnRowOdd-dark-hsla: hsla(var(--modernOnRowOdd-dark-hsl), 1);
+
+  --modernOnSurface-light-hsl: 0, 0%, 6%;
+  --modernOnSurface-light-hsla: hsla(var(--modernOnSurface-light-hsl), 1);
+
+  --modernOnSurface-dark-hsl: 0, 0%, 94%;
+  --modernOnSurface-dark-hsla: hsla(var(--modernOnSurface-dark-hsl), 1);
+
+  --modernOnSurfaceAlt-light-hsl: 213, 5%, 45%;
+  --modernOnSurfaceAlt-light-hsla: hsla(var(--modernOnSurfaceAlt-light-hsl), 1);
+
+  --modernOnSurfaceAlt-dark-hsl: 0, 0%, 81%;
+  --modernOnSurfaceAlt-dark-hsla: hsla(var(--modernOnSurfaceAlt-dark-hsl), 1);
+
+  --modernRowEven-light-hsl: 0, 0%, 97%;
+  --modernRowEven-light-hsla: hsla(var(--modernRowEven-light-hsl), 1);
+
+  --modernRowEven-dark-hsl: 218, 16%, 30%;
+  --modernRowEven-dark-hsla: hsla(var(--modernRowEven-dark-hsl), 1);
+
+  --modernRowOdd-light-hsl: 0, 0%, 100%;
+  --modernRowOdd-light-hsla: hsla(var(--modernRowOdd-light-hsl), 1);
+
+  --modernRowOdd-dark-hsl: 217, 15%, 24%;
+  --modernRowOdd-dark-hsla: hsla(var(--modernRowOdd-dark-hsl), 1);
+
+  --modernSurface-light-hsl: 0, 0%, 100%;
+  --modernSurface-light-hsla: hsla(var(--modernSurface-light-hsl), 1);
+
+  --modernSurface-dark-hsl: 217, 15%, 24%;
+  --modernSurface-dark-hsla: hsla(var(--modernSurface-dark-hsl), 1);
+
+  --onA1-light-hsl: 0, 0%, 94%;
+  --onA1-light-hsla: hsla(var(--onA1-light-hsl), 1);
+
+  --onA1-dark-hsl: 0, 0%, 94%;
+  --onA1-dark-hsla: hsla(var(--onA1-dark-hsl), 1);
+
+  --onA1A-light-hsl: 0, 0%, 94%;
+  --onA1A-light-hsla: hsla(var(--onA1A-light-hsl), 1);
+
+  --onA1A-dark-hsl: 0, 0%, 94%;
+  --onA1A-dark-hsla: hsla(var(--onA1A-dark-hsl), 1);
+
+  --onA2-light-hsl: 0, 0%, 6%;
+  --onA2-light-hsla: hsla(var(--onA2-light-hsl), 1);
+
+  --onA2-dark-hsl: 0, 0%, 6%;
+  --onA2-dark-hsla: hsla(var(--onA2-dark-hsl), 1);
+
+  --onA2A-light-hsl: 0, 0%, 94%;
+  --onA2A-light-hsla: hsla(var(--onA2A-light-hsl), 1);
+
+  --onA2A-dark-hsl: 0, 0%, 6%;
+  --onA2A-dark-hsla: hsla(var(--onA2A-dark-hsl), 1);
+
+  --onGR1-light-hsl: 0, 0%, 6%;
+  --onGR1-light-hsla: hsla(var(--onGR1-light-hsl), 1);
+
+  --onGR1-dark-hsl: 0, 0%, 6%;
+  --onGR1-dark-hsla: hsla(var(--onGR1-dark-hsl), 1);
+
+  --onGR2-light-hsl: 0, 0%, 94%;
+  --onGR2-light-hsla: hsla(var(--onGR2-light-hsl), 1);
+
+  --onGR2-dark-hsl: 0, 0%, 94%;
+  --onGR2-dark-hsla: hsla(var(--onGR2-dark-hsl), 1);
+
+  --onSev1-light-hsl: 0, 0%, 6%;
+  --onSev1-light-hsla: hsla(var(--onSev1-light-hsl), 1);
+
+  --onSev1-dark-hsl: 0, 0%, 6%;
+  --onSev1-dark-hsla: hsla(var(--onSev1-dark-hsl), 1);
+
+  --onSev2-light-hsl: 0, 0%, 6%;
+  --onSev2-light-hsla: hsla(var(--onSev2-light-hsl), 1);
+
+  --onSev2-dark-hsl: 0, 0%, 6%;
+  --onSev2-dark-hsla: hsla(var(--onSev2-dark-hsl), 1);
+
+  --onSev3-light-hsl: 0, 0%, 6%;
+  --onSev3-light-hsla: hsla(var(--onSev3-light-hsl), 1);
+
+  --onSev3-dark-hsl: 0, 0%, 6%;
+  --onSev3-dark-hsla: hsla(var(--onSev3-dark-hsl), 1);
+
+  --onSev4-light-hsl: 0, 0%, 6%;
+  --onSev4-light-hsla: hsla(var(--onSev4-light-hsl), 1);
+
+  --onSev4-dark-hsl: 0, 0%, 6%;
+  --onSev4-dark-hsla: hsla(var(--onSev4-dark-hsl), 1);
+
+  --onSev5-light-hsl: 0, 0%, 94%;
+  --onSev5-light-hsla: hsla(var(--onSev5-light-hsl), 1);
+
+  --onSev5-dark-hsl: 0, 0%, 94%;
+  --onSev5-dark-hsla: hsla(var(--onSev5-dark-hsl), 1);
+
+  --onSevOff-light-hsl: 0, 0%, 94%;
+  --onSevOff-light-hsla: hsla(var(--onSevOff-light-hsl), 1);
+
+  --onSevOff-dark-hsl: 0, 0%, 94%;
+  --onSevOff-dark-hsla: hsla(var(--onSevOff-dark-hsl), 1);
+
+  --onSevOn-light-hsl: 0, 0%, 6%;
+  --onSevOn-light-hsla: hsla(var(--onSevOn-light-hsl), 1);
+
+  --onSevOn-dark-hsl: 0, 0%, 6%;
+  --onSevOn-dark-hsla: hsla(var(--onSevOn-dark-hsl), 1);
+
+  --onViz1-light-hsl: 0, 0%, 94%;
+  --onViz1-light-hsla: hsla(var(--onViz1-light-hsl), 1);
+
+  --onViz1-dark-hsl: 0, 0%, 94%;
+  --onViz1-dark-hsla: hsla(var(--onViz1-dark-hsl), 1);
+
+  --onViz10-light-hsl: 0, 0%, 6%;
+  --onViz10-light-hsla: hsla(var(--onViz10-light-hsl), 1);
+
+  --onViz10-dark-hsl: 0, 0%, 6%;
+  --onViz10-dark-hsla: hsla(var(--onViz10-dark-hsl), 1);
+
+  --onViz2-light-hsl: 0, 0%, 6%;
+  --onViz2-light-hsla: hsla(var(--onViz2-light-hsl), 1);
+
+  --onViz2-dark-hsl: 0, 0%, 6%;
+  --onViz2-dark-hsla: hsla(var(--onViz2-dark-hsl), 1);
+
+  --onViz3-light-hsl: 0, 0%, 94%;
+  --onViz3-light-hsla: hsla(var(--onViz3-light-hsl), 1);
+
+  --onViz3-dark-hsl: 0, 0%, 94%;
+  --onViz3-dark-hsla: hsla(var(--onViz3-dark-hsl), 1);
+
+  --onViz4-light-hsl: 0, 0%, 6%;
+  --onViz4-light-hsla: hsla(var(--onViz4-light-hsl), 1);
+
+  --onViz4-dark-hsl: 0, 0%, 6%;
+  --onViz4-dark-hsla: hsla(var(--onViz4-dark-hsl), 1);
+
+  --onViz5-light-hsl: 0, 0%, 94%;
+  --onViz5-light-hsla: hsla(var(--onViz5-light-hsl), 1);
+
+  --onViz5-dark-hsl: 0, 0%, 94%;
+  --onViz5-dark-hsla: hsla(var(--onViz5-dark-hsl), 1);
+
+  --onViz6-light-hsl: 0, 0%, 6%;
+  --onViz6-light-hsla: hsla(var(--onViz6-light-hsl), 1);
+
+  --onViz6-dark-hsl: 0, 0%, 6%;
+  --onViz6-dark-hsla: hsla(var(--onViz6-dark-hsl), 1);
+
+  --onViz7-light-hsl: 0, 0%, 94%;
+  --onViz7-light-hsla: hsla(var(--onViz7-light-hsl), 1);
+
+  --onViz7-dark-hsl: 0, 0%, 94%;
+  --onViz7-dark-hsla: hsla(var(--onViz7-dark-hsl), 1);
+
+  --onViz8-light-hsl: 0, 0%, 6%;
+  --onViz8-light-hsla: hsla(var(--onViz8-light-hsl), 1);
+
+  --onViz8-dark-hsl: 0, 0%, 6%;
+  --onViz8-dark-hsla: hsla(var(--onViz8-dark-hsl), 1);
+
+  --onViz9-light-hsl: 0, 0%, 94%;
+  --onViz9-light-hsla: hsla(var(--onViz9-light-hsl), 1);
+
+  --onViz9-dark-hsl: 0, 0%, 6%;
+  --onViz9-dark-hsla: hsla(var(--onViz9-dark-hsl), 1);
+
+  --sev1-light-hsl: 89, 100%, 36%;
+  --sev1-light-hsla: hsla(var(--sev1-light-hsl), 1);
+
+  --sev1-dark-hsl: 89, 100%, 42%;
+  --sev1-dark-hsla: hsla(var(--sev1-dark-hsl), 1);
+
+  --sev2-light-hsl: 66, 100%, 37%;
+  --sev2-light-hsla: hsla(var(--sev2-light-hsl), 1);
+
+  --sev2-dark-hsl: 66, 100%, 43%;
+  --sev2-dark-hsla: hsla(var(--sev2-dark-hsl), 1);
+
+  --sev3-light-hsl: 44, 100%, 44%;
+  --sev3-light-hsla: hsla(var(--sev3-light-hsl), 1);
+
+  --sev3-dark-hsl: 44, 100%, 48%;
+  --sev3-dark-hsla: hsla(var(--sev3-dark-hsl), 1);
+
+  --sev4-light-hsl: 24, 100%, 45%;
+  --sev4-light-hsla: hsla(var(--sev4-light-hsl), 1);
+
+  --sev4-dark-hsl: 24, 100%, 49%;
+  --sev4-dark-hsla: hsla(var(--sev4-dark-hsl), 1);
+
+  --sev5-light-hsl: 0, 75%, 38%;
+  --sev5-light-hsla: hsla(var(--sev5-light-hsl), 1);
+
+  --sev5-dark-hsl: 0, 76%, 50%;
+  --sev5-dark-hsla: hsla(var(--sev5-dark-hsl), 1);
+
+  --sevOff-light-hsl: 0, 75%, 38%;
+  --sevOff-light-hsla: hsla(var(--sevOff-light-hsl), 1);
+
+  --sevOff-dark-hsl: 0, 76%, 50%;
+  --sevOff-dark-hsla: hsla(var(--sevOff-dark-hsl), 1);
+
+  --sevOn-light-hsl: 89, 100%, 36%;
+  --sevOn-light-hsla: hsla(var(--sevOn-light-hsl), 1);
+
+  --sevOn-dark-hsl: 89, 100%, 42%;
+  --sevOn-dark-hsla: hsla(var(--sevOn-dark-hsl), 1);
+
+  --viz1-light-hsl: 246, 61%, 32%;
+  --viz1-light-hsla: hsla(var(--viz1-light-hsl), 1);
+
+  --viz1-dark-hsl: 246, 81%, 55%;
+  --viz1-dark-hsla: hsla(var(--viz1-dark-hsl), 1);
+
+  --viz10-light-hsl: 220, 64%, 50%;
+  --viz10-light-hsla: hsla(var(--viz10-light-hsl), 1);
+
+  --viz10-dark-hsl: 220, 62%, 65%;
+  --viz10-dark-hsla: hsla(var(--viz10-dark-hsl), 1);
+
+  --viz2-light-hsl: 246, 79%, 59%;
+  --viz2-light-hsla: hsla(var(--viz2-light-hsl), 1);
+
+  --viz2-dark-hsl: 246, 75%, 62%;
+  --viz2-dark-hsla: hsla(var(--viz2-dark-hsl), 1);
+
+  --viz3-light-hsl: 168, 65%, 16%;
+  --viz3-light-hsla: hsla(var(--viz3-light-hsl), 1);
+
+  --viz3-dark-hsl: 168, 70%, 23%;
+  --viz3-dark-hsla: hsla(var(--viz3-dark-hsl), 1);
+
+  --viz4-light-hsl: 168, 64%, 34%;
+  --viz4-light-hsla: hsla(var(--viz4-light-hsl), 1);
+
+  --viz4-dark-hsl: 168, 64%, 34%;
+  --viz4-dark-hsla: hsla(var(--viz4-dark-hsl), 1);
+
+  --viz5-light-hsl: 194, 98%, 25%;
+  --viz5-light-hsla: hsla(var(--viz5-light-hsl), 1);
+
+  --viz5-dark-hsl: 194, 98%, 25%;
+  --viz5-dark-hsla: hsla(var(--viz5-dark-hsl), 1);
+
+  --viz6-light-hsl: 194, 53%, 46%;
+  --viz6-light-hsla: hsla(var(--viz6-light-hsl), 1);
+
+  --viz6-dark-hsl: 194, 53%, 46%;
+  --viz6-dark-hsla: hsla(var(--viz6-dark-hsl), 1);
+
+  --viz7-light-hsl: 272, 56%, 27%;
+  --viz7-light-hsla: hsla(var(--viz7-light-hsl), 1);
+
+  --viz7-dark-hsl: 272, 74%, 52%;
+  --viz7-dark-hsla: hsla(var(--viz7-dark-hsl), 1);
+
+  --viz8-light-hsl: 272, 26%, 52%;
+  --viz8-light-hsla: hsla(var(--viz8-light-hsl), 1);
+
+  --viz8-dark-hsl: 272, 26%, 52%;
+  --viz8-dark-hsla: hsla(var(--viz8-dark-hsl), 1);
+
+  --viz9-light-hsl: 220, 61%, 31%;
+  --viz9-light-hsla: hsla(var(--viz9-light-hsl), 1);
+
+  --viz9-dark-hsl: 222, 83%, 50%;
+  --viz9-dark-hsla: hsla(var(--viz9-dark-hsl), 1);
+
+  --vizOther-light-hsl: 216, 9%, 35%;
+  --vizOther-light-hsla: hsla(var(--vizOther-light-hsl), 1);
+
+  --vizOther-dark-hsl: 216, 9%, 35%;
+  --vizOther-dark-hsla: hsla(var(--vizOther-dark-hsl), 1);
+}

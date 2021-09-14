@@ -1,0 +1,17 @@
+.switch-container {
+  display: inline-block;
+  width: inherit;
+  .MuiFormControlLabel-label {
+    color: var(--secondary-color);
+  }
+  .has-ellipsis {
+    .MuiFormControlLabel-label {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: var(--wh-2XL);
+      white-space: nowrap;
+      display: block;
+      text-align: left;
+    }
+  }
+}

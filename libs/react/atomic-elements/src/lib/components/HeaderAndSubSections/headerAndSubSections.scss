@@ -1,0 +1,20 @@
+.header-title {
+
+  .title-container {
+    font-size: var(--pm-S);
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--alt-mid-color);
+    font-weight: normal;
+  }
+
+  .with-ellipsis {
+    font-size: var(--pm-1XL);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: var(--wh-7XL);
+    margin-right: var(--pm-3XS);
+  }
+}

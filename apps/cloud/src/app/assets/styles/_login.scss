@@ -1,0 +1,62 @@
+@import 'colors';
+@import 'mixins';
+
+.login {
+
+  .wrap {
+    @include animate();
+    @include borderRadius();
+    @include boxShadow();
+    @include gradient($shade-200, $shade-300);
+    @include transitions();
+
+    & * {
+      color: $color-dark !important;
+    }
+  }
+
+
+  & .pic {
+    @include animate();
+    @include gradient($color-light, $shade-300);
+    padding: 15px;
+    border-radius: 99%;
+    width: 65px;
+    height: 65px;
+    margin: auto;
+  }
+
+  button {
+    border-radius: 25px;
+    background: $color-dark !important;
+    & span {
+      @include getColor($color-light);
+    }
+  }
+
+  .MuiButton-label{
+    @include getColor($color-light);
+  }
+
+  [data-testid='sign-in'] {
+    padding: 10px 0;
+    @include transitions();
+
+    &:hover {
+      @include scale(1.2);
+      & span {
+        @include getColor($color-light);
+      }
+    }
+  }
+
+  [variant='googleSignInButton'] {
+    @include transitions;
+    background: none !important;
+    border: 1px solid $color-dark !important;
+    &:hover {
+      @include scale(1.2);
+      border-color: $color-info;
+    }
+  }
+}

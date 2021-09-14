@@ -1,0 +1,83 @@
+:root {
+  --neutral-white-hsl: 0, 0%, 100%;
+  --neutral-white-hsla: hsla(var(--neutral-white-hsl), 1);
+  --neutral-grey-9-hsl: 0, 0%, 90%;
+  --neutral-grey-9-hsla: hsla(var(--neutral-grey-9-hsl), 1);
+  --neutral-grey-8-hsl: 0, 0%, 80%;
+  --neutral-grey-8-hsla: hsla(var(--neutral-grey-8-hsl), 1);
+  --neutral-grey-7-hsl: 0, 0%, 70%;
+  --neutral-grey-7-hsla: hsla(var(--neutral-grey-7-hsl), 1);
+  --neutral-grey-6-hsl: 0, 0%, 60%;
+  --neutral-grey-6-hsla: hsla(var(--neutral-grey-6-hsl), 1);
+  --neutral-grey-5-hsl: 0, 0%, 50%;
+  --neutral-grey-5-hsla: hsla(var(--neutral-grey-5-hsl), 1);
+  --neutral-grey-4-hsl: 0, 0%, 40%;
+  --neutral-grey-4-hsla: hsla(var(--neutral-grey-4-hsl), 1);
+  --neutral-grey-3-hsl: 0, 0%, 30%;
+  --neutral-grey-3-hsla: hsla(var(--neutral-grey-3-hsl), 1);
+  --neutral-grey-2-hsl: 0, 0%, 20%;
+  --neutral-grey-2-hsla: hsla(var(--neutral-grey-2-hsl), 1);
+  --neutral-grey-1-hsl: 0, 0%, 10%;
+  --neutral-grey-1-hsla: hsla(var(--neutral-grey-1-hsl), 1);
+  --neutral-black-hsl: 0, 0%, 0%;
+  --neutral-black-hsla: hsla(var(--neutral-black-hsl), 1);
+
+  // Shadows
+  --shadow-key-light: rgba(0, 0, 0, 0.5);
+  --shadow-ambient-light: rgba(0, 0, 0, 0.3);
+  --shadow-elevation-low-key: 0px 3px 1px -2px var(--shadow-key-light), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  --shadow-elevation-low-ambient: 0px 3px 1px -2px var(--shadow-ambient-light),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  --shadow-elevation-mid-key: 0px 3px 5px -1px var(--shadow-key-light), 0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  --shadow-elevation-mid-ambient: 0px 3px 5px -1px var(--shadow-ambient-light),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  --shadow-elevation-mid-high-key: 0px 7px 8px -4px var(--shadow-key-light),
+    0px 13px 19px 2px rgba(0, 0, 0, 0.14), 0px 5px 24px 4px rgba(0, 0, 0, 0.12);
+  --shadow-elevation-mid-high-ambient: 0px 7px 8px -4px var(--shadow-ambient-light),
+    0px 13px 19px 2px rgba(0, 0, 0, 0.14), 0px 5px 24px 4px rgba(0, 0, 0, 0.12);
+  --shadow-elevation-high-key: 0px 10px 13px -6px var(--shadow-key-light),
+    0px 21px 33px 3px rgba(0, 0, 0, 0.14), 0px 8px 40px 7px rgba(0, 0, 0, 0.12);
+  --shadow-elevation-high-ambient: 0px 10px 13px -6px var(--shadow-ambient-light),
+    0px 21px 33px 3px rgba(0, 0, 0, 0.14), 0px 8px 40px 7px rgba(0, 0, 0, 0.12);
+  // LEGACY
+  --grey_dark_0x: #7c7d7e;
+  --grey_dark_1x: #626364;
+  --grey_dark_2x: #494a4b;
+  --grey_dark_3x: #303031;
+  --grey_light_0x: #afb0b1;
+  --grey_light_1x: #c9c9ca;
+  --grey_light_2x: #e3e3e3;
+  --grey_light_3x: #f7f7f7;
+  --grey_mid_0x: #959697;
+
+  // Apstack colors
+  --appstack-background-dark-hsl: 223, 25%, 17%;
+  --appstack-background-dark-hsla: hsla(var(--appstack-background-dark-hsl), 1);
+  --appstack-background-light-hsl: 214, 50%, 96%;
+  --appstack-background-light-hsla: hsla(var(--appstack-background-light-hsl), 1);
+  --appstack-table-row-border-color-dark-hsl: 225, 11%, 37%;
+  --appstack-table-row-border-color-dark-hsla: hsla(var(--appstack-table-row-border-color-dark-hsl), 1);
+  --appstack-table-row-border-color-light-hsl: 208, 29%, 90%;
+  --appstack-table-row-border-color-light-hsla: hsla(var(--appstack-table-row-border-color-light-hsl), 1);
+  --appstack-nav-background-hsl: 223, 23%, 21%;
+  --appstack-nav-background-hsla: hsla(var(--appstack-nav-background-hsl), 1);
+  --appstack-row-even-background-color-dark-hsl: 224, 18%, 25%;
+  --appstack-row-even-background-color-dark-hsla: hsla(var(--appstack-row-even-background-color-dark-hsl), 1);
+  --appstack-row-even-background-color-light-hsl: 204, 29%, 97%;
+  --appstack-row-even-background-color-light-hsla: hsla(
+    var(--appstack-row-even-background-color-light-hsl),
+    1
+  );
+  --appstack-table-header-border-bottom-dark-hsl: 222, 6%, 68%;
+  --appstack-table-header-border-bottom-dark-hsla: hsla(
+    var(--appstack-table-header-border-bottom-dark-hsl),
+    1
+  );
+  --appstack-table-header-border-bottom-light-hsl: 224, 24%, 24%;
+  --appstack-table-header-border-bottom-light-hsla: hsla(
+    var(--appstack-table-header-border-bottom-light-hsl),
+    1
+  );
+}

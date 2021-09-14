@@ -1,0 +1,27 @@
+.content-input-color {
+  .bar-color {
+    cursor: pointer;
+    height: 100%;
+    left: var(--size-size0);
+    opacity: 0;
+    position: absolute;
+    top: var(--size-size0);
+    width: 100%;
+  }
+
+  .point-color {
+    border: var(--tx-7XS) solid var(--on-surface-color);
+    border-radius: calc(var(--size-size11) / 2);
+    height: var(--size-size11);
+    position: absolute;
+    width: var(--size-size11);
+  }
+
+  .MuiFilledInput-root .point-color {
+    margin-top: var(--pm-L);
+  }
+
+  .MuiInputBase-root:after {
+    border-color: var(--outlined-input-focus);
+  }
+}

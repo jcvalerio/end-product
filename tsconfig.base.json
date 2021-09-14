@@ -1,0 +1,42 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "importHelpers": false,
+    "target": "es2018",
+    "module": "esnext",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2018", "dom", "es2019.array"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@kleeen/auth": ["libs/auth/src/index.ts"],
+      "@kleeen/backend/utils": ["libs/backend/utils/src/index.ts"],
+      "@kleeen/common/utils": ["libs/common/utils/src/index.ts"],
+      "@kleeen/environment": ["libs/environment/src/index.ts"],
+      "@kleeen/frontend/utils": ["libs/frontend/utils/src/index.ts"],
+      "@kleeen/i18n": ["libs/i18n/src/index.ts"],
+      "@kleeen/infusion": ["libs/infusion/src/index.ts"],
+      "@kleeen/investigations": ["libs/investigations/src/index.ts"],
+      "@kleeen/react/atomic-elements": ["libs/react/atomic-elements/src/index.ts"],
+      "@kleeen/react/components": ["libs/react/components/src/index.ts"],
+      "@kleeen/react/hooks": ["libs/react/hooks/src/index.ts"],
+      "@kleeen/react/state-management": ["libs/react/state-management/src/index.ts"],
+      "@kleeen/render-utils": ["libs/render-utils/src/index.ts"],
+      "@kleeen/settings": ["apps/cloud/src/app/settings/index.ts"],
+      "@kleeen/styles": ["libs/styles/src/index.ts"],
+      "@kleeen/types": ["libs/types/src/index.ts"],
+      "@kleeen/widgets": ["libs/widgets/src/index.ts"]
+    },
+    "strict": false,
+    "noImplicitAny": false
+  },
+  "exclude": ["node_modules", "tmp"]
+}

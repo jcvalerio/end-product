@@ -1,0 +1,147 @@
+.modern-light {
+  //Color variables
+  --application-background: radial-gradient(
+    circle at top right,
+    var(--GR1-light-hsla),
+    var(--GR2-light-hsla)
+  );
+
+  --on-application-background: var(--modernOnSurfaceAlt-light-hsla);
+
+  --primary-color: var(--A1-hsla);
+
+  --primary-color-variant: var(--A1A-light-hsla);
+
+  --on-primary-color-variant: var(--onA1A-light-hsla);
+
+  --secondary-color: var(--A2-light-hsla);
+
+  --secondary-color-hsl: var(--A2-light-hsl);
+
+  --on-secondary-color: var(--onA2-light-hsla);
+
+  --secondary-color-variant: var(--A2A-light-hsla);
+
+  --on-secondary-color-variant: var(--onA2A-light-hsla);
+
+  --alt-light-color: var(--grey_light_3x);
+
+  --alt-mid-color: var(--grey_mid_0x);
+
+  --alt-dark-color: var(--grey_dark_0x);
+
+  --on-primary-color: var(--onA1-light-hsla);
+
+  --on-surface-color: var(--modernOnSurfaceAlt-light-hsla);
+
+  --on-surface-color-hsl: var(--modernOnSurfaceAlt-light-hsl);
+
+  --row-even: var(--modernRowEven-light-hsla);
+
+  --on-row-even: var(--modernOnRowEven-light-hsla);
+
+  --row-odd: var(--modernRowOdd-light-hsla);
+
+  --on-row-odd: var(--modernOnRowOdd-light-hsla);
+
+  --surface-color: hsla(var(--modernSurface-light-hsl), 0.8);
+
+  --surface-color-medium: hsla(var(--modernSurface-light-hsl), 0.4);
+
+  --transparent: transparent;
+
+  //Shadow variables
+  --shadow-button: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+
+  --shadow-button-hover: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+
+  --shadow-grid-section: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+  // Elements variables
+  --nav-top-border-bottom-width: var(--wh-0);
+  --nav-top-bg-color: var(--neutral-black-hsla);
+  --nav-top-border-bottom-color: none;
+  --nav-top-shadow: var(--shadow-elevation-mid-key);
+  --nav-left-bg-color: var(--nav-top-bg-color);
+  --on-nav-top-bg-color: var(--neutral-white-hsla);
+  --top-nav-bar-button-hover: var(--secondary-color-variant);
+  --left-nav-bar-button-hover: var(--secondary-color-variant);
+  --on-top-nav-bar-button-hover: var(--on-primary-color-variant);
+  --on-left-nav-bar-button-hover: var(--on-primary-color-variant);
+  --nav-bar-button-selected: var(--primary-color);
+  --on-nav-bar-button-selected: var(--on-primary-color);
+  --page-intro-bg-color: hsla(var(--modernSurface-light-hsl), 0.4);
+  --card-bg-color: var(--transparent);
+  --card-shadow: var(--shadow-elevation-mid-ambient);
+  --card-content-bg-color: var(--surface-color);
+  --card-content-bg-color-medium: var(--surface-color-medium);
+  --card-header-border: none;
+  --card-header-border-width: none;
+  --card-border-radius: none;
+  --card-content-shadow: none;
+  --page-intro-shadow: none;
+  --table-header-text: var(--neutral-white-hsla);
+  --table-chip-background: hsla(var(--flatOnSurface-light-hsl), 0.15);
+  --table-chip-color: hsla(var(--flatOnSurface-light-hsl));
+  --table-chip-clickable-background: var(hsla(--A2-light-hsl), 0.15);
+  --table-chip-clickable-color: var(--A2-light-hsla);
+  --h3-title-color: var(--on-surface-color);
+  --input-error-color: var(--flatAlert-light-hsla);
+  --menu-bg-color: hsla(var(--modernSurface-light-hsl), 0.94);
+  --table-cell-border-right: var(--pm-7XS) solid var(--neutral-grey-9-hsla);
+  --table-header: var(--neutral-black-hsla);
+  --page-intro-text-color: var(--on-surface-color);
+  --page-intro-text-color-hsl: var(--on-surface-color-hsl);
+  --summary-slot-bg-color: hsla(var(--neutral-light-hsl), 0.2);
+  --surface-color-opacity: hsla(var(--modernSurface-light-hsl), 0.5);
+  --refresh-control-section-shadow: var(--card-content-shadow);
+  --outlined-input: var(--on-surface-color);
+  --outlined-input-hover: var(--on-surface-color);
+  --outlined-input-focus: var(--secondary-color);
+  --notification-bg-color: var(--card-content-bg-color);
+  --notification-shadow-color: var(--card-content-shadow);
+  --notification-error-color: var(--modernAlert-light-hsla);
+  --tooltip-background: var(--modernSurface-light-hsla);
+  --visualization-plot-row-background: hsla(var(--neutral-grey-5-hsl), 0.2);
+  --left-nav-bar-header-border-bottom: solid 1px var(--GR2-light-hsla);
+  --left-nav-bar-header-color: var(--on-primary-color);
+  --left-nav-bar-active-item-bg: var(--GR2-light-hsla);
+  --on-left-nav-bar-active-item-color: var(--on-application-background);
+  --left-nav-bar-shadow: none;
+  --left-nav-bar-active-item-border-left: var(--wh-7XS);
+  --left-nav-border-radius: var(--card-border-radius);
+  --category-top-filter-bg: var(--GR2-dark-hsla);
+  --on-category-top-filter-bg: var(--on-application-background);
+  --simple-list-header-background: var(--table-header);
+  --simple-list-header-color: var(--neutral-grey-6-hsla);
+  --sub-header-background: var(--surface-color);
+  --sub-header-margin: 0 auto;
+  --cart-item-bg: var(--row-even);
+  --on-cart-item-bg: var(--on-row-even);
+
+  --viz1: var(--viz1-light-hsl);
+  --viz2: var(--viz2-light-hsl);
+  --viz3: var(--viz3-light-hsl);
+  --viz4: var(--viz4-light-hsl);
+  --viz5: var(--viz5-light-hsl);
+  --viz6: var(--viz6-light-hsl);
+  --viz7: var(--viz7-light-hsl);
+  --viz8: var(--viz8-light-hsl);
+  --viz9: var(--viz9-light-hsl);
+  --viz10: var(--viz10-light-hsl);
+  --vizOther: var(--vizOther-light-hsl);
+  --viz-shadow: var(--neutral-grey-6-hsla);
+
+  --severity1: var(--sev1-light-hsl);
+  --severity2: var(--sev2-light-hsl);
+  --severity3: var(--sev3-light-hsl);
+  --severity4: var(--sev4-light-hsl);
+  --severity5: var(--sev5-light-hsl);
+  --bad-off: var(--sevOff-light-hsla);
+  --good-on: var(--sevOn-light-hsla);
+  --good-on-opacity-0: hsla(var(--sevOn-dark-hsl), 0);
+  --bad-off-opacity-0: hsla(var(--sevOff-dark-hsl), 0);
+}

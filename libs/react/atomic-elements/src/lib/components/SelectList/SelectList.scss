@@ -1,0 +1,15 @@
+.select-action-container {
+  width: var(--wh-5XL);
+  margin-top: var(--pm-6XS);
+  position: relative;
+
+  .select-action {
+    height: var(--wh-S);
+  }
+
+  .select-action-label {
+    font-size: var(--tx-M);
+    left: auto;
+    position: absolute;
+  }
+}

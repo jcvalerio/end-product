@@ -1,0 +1,12 @@
+.radio-group-container {
+  display: flex;
+  flex: 1;
+
+  .withMarginLeft{
+    margin-left: var(--wh-6XS);
+  }
+
+  .MuiFormGroup-row{
+    flex-direction: column;
+  }
+}

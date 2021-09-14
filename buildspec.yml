@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - node --version
+      - n $NODE_14_VERSION
+      - node --version
+      - npm install -g serverless@2.16.1
+      - npm ci
+
+      - echo "Generate next version"
+      - ./tools/build/backend/generate-next-version.sh
+
+      - npm run versiongen
+
+  build:
+    commands:
+      - node --version
+      - ./apps/api/serverless/deploy.sh
+
+cache:
+  paths:
+    - '/root/.npm/**/*'
+    - 'node_modules/.cache/nx/**/*'

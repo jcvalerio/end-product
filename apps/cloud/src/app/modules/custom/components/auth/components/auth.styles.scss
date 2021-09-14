@@ -1,0 +1,72 @@
+%authenticator {
+  .container {
+    align-items: center;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: var(--pm-L);
+
+    label.Mui-required {
+      span[class*='MuiInputLabel-'] {
+        display: none;
+      }
+    }
+  }
+
+  .wrap {
+    background: var(--nav-top-bg-color);
+    border-radius: var(--pm-S);
+    box-shadow: 0 var(--pm-L) var(--pm-L) 0 var(--nav-top-shadow),
+      0 var(--pm-2XS) var(--pm-1XL) 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    padding: var(--pm-4XL) var(--pm-6XL);
+    width: var(--wh-8XL);
+  }
+
+  .pic {
+    display: flex;
+    justify-content: center;
+
+    & img {
+      max-height: 250px;
+      max-width: 250px;
+    }
+  }
+
+  .padding {
+    padding: var(--pm-M) 0px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .text {
+    color: var(--login-color);
+    font-size: var(--tx-M);
+  }
+
+  .link {
+    -moz-transition: all var(--speed-medium);
+    -o-transition: all var(--speed-medium);
+    -webkit-transition: all var(--speed-medium);
+    color: var(--grey-0);
+    font-size: var(--tx-M);
+    transition: all var(--speed-medium);
+
+    &:focus {
+      outline: none !important;
+    }
+
+    &:hover {
+      color: var(--login-button-background-color);
+      text-decoration: none;
+    }
+  }
+
+  .input {
+    width: 100%;
+  }
+}

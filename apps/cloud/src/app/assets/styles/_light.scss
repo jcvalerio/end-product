@@ -1,0 +1,93 @@
+@import 'colors';
+@import 'mixins';
+
+div[class*='-light'] {
+  &:first-child {
+    background: $color-light !important;
+  }
+
+  & * {
+    @include transitions();
+    @include getColor($color-dark);
+  }
+
+  & a:hover,
+  span:hover {
+    color: $color-dark !important;
+  }
+
+  & .card-section {
+    width: 100% !important;
+  }
+
+  & .card-widget {
+    @include animate();
+    @include borderRadius();
+    @include boxShadow();
+    @include gradient($shade-white, $shade-200);
+    @include transitions();
+
+    & .cardTitle {
+      font-size: 1.3em;
+    }
+
+    & .statistics-secondary {
+      & .container {
+        display: flex;
+        width: 100% !important;
+        & .text-overflow-align {
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+          width: 100% !important;
+        }
+      }
+    }
+
+    & div[class*='hoverTitleHeader'] label {
+      font-size: 1em;
+      padding-bottom: 20px;
+      display: block;
+      color: $color-primary;
+    }
+  }
+
+  & ul li[class*='item'],
+  div[class*='Table-tableRow-'] {
+    &:nth-child(even) {
+      background: $color-primary-05 !important;
+    }
+    &:hover {
+      background: $color-primary-10 !important;
+    }
+  }
+
+  & .MuiButton-containedPrimary:not(.Mui-disabled) {
+    background: $color-primary !important;
+    & span {
+      @include getColor($color-light);
+    }
+  }
+
+  & .MuiButton-containedSecondary:not(.Mui-disabled) {
+    background: $color-danger !important;
+    & span {
+      @include getColor($color-light);
+    }
+  }
+
+  & .attributes-editor-body {
+    @include borderRadius();
+    @include boxShadow();
+    @include gradient($color-info, $color-primary);
+    @include getColor($color-light);
+  }
+}
+
+div.active span {
+  color: $color-primary !important;
+}
+
+div[class*='infoContainer'] > h5 {
+  color: $color-warning !important;
+}

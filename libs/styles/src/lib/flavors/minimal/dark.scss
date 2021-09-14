@@ -1,0 +1,42 @@
+@import 'dark-generated';
+
+.generated.minimal-dark {
+  @import 'shared';
+
+  /* Specific theme styles go HERE */
+
+  // Table
+  --background_table_row_header_clickable_idle-background-color: var(
+    --background_elevation_1C_static_idle-background-color
+  );
+  --background_table_row_header_clickable_idle-color: var(
+    --foreground_principal_no_background_static_idle-color
+  );
+  --background_table_row_odd_clickable_idle-background-color: var(
+    --background_elevation_1C_static_idle-background-color
+  );
+  --background_table_row_odd_clickable_selected-background-color: var(--background_B__03);
+  --background_table_row_even_clickable_idle-background-color: var(
+    --background_elevation_1C_static_idle-background-color
+  );
+  --background_table_row_even_clickable_idle-color: var(
+    --foreground_principal_no_background_static_idle-color
+  );
+  --background_table_row_even_clickable_idle-border-color: transparent; //var(--grey_light_0x)
+
+  // Visualizations TODO: these are not the real values
+  --foreground_visualization_01_clickable_idle-color: var(--foreground_B__01);
+  --foreground_visualization_02_clickable_idle-color: var(--foreground_B__02);
+  --foreground_visualization_03_clickable_idle-color: var(--foreground_B__03);
+  --foreground_visualization_04_clickable_idle-color: var(--foreground_B__04);
+  --foreground_visualization_05_clickable_idle-color: var(--foreground_B__05);
+
+  .text-input {
+    input {
+      background-color: var(--grey_dark_2x);
+    }
+  }
+
+  --bad-off: var(--sevOff-dark-hsla);
+  --good-on: var(--sevOn-dark-hsla);
+}

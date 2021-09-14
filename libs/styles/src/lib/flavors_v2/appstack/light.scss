@@ -1,0 +1,144 @@
+.appstack-light {
+  //Color variables
+  --application-background: var(--appstack-background-light-hsla);
+
+  --on-application-background: var(--flatOnSurface-light-hsla);
+
+  --primary-color: var(--A1-hsla);
+
+  --primary-color-variant: var(--A1A-light-hsla);
+
+  --on-primary-color-variant: var(--onA1A-light-hsla);
+
+  --secondary-color: var(--A2-light-hsla);
+
+  --secondary-color-hsl: var(--A2-light-hsl);
+
+  --on-secondary-color: var(--onA2-light-hsla);
+
+  --secondary-color-variant: var(--A2A-light-hsla);
+
+  --on-secondary-color-variant: var(--onA2A-light-hsla);
+
+  --alt-light-color: var(--grey_light_3x);
+
+  --alt-mid-color: var(--grey_mid_0x);
+
+  --alt-dark-color: var(--grey_dark_0x);
+
+  --on-primary-color: var(--onA1-light-hsla);
+
+  --on-surface-color: var(--neutral-grey-3-hsla);
+
+  --on-surface-color-hsl: var(--neutral-grey-3-hsl);
+
+  --surface-color: var(--flatSurface-light-hsla);
+
+  --row-even: var(--appstack-row-even-background-color-light-hsla);
+
+  --on-row-even: var(--flatOnRowEven-light-hsla);
+
+  --row-odd: var(--surface-color);
+
+  --on-row-odd: var(--flatOnRowOdd-light-hsla);
+
+  --transparent: transparent;
+
+  //Shadow variables
+  --shadow-button: 0 0 0.875rem 0 rgb(41 48 66 / 5%);
+
+  --shadow-button-hover: 0 0 0.875rem 0 rgb(41 48 66 / 5%);
+
+  --shadow-grid-section: 0 0 0.875rem 0 rgb(41 48 66 / 5%);
+
+  // Elements variables
+  --nav-left-bg-color: var(--appstack-nav-background-hsla);
+  --nav-top-border-bottom-width: var(--pm-6XS);
+  --nav-top-bg-color: var(--appstack-nav-background-hsla);
+  --nav-top-border-bottom-color: var(--flatBackground-light-hsla);
+  --nav-top-shadow: 0 0 0.875rem 0 rgb(41 48 66 / 5%);
+  --nav-top-decoration-background: var(--primary-color);
+  --nav-top-decoration-border: none;
+  --on-nav-top-bg-color: var(--neutral-grey-8-hsla);
+  --top-nav-bar-button-hover: none;
+  --left-nav-bar-button-hover: transparent;
+  --on-top-nav-bar-button-hover: var(--on-nav-top-bg-color);
+  --on-left-nav-bar-button-hover: var(--neutral-white-hsla);
+  --nav-bar-button-selected: none;
+  --on-nav-bar-button-selected: var(--on-nav-top-bg-color);
+  --page-intro-bg-color: var(--surface-color);
+  --card-bg-color: var(--surface-color);
+  --card-shadow: 0 0 0.875rem 0 rgb(41 48 66 / 5%);
+  --card-content-bg-color: none;
+  --card-content-bg-color-medium: none;
+  --card-header-border: none;
+  --card-header-border-width: 0 0 var(--pm-7XS) 0;
+  --card-border-radius: var(--pm-5XS);
+  --card-content-shadow: none;
+  --page-intro-shadow: 0 0 0.875rem 0 rgb(41 48 66 / 5%);
+  --h3-title-color: var(--on-surface-color);
+  --input-error-color: var(--flatAlert-light-hsla);
+  --menu-bg-color: var(--surface-color);
+  --page-intro-text-color: var(--on-surface-color);
+  --page-intro-text-color-hsl: var(--on-surface-color-hsl);
+  --summary-slot-bg-color: var(--application-background);
+  --surface-color-opacity: hsla(var(--flatSurface-light-hsl), 0.5);
+  --table-row-border-bottom: 1px solid var(--appstack-table-row-border-color-light-hsla);
+  --table-cell-border-right: none;
+  --table-header: var(--surface-color);
+  --table-header-border-bottom: 1px solid var(--appstack-table-header-border-bottom-light-hsla);
+  --table-header-text: var(--on-surface-color);
+  --table-chip-background: hsla(var(--flatOnSurface-light-hsl), 0.15);
+  --table-chip-color: hsla(var(--flatOnSurface-light-hsl));
+  --table-chip-clickable-background: var(hsla(--A2-light-hsl), 0.15);
+  --table-chip-clickable-color: var(--A2-light-hsla);
+  --refresh-control-section-shadow: var(--page-intro-shadow);
+  --outlined-input: var(--on-surface-color);
+  --outlined-input-hover: var(--on-surface-color);
+  --outlined-input-focus: var(--secondary-color);
+  --notification-bg-color: var(--card-bg-color);
+  --notification-shadow-color: 0 0 0.875rem 0 rgb(41 48 66 / 5%);
+  --notification-error-color: var(--flatAlert-light-hsla);
+  --tooltip-background: var(--flatSurface-light-hsla);
+  --visualization-plot-row-background: hsla(var(--neutral-grey-5-hsl), 0.2);
+  --left-nav-bar-header-border-bottom: none;
+  --left-nav-bar-header-color: var(--flatOnSurface-dark-hsla);
+  --left-nav-bar-active-item-bg: transparent;
+  --left-nav-bar-active-item-border-left: 0;
+  --left-nav-border-radius: 0;
+  --left-nav-bar-active-item-border-left: 0;
+  --left-nav-border-radius: 0;
+  --on-left-nav-bar-active-item-color: var(--neutral-white-hsla);
+  --left-nav-bar-shadow: none;
+  --category-top-filter-bg: var(--application-background);
+  --on-category-top-filter-bg: var(--on-application-background);
+  --simple-list-header-background: var(--table-header);
+  --simple-list-header-color: var(--neutral-grey-6-hsla);
+  --main-header-shadow: var(--card-shadow);
+  --sub-header-margin: var(--pm-M) auto;
+  --cart-item-bg: var(--row-even);
+  --on-cart-item-bg: var(--on-row-even);
+
+  --viz1: var(--viz1-light-hsl);
+  --viz2: var(--viz2-light-hsl);
+  --viz3: var(--viz3-light-hsl);
+  --viz4: var(--viz4-light-hsl);
+  --viz5: var(--viz5-light-hsl);
+  --viz6: var(--viz6-light-hsl);
+  --viz7: var(--viz7-light-hsl);
+  --viz8: var(--viz8-light-hsl);
+  --viz9: var(--viz9-light-hsl);
+  --viz10: var(--viz10-light-hsl);
+  --vizOther: var(--vizOther-light-hsl);
+  --viz-shadow: var(--neutral-grey-6-hsla);
+
+  --severity1: var(--sev1-light-hsl);
+  --severity2: var(--sev2-light-hsl);
+  --severity3: var(--sev3-light-hsl);
+  --severity4: var(--sev4-light-hsl);
+  --severity5: var(--sev5-light-hsl);
+  --bad-off: var(--sevOff-light-hsla);
+  --good-on: var(--sevOn-light-hsla);
+  --good-on-opacity-0: hsla(var(--sevOn-dark-hsl), 0);
+  --bad-off-opacity-0: hsla(var(--sevOff-dark-hsl), 0);
+}

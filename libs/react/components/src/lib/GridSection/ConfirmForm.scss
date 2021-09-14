@@ -1,0 +1,13 @@
+.confirm-form-container {
+  padding-left: 0;
+  padding-right: 0;
+  min-height: unset;
+  justify-content: center;
+  button {
+    color: var(--on-surface-color);
+    padding: 0;
+    + button {
+      margin-left: var(--pm-M);
+    }
+  }
+}

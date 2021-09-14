@@ -1,0 +1,141 @@
+.material-dark {
+  //Color variables
+  --application-background: var(--materialBackground-dark-hsla);
+
+  --on-application-background: var(--materialOnSurface-dark-hsla);
+
+  --primary-color: var(--A1-hsla);
+
+  --primary-color-variant: var(--A1A-dark-hsla);
+
+  --on-primary-color-variant: var(--onA1A-dark-hsla);
+
+  --secondary-color: var(--A2-dark-hsla);
+
+  --secondary-color-hsl: var(--A2-dark-hsl);
+
+  --on-secondary-color: var(--onA2-dark-hsla);
+
+  --secondary-color-variant: var(--A2A-dark-hsla);
+
+  --on-secondary-color-variant: var(--onA2A-dark-hsla);
+
+  --alt-light-color: var(--grey_dark_0x);
+
+  --alt-mid-color: var(--grey_mid_0x);
+
+  --alt-dark-color: var(--grey_light_3x);
+
+  --on-primary-color: var(--onA1-dark-hsla);
+
+  --on-surface-color: var(--materialOnSurface-dark-hsla);
+
+  --on-surface-color-hsl: var(--materialOnSurface-dark-hsl);
+
+  --surface-color: var(--materialSurface-dark-hsla);
+
+  --row-even: var(--materialRowEven-dark-hsla);
+
+  --on-row-even: var(--materialOnRowEven-dark-hsla);
+
+  --row-odd: var(--materialRowOdd-dark-hsla);
+
+  --on-row-odd: var(--materialOnRowOdd-dark-hsla);
+
+  --transparent: transparent;
+
+  //Shadow variables
+  --shadow-button: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+
+  --shadow-button-hover: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+
+  --shadow-grid-section: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+  // Elements variables
+  --nav-top-border-bottom-width: var(--wh-0);
+  --nav-top-bg-color: var(--primary-color);
+  --nav-top-border-bottom-color: none;
+  --nav-top-shadow: var(--shadow-elevation-mid-key);
+  --nav-left-bg-color: var(--nav-top-bg-color);
+  --on-nav-top-bg-color: var(--on-primary-color);
+  --top-nav-bar-button-hover: var(--secondary-color-variant);
+  --left-nav-bar-button-hover: var(--secondary-color-variant);
+  --on-top-nav-bar-button-hover: var(--on-secondary-color-variant);
+  --on-left-nav-bar-button-hover: var(--on-secondary-color-variant);
+  --nav-bar-button-selected: var(--secondary-color);
+  --on-nav-bar-button-selected: var(--on-secondary-color);
+  --page-intro-bg-color: var(--surface-color);
+  --card-bg-color: var(--surface-color);
+  --card-shadow: var(--shadow-elevation-mid-key);
+  --card-content-bg-color: none;
+  --card-content-bg-color-medium: none;
+  --card-header-border: none;
+  --card-header-border-width: none;
+  --card-border-radius: none;
+  --card-content-shadow: none;
+  --page-intro-shadow: var(--shadow-elevation-low-key);
+  --h3-title-color: var(--on-surface-color);
+  --input-error-color: var(--flatAlert-dark-hsla);
+  --menu-bg-color: var(--surface-color);
+  --page-intro-text-color: var(--on-surface-color);
+  --page-intro-text-color-hsl: var(--on-surface-color-hsl);
+  --summary-slot-bg-color: var(--application-background);
+  --surface-color-opacity: hsla(var(--materialSurface-dark-hsl), 0.5);
+  --table-cell-border-right: var(--pm-7XS) solid var(--neutral-grey-9-hsla);
+  --table-header: var(--row-even);
+  --table-header-text: var(--neutral-white-hsla);
+  --table-chip-background: hsla(var(--flatOnSurface-dark-hsl), 0.2);
+  --table-chip-color: hsla(var(--flatOnSurface-dark-hsl));
+  --table-chip-clickable-background: var(hsla(--A2-dark-hsl), 0.2);
+  --table-chip-clickable-color: var(--A2-dark-hsla);
+  --refresh-control-section-shadow: var(--page-intro-shadow);
+  --outlined-input: var(--on-surface-color);
+  --outlined-input-hover: var(--on-surface-color);
+  --outlined-input-focus: var(--on-surface-color);
+  --notification-bg-color: var(--card-bg-color);
+  --notification-shadow-color: var(--card-shadow);
+  --notification-error-color: var(--materialAlert-dark-hsla);
+  --tooltip-background: var(--materialSurface-dark-hsla);
+  --visualization-plot-row-background: hsla(var(--neutral-grey-5-hsl), 0.2);
+  --left-nav-bar-header-border-bottom: solid 1px var(--application-background);
+  --left-nav-bar-header-color: var(--on-primary-color);
+  --left-nav-bar-active-item-bg: var(--application-background);
+  --on-left-nav-bar-active-item-color: var(--on-application-background);
+  --left-nav-bar-shadow: var(--shadow-elevation-mid-key);
+  --left-nav-bar-active-item-border-left: var(--wh-7XS);
+  --left-nav-border-radius: var(--card-border-radius);
+  --category-top-filter-bg: var(--application-background);
+  --on-category-top-filter-bg: var(--on-application-background);
+  --simple-list-header-background: var(--table-header);
+  --simple-list-header-color: var(--neutral-grey-7-hsla);
+  --sub-header-background: var(--surface-color);
+  --sub-header-margin: 0 auto;
+  --cart-item-bg: var(--row-odd);
+  --on-cart-item-bg: var(--on-row-odd);
+
+  --viz1: var(--viz1-dark-hsl);
+  --viz2: var(--viz2-dark-hsl);
+  --viz3: var(--viz3-dark-hsl);
+  --viz4: var(--viz4-dark-hsl);
+  --viz5: var(--viz5-dark-hsl);
+  --viz6: var(--viz6-dark-hsl);
+  --viz7: var(--viz7-dark-hsl);
+  --viz8: var(--viz8-dark-hsl);
+  --viz9: var(--viz9-dark-hsl);
+  --viz10: var(--viz10-dark-hsl);
+  --vizOther: var(--vizOther-dark-hsl);
+  --viz-shadow: var(--neutral-grey-1-hsla);
+
+  --severity1: var(--sev1-dark-hsl);
+  --severity2: var(--sev2-dark-hsl);
+  --severity3: var(--sev3-dark-hsl);
+  --severity4: var(--sev4-dark-hsl);
+  --severity5: var(--sev5-dark-hsl);
+  --bad-off: var(--sevOff-dark-hsla);
+  --good-on: var(--sevOn-dark-hsla);
+  --good-on-opacity-0: hsla(var(--sevOn-dark-hsl), 0);
+  --bad-off-opacity-0: hsla(var(--sevOff-dark-hsl), 0);
+}
